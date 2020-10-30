@@ -2,7 +2,9 @@
 Filename: script6.txt
 Running Test: [LClassB;@27716f4
 Recursive: true
+super class: class java.lang.Object
+java.lang.Object
+[]
 [LClassB;
 []
-class java.lang.Object
 ======================================================

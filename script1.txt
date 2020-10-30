@@ -2,7 +2,9 @@
 Filename: script1.txt
 Running Test: ClassA
 Recursive: true
+super class: class java.lang.Object
+java.lang.Object
+[]
 ClassA
 [val, val2, val3]
-class java.lang.Object
 ======================================================

@@ -2,7 +2,15 @@
 Filename: script3.txt
 Running Test: ClassB
 Recursive: true
+super class: class ClassC
+super class: class ClassD
+super class: class java.lang.Object
+java.lang.Object
+[]
+ClassD
+[val, val2, val3, vallarray]
+ClassC
+[val2, val3, val4]
 ClassB
 [val, val2, val3]
-class ClassC
 ======================================================

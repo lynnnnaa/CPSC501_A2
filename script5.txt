@@ -2,7 +2,9 @@
 Filename: script5.txt
 Running Test: ClassD
 Recursive: true
+super class: class java.lang.Object
+java.lang.Object
+[]
 ClassD
 [val, val2, val3, vallarray]
-class java.lang.Object
 ======================================================

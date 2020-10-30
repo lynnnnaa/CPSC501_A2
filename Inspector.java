@@ -22,13 +22,21 @@ public class Inspector {
         Field[] fields = c.getDeclaredFields();
         Method[] methods = c.getMethods();
         String name = c.getName(); //The name of the declaring class
-        String super_ = c.getSuperclass().toString(); // The name of the declaring class
+        getSuperClassNames(c, obj, recursive, depth); //The name of the immediate super-class
+
         List<String> actualFieldNames = getFieldNames(fields);
         System.out.println(name);
         System.out.println(actualFieldNames);
-        System.out.println(super_);
-        //System.out.println(actualFieldNames);
+    }
 
+    private void getSuperClassNames(Class c, Object obj, boolean recursive, int depth) {
+      Class superClass = c.getSuperclass();
+
+      if (superClass != null) {
+          depth =+ 1;
+          System.out.println("super class: " + superClass.toString());
+          inspectClass(superClass, obj, recursive, depth);
+      }
     }
 
     private static List<String> getFieldNames(Field[] fields) {
