@@ -2,11 +2,10 @@
 Filename: script5.txt
 Running Test: ClassD
 Recursive: true
-super class: class java.lang.Object
+super class: 
+class java.lang.Object
 Name: java.lang.Object
 ActualFieldNames: []
-Interfaces: [Ljava.lang.Class;@4f023edb
 Name: ClassD
 ActualFieldNames: [val, val2, val3, vallarray]
-Interfaces: [Ljava.lang.Class;@3a71f4dd
 ======================================================

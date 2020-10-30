@@ -1,12 +1,17 @@
 ======================================================
 Filename: script6.txt
-Running Test: [LClassB;@7adf9f5f
+Running Test: [LClassB;@27716f4
 Recursive: true
-super class: class java.lang.Object
+super class: 
+class java.lang.Object
 Name: java.lang.Object
 ActualFieldNames: []
-Interfaces: [Ljava.lang.Class;@5674cd4d
+Interfaces: interface java.lang.Cloneable
+Name: java.lang.Cloneable
+ActualFieldNames: []
+Interfaces: interface java.io.Serializable
+Name: java.io.Serializable
+ActualFieldNames: []
 Name: [LClassB;
 ActualFieldNames: []
-Interfaces: [Ljava.lang.Class;@63961c42
 ======================================================

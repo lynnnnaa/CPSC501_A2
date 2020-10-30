@@ -2,19 +2,27 @@
 Filename: script3.txt
 Running Test: ClassB
 Recursive: true
-super class: class ClassC
-super class: class ClassD
-super class: class java.lang.Object
+super class: 
+class ClassC
+super class: 
+class ClassD
+super class: 
+class java.lang.Object
 Name: java.lang.Object
 ActualFieldNames: []
-Interfaces: [Ljava.lang.Class;@30f39991
 Name: ClassD
 ActualFieldNames: [val, val2, val3, vallarray]
-Interfaces: [Ljava.lang.Class;@452b3a41
+Interfaces: interface InterfaceA
+Interfaces: interface InterfaceB
+Name: InterfaceB
+ActualFieldNames: []
+Name: InterfaceA
+ActualFieldNames: []
 Name: ClassC
 ActualFieldNames: [val2, val3, val4]
-Interfaces: [Ljava.lang.Class;@4a574795
+Interfaces: interface java.lang.Runnable
+Name: java.lang.Runnable
+ActualFieldNames: []
 Name: ClassB
 ActualFieldNames: [val, val2, val3]
-Interfaces: [Ljava.lang.Class;@f6f4d33
 ======================================================

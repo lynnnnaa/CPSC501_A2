@@ -2,11 +2,25 @@
 Filename: script8.txt
 Running Test: Test String
 Recursive: true
-super class: class java.lang.Object
+super class: 
+class java.lang.Object
 Name: java.lang.Object
 ActualFieldNames: []
-Interfaces: [Ljava.lang.Class;@27d6c5e0
+Interfaces: interface java.io.Serializable
+Name: java.io.Serializable
+ActualFieldNames: []
+Interfaces: interface java.lang.Comparable
+Name: java.lang.Comparable
+ActualFieldNames: []
+Interfaces: interface java.lang.CharSequence
+Name: java.lang.CharSequence
+ActualFieldNames: []
+Interfaces: interface java.lang.constant.Constable
+Name: java.lang.constant.Constable
+ActualFieldNames: []
+Interfaces: interface java.lang.constant.ConstantDesc
+Name: java.lang.constant.ConstantDesc
+ActualFieldNames: []
 Name: java.lang.String
 ActualFieldNames: [value, coder, hash, hashIsZero, serialVersionUID, COMPACT_STRINGS, serialPersistentFields, CASE_INSENSITIVE_ORDER, LATIN1, UTF16]
-Interfaces: [Ljava.lang.Class;@4f3f5b24
 ======================================================

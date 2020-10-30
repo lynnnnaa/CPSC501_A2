@@ -21,14 +21,15 @@ public class Inspector {
         Field[] fields = c.getDeclaredFields();
         Method[] methods = c.getMethods();
         String name = c.getName(); //The name of the declaring class
-        Class[] interfaces = c.getInterfaces(); //The name of the interface
+        //Class[] interfaces = c.getInterfaces(); //The name of the interface
 
         getSuperClassNames(c, obj, recursive, depth); //The name of the immediate super-class
+        getInterfacesNames(c, obj, recursive, depth);
 
         List<String> actualFieldNames = getFieldNames(fields); // The name of the filed
         System.out.println("Name: " + name);
         System.out.println("ActualFieldNames: " + actualFieldNames);
-        System.out.println("Interfaces: " + interfaces.toString());
+        //System.out.println("Interfaces: " + interfaces.toString());
     }
 
     private void getSuperClassNames(Class c, Object obj, boolean recursive, int depth) {
@@ -38,6 +39,18 @@ public class Inspector {
           depth =+ 1;
           System.out.println("super class: " + superClass.toString());
           inspectClass(superClass, obj, recursive, depth);
+      }
+    }
+
+    private void getInterfacesNames(Class c, Object obj, boolean recursive, int depth) {
+      Class[] interfaces = c.getInterfaces();
+
+      if (interfaces != null) {
+        for(Class interfaceName : interfaces) {
+          depth =+ 1;
+          System.out.println("Interfaces: " + interfaceName.toString());
+          inspectClass(interfaceName, obj, recursive, depth);
+        }
       }
     }
 

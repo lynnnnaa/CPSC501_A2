@@ -2,11 +2,16 @@
 Filename: script1.txt
 Running Test: ClassA
 Recursive: true
-super class: class java.lang.Object
+super class: 
+class java.lang.Object
 Name: java.lang.Object
 ActualFieldNames: []
-Interfaces: [Ljava.lang.Class;@24d46ca6
+Interfaces: interface java.io.Serializable
+Name: java.io.Serializable
+ActualFieldNames: []
+Interfaces: interface java.lang.Runnable
+Name: java.lang.Runnable
+ActualFieldNames: []
 Name: ClassA
 ActualFieldNames: [val, val2, val3]
-Interfaces: [Ljava.lang.Class;@4517d9a3
 ======================================================
