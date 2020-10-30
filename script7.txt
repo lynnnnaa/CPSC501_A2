@@ -1,10 +1,12 @@
 ======================================================
 Filename: script7.txt
-Running Test: [LClassB;@2a84aee7
+Running Test: [LClassB;@65b54208
 Recursive: true
 super class: class java.lang.Object
-java.lang.Object
-[]
-[LClassB;
-[]
+Name: java.lang.Object
+ActualFieldNames: []
+Interfaces: [Ljava.lang.Class;@1be6f5c3
+Name: [LClassB;
+ActualFieldNames: []
+Interfaces: [Ljava.lang.Class;@6b884d57
 ======================================================

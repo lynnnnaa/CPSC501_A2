@@ -17,16 +17,18 @@ public class Inspector {
     }
 
     private void inspectClass(Class c, Object obj, boolean recursive, int depth) {
-        //System.out.print("test");
 
         Field[] fields = c.getDeclaredFields();
         Method[] methods = c.getMethods();
         String name = c.getName(); //The name of the declaring class
+        Class[] interfaces = c.getInterfaces(); //The name of the interface
+
         getSuperClassNames(c, obj, recursive, depth); //The name of the immediate super-class
 
-        List<String> actualFieldNames = getFieldNames(fields);
-        System.out.println(name);
-        System.out.println(actualFieldNames);
+        List<String> actualFieldNames = getFieldNames(fields); // The name of the filed
+        System.out.println("Name: " + name);
+        System.out.println("ActualFieldNames: " + actualFieldNames);
+        System.out.println("Interfaces: " + interfaces.toString());
     }
 
     private void getSuperClassNames(Class c, Object obj, boolean recursive, int depth) {

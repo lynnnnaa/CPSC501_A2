@@ -3,8 +3,10 @@ Filename: script8.txt
 Running Test: Test String
 Recursive: true
 super class: class java.lang.Object
-java.lang.Object
-[]
-java.lang.String
-[value, coder, hash, hashIsZero, serialVersionUID, COMPACT_STRINGS, serialPersistentFields, CASE_INSENSITIVE_ORDER, LATIN1, UTF16]
+Name: java.lang.Object
+ActualFieldNames: []
+Interfaces: [Ljava.lang.Class;@27d6c5e0
+Name: java.lang.String
+ActualFieldNames: [value, coder, hash, hashIsZero, serialVersionUID, COMPACT_STRINGS, serialPersistentFields, CASE_INSENSITIVE_ORDER, LATIN1, UTF16]
+Interfaces: [Ljava.lang.Class;@4f3f5b24
 ======================================================
