@@ -1,0 +1,8 @@
+======================================================
+Filename: script3.txt
+Running Test: ClassB
+Recursive: true
+ClassB
+[val, val2, val3]
+class ClassC
+======================================================

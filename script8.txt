@@ -1,0 +1,8 @@
+======================================================
+Filename: script8.txt
+Running Test: Test String
+Recursive: true
+java.lang.String
+[value, coder, hash, hashIsZero, serialVersionUID, COMPACT_STRINGS, serialPersistentFields, CASE_INSENSITIVE_ORDER, LATIN1, UTF16]
+class java.lang.Object
+======================================================
