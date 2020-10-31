@@ -19,7 +19,7 @@ Class: ClassB
 							CONSTRUCTORS (     ) 
 							Constructors->
 								Name: java.lang.Object
-								Modifier: 1
+								Modifiers: 1
 							METHODS (     ) 
 							Methods->
 								Name: wait
@@ -27,105 +27,113 @@ Class: ClassB
 								Parameter types: long
 								Parameter types: int
 								Return types: void
-								Modifier: 1
+								Modifiers: 1
 								Name: wait
 								Exceptions: java.lang.InterruptedException
 								Parameter -> NONE
 								Return types: void
-								Modifier: 1
+								Modifiers: 1
 								Name: wait
 								Exceptions: java.lang.InterruptedException
 								Parameter types: long
 								Return types: void
-								Modifier: 1
+								Modifiers: 1
 								Name: equals
 								Parameter types: java.lang.Object
 								Return types: boolean
-								Modifier: 1
+								Modifiers: 1
 								Name: toString
 								Parameter -> NONE
 								Return types: class java.lang.String
-								Modifier: 1
+								Modifiers: 1
 								Name: hashCode
 								Parameter -> NONE
 								Return types: int
-								Modifier: 1
+								Modifiers: 1
 								Name: getClass
 								Parameter -> NONE
 								Return types: class java.lang.Class
-								Modifier: 1
+								Modifiers: 1
 								Name: notify
 								Parameter -> NONE
 								Return types: void
-								Modifier: 1
+								Modifiers: 1
 								Name: notifyAll
 								Parameter -> NONE
 								Return types: void
-								Modifier: 1
+								Modifiers: 1
 							modifier: 1
-							FieldName -> NONE
+								Field -> NONE
 					CONSTRUCTORS (     ) 
 					Constructors->
 						Name: ClassD
-						Modifier: 1
+						Modifiers: 1
 						Name: ClassD
 						Constructor Parameter Types: int
-						Modifier: 1
+						Modifiers: 1
 					METHODS (     ) 
 					Methods->
 						Name: toString
 						Parameter -> NONE
 						Return types: class java.lang.String
-						Modifier: 1
+						Modifiers: 1
 						Name: getVal3
 						Parameter -> NONE
 						Return types: int
-						Modifier: 1
+						Modifiers: 1
 						Name: wait
 						Exceptions: java.lang.InterruptedException
 						Parameter types: long
 						Parameter types: int
 						Return types: void
-						Modifier: 1
+						Modifiers: 1
 						Name: wait
 						Exceptions: java.lang.InterruptedException
 						Parameter -> NONE
 						Return types: void
-						Modifier: 1
+						Modifiers: 1
 						Name: wait
 						Exceptions: java.lang.InterruptedException
 						Parameter types: long
 						Return types: void
-						Modifier: 1
+						Modifiers: 1
 						Name: equals
 						Parameter types: java.lang.Object
 						Return types: boolean
-						Modifier: 1
+						Modifiers: 1
 						Name: hashCode
 						Parameter -> NONE
 						Return types: int
-						Modifier: 1
+						Modifiers: 1
 						Name: getClass
 						Parameter -> NONE
 						Return types: class java.lang.Class
-						Modifier: 1
+						Modifiers: 1
 						Name: notify
 						Parameter -> NONE
 						Return types: void
-						Modifier: 1
+						Modifiers: 1
 						Name: notifyAll
 						Parameter -> NONE
 						Return types: void
-						Modifier: 1
+						Modifiers: 1
 					modifier: 1
-					FieldName: val
-					FieldType: class ClassA
-					FieldName: val2
-					FieldType: class ClassA
-					FieldName: val3
-					FieldType: int
-					FieldName: vallarray
-					FieldType: class [LClassA;
+ERROR: Unable to access the field
+						Value: null
+						FieldName: val
+						FieldType: class ClassA
+ERROR: Unable to access the field
+						Value: null
+						FieldName: val2
+						FieldType: class ClassA
+ERROR: Unable to access the field
+						Value: null
+						FieldName: val3
+						FieldType: int
+ERROR: Unable to access the field
+						Value: null
+						FieldName: vallarray
+						FieldType: class [LClassA;
 			INTERFACE
 			Interfaces: interface InterfaceA
 				CLASS
@@ -144,9 +152,9 @@ Class: ClassB
 								Parameter types: int
 								Parameter types: boolean
 								Return types: void
-								Modifier: 1537
+								Modifiers: 1537
 							modifier: 1537
-							FieldName -> NONE
+								Field -> NONE
 					Constructor -> NONE
 					METHODS (     ) 
 					Methods->
@@ -157,50 +165,50 @@ Class: ClassB
 						Parameter types: boolean
 						Parameter types: java.lang.String
 						Return types: void
-						Modifier: 1537
+						Modifiers: 1537
 						Name: func2
 						Exceptions: java.lang.Exception
 						Exceptions: java.lang.ArithmeticException
 						Exceptions: java.lang.IllegalMonitorStateException
 						Parameter types: java.lang.String
 						Return types: int
-						Modifier: 1537
+						Modifiers: 1537
 						Name: func0
 						Exceptions: java.lang.Exception
 						Parameter types: int
 						Parameter types: boolean
 						Return types: void
-						Modifier: 1537
+						Modifiers: 1537
 					modifier: 1537
-					FieldName -> NONE
+						Field -> NONE
 			CONSTRUCTORS (     ) 
 			Constructors->
 				Name: ClassC
-				Modifier: 1025
+				Modifiers: 1025
 				Name: ClassC
 				Constructor Parameter Types: int
 				Constructor Parameter Types: int
-				Modifier: 1025
+				Modifiers: 1025
 			METHODS (     ) 
 			Methods->
 				Name: run
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1025
+				Modifiers: 1025
 				Name: toString
 				Parameter -> NONE
 				Return types: class java.lang.String
-				Modifier: 1025
+				Modifiers: 1025
 				Name: func3
 				Parameter types: int
 				Return types: void
-				Modifier: 1025
+				Modifiers: 1025
 				Name: func0
 				Exceptions: java.lang.Exception
 				Parameter types: int
 				Parameter types: boolean
 				Return types: void
-				Modifier: 1025
+				Modifiers: 1025
 				Name: func1
 				Exceptions: java.lang.Exception
 				Parameter types: int
@@ -208,61 +216,67 @@ Class: ClassB
 				Parameter types: boolean
 				Parameter types: java.lang.String
 				Return types: void
-				Modifier: 1025
+				Modifiers: 1025
 				Name: func2
 				Exceptions: java.lang.Exception
 				Exceptions: java.lang.ArithmeticException
 				Exceptions: java.lang.IllegalMonitorStateException
 				Parameter types: java.lang.String
 				Return types: int
-				Modifier: 1025
+				Modifiers: 1025
 				Name: getVal3
 				Parameter -> NONE
 				Return types: int
-				Modifier: 1025
+				Modifiers: 1025
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter types: long
 				Parameter types: int
 				Return types: void
-				Modifier: 1025
+				Modifiers: 1025
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1025
+				Modifiers: 1025
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter types: long
 				Return types: void
-				Modifier: 1025
+				Modifiers: 1025
 				Name: equals
 				Parameter types: java.lang.Object
 				Return types: boolean
-				Modifier: 1025
+				Modifiers: 1025
 				Name: hashCode
 				Parameter -> NONE
 				Return types: int
-				Modifier: 1025
+				Modifiers: 1025
 				Name: getClass
 				Parameter -> NONE
 				Return types: class java.lang.Class
-				Modifier: 1025
+				Modifiers: 1025
 				Name: notify
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1025
+				Modifiers: 1025
 				Name: notifyAll
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1025
+				Modifiers: 1025
 			modifier: 1025
-			FieldName: val2
-			FieldType: class ClassA
-			FieldName: val3
-			FieldType: class ClassA
-			FieldName: val4
-			FieldType: class ClassA
+ERROR: Unable to access the field
+				Value: null
+				FieldName: val2
+				FieldType: class ClassA
+ERROR: Unable to access the field
+				Value: null
+				FieldName: val3
+				FieldType: class ClassA
+ERROR: Unable to access the field
+				Value: null
+				FieldName: val4
+				FieldType: class ClassA
 	INTERFACE
 	Interfaces: interface java.lang.Runnable
 		CLASS
@@ -274,34 +288,34 @@ Class: ClassB
 				Name: run
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1537
+				Modifiers: 1537
 			modifier: 1537
-			FieldName -> NONE
+				Field -> NONE
 	CONSTRUCTORS (     ) 
 	Constructors->
 		Name: ClassB
 		Exceptions: java.lang.Exception
-		Modifier: 1
+		Modifiers: 1
 	METHODS (     ) 
 	Methods->
 		Name: run
 		Parameter -> NONE
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: toString
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 1
+		Modifiers: 1
 		Name: func3
 		Parameter types: int
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: func0
 		Exceptions: java.lang.Exception
 		Parameter types: int
 		Parameter types: boolean
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: func1
 		Exceptions: java.lang.Exception
 		Parameter types: int
@@ -309,59 +323,65 @@ Class: ClassB
 		Parameter types: boolean
 		Parameter types: java.lang.String
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: func2
 		Exceptions: java.lang.Exception
 		Exceptions: java.lang.ArithmeticException
 		Exceptions: java.lang.IllegalMonitorStateException
 		Parameter types: java.lang.String
 		Return types: int
-		Modifier: 1
+		Modifiers: 1
 		Name: getVal3
 		Parameter -> NONE
 		Return types: int
-		Modifier: 1
+		Modifiers: 1
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter types: long
 		Parameter types: int
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter -> NONE
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter types: long
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: equals
 		Parameter types: java.lang.Object
 		Return types: boolean
-		Modifier: 1
+		Modifiers: 1
 		Name: hashCode
 		Parameter -> NONE
 		Return types: int
-		Modifier: 1
+		Modifiers: 1
 		Name: getClass
 		Parameter -> NONE
 		Return types: class java.lang.Class
-		Modifier: 1
+		Modifiers: 1
 		Name: notify
 		Parameter -> NONE
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: notifyAll
 		Parameter -> NONE
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 	modifier: 1
-	FieldName: val
-	FieldType: class ClassA
-	FieldName: val2
-	FieldType: class ClassA
-	FieldName: val3
-	FieldType: class ClassA
+ERROR: Unable to access the field
+		Value: null
+		FieldName: val
+		FieldType: class ClassA
+ERROR: Unable to access the field
+		Value: null
+		FieldName: val2
+		FieldType: class ClassA
+ERROR: Unable to access the field
+		Value: null
+		FieldName: val3
+		FieldType: class ClassA
 ======================================================

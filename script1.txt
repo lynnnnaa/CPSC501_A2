@@ -11,7 +11,7 @@ Class: ClassA
 			CONSTRUCTORS (     ) 
 			Constructors->
 				Name: java.lang.Object
-				Modifier: 1
+				Modifiers: 1
 			METHODS (     ) 
 			Methods->
 				Name: wait
@@ -19,43 +19,43 @@ Class: ClassA
 				Parameter types: long
 				Parameter types: int
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter types: long
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: equals
 				Parameter types: java.lang.Object
 				Return types: boolean
-				Modifier: 1
+				Modifiers: 1
 				Name: toString
 				Parameter -> NONE
 				Return types: class java.lang.String
-				Modifier: 1
+				Modifiers: 1
 				Name: hashCode
 				Parameter -> NONE
 				Return types: int
-				Modifier: 1
+				Modifiers: 1
 				Name: getClass
 				Parameter -> NONE
 				Return types: class java.lang.Class
-				Modifier: 1
+				Modifiers: 1
 				Name: notify
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: notifyAll
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 			modifier: 1
-			FieldName -> NONE
+				Field -> NONE
 	INTERFACE
 	Interfaces: interface java.io.Serializable
 		CLASS
@@ -64,7 +64,7 @@ Class: ClassA
 			Constructor -> NONE
 			Method -> NONE
 			modifier: 1537
-			FieldName -> NONE
+				Field -> NONE
 	INTERFACE
 	Interfaces: interface java.lang.Runnable
 		CLASS
@@ -76,76 +76,82 @@ Class: ClassA
 				Name: run
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1537
+				Modifiers: 1537
 			modifier: 1537
-			FieldName -> NONE
+				Field -> NONE
 	CONSTRUCTORS (     ) 
 	Constructors->
 		Name: ClassA
-		Modifier: 17
+		Modifiers: 17
 		Name: ClassA
 		Constructor Parameter Types: int
-		Modifier: 17
+		Modifiers: 17
 	METHODS (     ) 
 	Methods->
 		Name: run
 		Parameter -> NONE
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: toString
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: setVal
 		Exceptions: java.lang.Exception
 		Parameter types: int
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: getVal
 		Parameter -> NONE
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter types: long
 		Parameter types: int
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter -> NONE
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter types: long
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: equals
 		Parameter types: java.lang.Object
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: hashCode
 		Parameter -> NONE
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: getClass
 		Parameter -> NONE
 		Return types: class java.lang.Class
-		Modifier: 17
+		Modifiers: 17
 		Name: notify
 		Parameter -> NONE
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: notifyAll
 		Parameter -> NONE
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 	modifier: 17
-	FieldName: val
-	FieldType: int
-	FieldName: val2
-	FieldType: double
-	FieldName: val3
-	FieldType: boolean
+ERROR: Unable to access the field
+		Value: null
+		FieldName: val
+		FieldType: int
+ERROR: Unable to access the field
+		Value: null
+		FieldName: val2
+		FieldType: double
+ERROR: Unable to access the field
+		Value: null
+		FieldName: val3
+		FieldType: boolean
 ======================================================

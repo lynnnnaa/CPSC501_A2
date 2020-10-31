@@ -11,7 +11,7 @@ Class: ClassD
 			CONSTRUCTORS (     ) 
 			Constructors->
 				Name: java.lang.Object
-				Modifier: 1
+				Modifiers: 1
 			METHODS (     ) 
 			Methods->
 				Name: wait
@@ -19,103 +19,111 @@ Class: ClassD
 				Parameter types: long
 				Parameter types: int
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter types: long
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: equals
 				Parameter types: java.lang.Object
 				Return types: boolean
-				Modifier: 1
+				Modifiers: 1
 				Name: toString
 				Parameter -> NONE
 				Return types: class java.lang.String
-				Modifier: 1
+				Modifiers: 1
 				Name: hashCode
 				Parameter -> NONE
 				Return types: int
-				Modifier: 1
+				Modifiers: 1
 				Name: getClass
 				Parameter -> NONE
 				Return types: class java.lang.Class
-				Modifier: 1
+				Modifiers: 1
 				Name: notify
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: notifyAll
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 			modifier: 1
-			FieldName -> NONE
+				Field -> NONE
 	CONSTRUCTORS (     ) 
 	Constructors->
 		Name: ClassD
-		Modifier: 1
+		Modifiers: 1
 		Name: ClassD
 		Constructor Parameter Types: int
-		Modifier: 1
+		Modifiers: 1
 	METHODS (     ) 
 	Methods->
 		Name: toString
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 1
+		Modifiers: 1
 		Name: getVal3
 		Parameter -> NONE
 		Return types: int
-		Modifier: 1
+		Modifiers: 1
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter types: long
 		Parameter types: int
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter -> NONE
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter types: long
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: equals
 		Parameter types: java.lang.Object
 		Return types: boolean
-		Modifier: 1
+		Modifiers: 1
 		Name: hashCode
 		Parameter -> NONE
 		Return types: int
-		Modifier: 1
+		Modifiers: 1
 		Name: getClass
 		Parameter -> NONE
 		Return types: class java.lang.Class
-		Modifier: 1
+		Modifiers: 1
 		Name: notify
 		Parameter -> NONE
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 		Name: notifyAll
 		Parameter -> NONE
 		Return types: void
-		Modifier: 1
+		Modifiers: 1
 	modifier: 1
-	FieldName: val
-	FieldType: class ClassA
-	FieldName: val2
-	FieldType: class ClassA
-	FieldName: val3
-	FieldType: int
-	FieldName: vallarray
-	FieldType: class [LClassA;
+ERROR: Unable to access the field
+		Value: null
+		FieldName: val
+		FieldType: class ClassA
+ERROR: Unable to access the field
+		Value: null
+		FieldName: val2
+		FieldType: class ClassA
+ERROR: Unable to access the field
+		Value: null
+		FieldName: val3
+		FieldType: int
+ERROR: Unable to access the field
+		Value: null
+		FieldName: vallarray
+		FieldType: class [LClassA;
 ======================================================

@@ -11,7 +11,7 @@ Class: java.lang.String
 			CONSTRUCTORS (     ) 
 			Constructors->
 				Name: java.lang.Object
-				Modifier: 1
+				Modifiers: 1
 			METHODS (     ) 
 			Methods->
 				Name: wait
@@ -19,43 +19,43 @@ Class: java.lang.String
 				Parameter types: long
 				Parameter types: int
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter types: long
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: equals
 				Parameter types: java.lang.Object
 				Return types: boolean
-				Modifier: 1
+				Modifiers: 1
 				Name: toString
 				Parameter -> NONE
 				Return types: class java.lang.String
-				Modifier: 1
+				Modifiers: 1
 				Name: hashCode
 				Parameter -> NONE
 				Return types: int
-				Modifier: 1
+				Modifiers: 1
 				Name: getClass
 				Parameter -> NONE
 				Return types: class java.lang.Class
-				Modifier: 1
+				Modifiers: 1
 				Name: notify
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: notifyAll
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 			modifier: 1
-			FieldName -> NONE
+				Field -> NONE
 	INTERFACE
 	Interfaces: interface java.io.Serializable
 		CLASS
@@ -64,7 +64,7 @@ Class: java.lang.String
 			Constructor -> NONE
 			Method -> NONE
 			modifier: 1537
-			FieldName -> NONE
+				Field -> NONE
 	INTERFACE
 	Interfaces: interface java.lang.Comparable
 		CLASS
@@ -76,9 +76,9 @@ Class: java.lang.String
 				Name: compareTo
 				Parameter types: java.lang.Object
 				Return types: int
-				Modifier: 1537
+				Modifiers: 1537
 			modifier: 1537
-			FieldName -> NONE
+				Field -> NONE
 	INTERFACE
 	Interfaces: interface java.lang.CharSequence
 		CLASS
@@ -90,39 +90,39 @@ Class: java.lang.String
 				Name: length
 				Parameter -> NONE
 				Return types: int
-				Modifier: 1537
+				Modifiers: 1537
 				Name: toString
 				Parameter -> NONE
 				Return types: class java.lang.String
-				Modifier: 1537
+				Modifiers: 1537
 				Name: charAt
 				Parameter types: int
 				Return types: char
-				Modifier: 1537
+				Modifiers: 1537
 				Name: compare
 				Parameter types: java.lang.CharSequence
 				Parameter types: java.lang.CharSequence
 				Return types: int
-				Modifier: 1537
+				Modifiers: 1537
 				Name: isEmpty
 				Parameter -> NONE
 				Return types: boolean
-				Modifier: 1537
+				Modifiers: 1537
 				Name: codePoints
 				Parameter -> NONE
 				Return types: interface java.util.stream.IntStream
-				Modifier: 1537
+				Modifiers: 1537
 				Name: subSequence
 				Parameter types: int
 				Parameter types: int
 				Return types: interface java.lang.CharSequence
-				Modifier: 1537
+				Modifiers: 1537
 				Name: chars
 				Parameter -> NONE
 				Return types: interface java.util.stream.IntStream
-				Modifier: 1537
+				Modifiers: 1537
 			modifier: 1537
-			FieldName -> NONE
+				Field -> NONE
 	INTERFACE
 	Interfaces: interface java.lang.constant.Constable
 		CLASS
@@ -134,9 +134,9 @@ Class: java.lang.String
 				Name: describeConstable
 				Parameter -> NONE
 				Return types: class java.util.Optional
-				Modifier: 1537
+				Modifiers: 1537
 			modifier: 1537
-			FieldName -> NONE
+				Field -> NONE
 	INTERFACE
 	Interfaces: interface java.lang.constant.ConstantDesc
 		CLASS
@@ -149,221 +149,221 @@ Class: java.lang.String
 				Exceptions: java.lang.ReflectiveOperationException
 				Parameter types: java.lang.invoke.MethodHandles$Lookup
 				Return types: class java.lang.Object
-				Modifier: 1537
+				Modifiers: 1537
 			modifier: 1537
-			FieldName -> NONE
+				Field -> NONE
 	CONSTRUCTORS (     ) 
 	Constructors->
 		Name: java.lang.String
 		Constructor Parameter Types: [B
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: [B
 		Constructor Parameter Types: int
 		Constructor Parameter Types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: [B
 		Constructor Parameter Types: java.nio.charset.Charset
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Exceptions: java.io.UnsupportedEncodingException
 		Constructor Parameter Types: [B
 		Constructor Parameter Types: java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: [B
 		Constructor Parameter Types: int
 		Constructor Parameter Types: int
 		Constructor Parameter Types: java.nio.charset.Charset
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: java.lang.StringBuilder
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: java.lang.StringBuffer
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: [C
 		Constructor Parameter Types: int
 		Constructor Parameter Types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: [C
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Exceptions: java.io.UnsupportedEncodingException
 		Constructor Parameter Types: [B
 		Constructor Parameter Types: int
 		Constructor Parameter Types: int
 		Constructor Parameter Types: java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: [B
 		Constructor Parameter Types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: [B
 		Constructor Parameter Types: int
 		Constructor Parameter Types: int
 		Constructor Parameter Types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: java.lang.String
 		Constructor Parameter Types: [I
 		Constructor Parameter Types: int
 		Constructor Parameter Types: int
-		Modifier: 17
+		Modifiers: 17
 	METHODS (     ) 
 	Methods->
 		Name: equals
 		Parameter types: java.lang.Object
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: length
 		Parameter -> NONE
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: toString
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: hashCode
 		Parameter -> NONE
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: getChars
 		Parameter types: int
 		Parameter types: int
 		Parameter types: [C
 		Parameter types: int
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: compareTo
 		Parameter types: java.lang.Object
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: compareTo
 		Parameter types: java.lang.String
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: indexOf
 		Parameter types: int
 		Parameter types: int
 		Return types: int
-		Modifier: 17
-		Name: indexOf
-		Parameter types: java.lang.String
-		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: indexOf
 		Parameter types: java.lang.String
+		Return types: int
+		Modifiers: 17
+		Name: indexOf
+		Parameter types: java.lang.String
 		Parameter types: int
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: indexOf
 		Parameter types: int
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: valueOf
 		Parameter types: [C
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: valueOf
 		Parameter types: java.lang.Object
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: valueOf
 		Parameter types: long
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: valueOf
 		Parameter types: [C
 		Parameter types: int
 		Parameter types: int
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: valueOf
 		Parameter types: int
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: valueOf
 		Parameter types: char
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: valueOf
 		Parameter types: double
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: valueOf
 		Parameter types: float
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: valueOf
 		Parameter types: boolean
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: charAt
 		Parameter types: int
 		Return types: char
-		Modifier: 17
+		Modifiers: 17
 		Name: codePointAt
 		Parameter types: int
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: codePointBefore
 		Parameter types: int
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: codePointCount
 		Parameter types: int
 		Parameter types: int
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: offsetByCodePoints
 		Parameter types: int
 		Parameter types: int
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: getBytes
 		Exceptions: java.io.UnsupportedEncodingException
 		Parameter types: java.lang.String
 		Return types: class [B
-		Modifier: 17
+		Modifiers: 17
 		Name: getBytes
 		Parameter -> NONE
 		Return types: class [B
-		Modifier: 17
+		Modifiers: 17
 		Name: getBytes
 		Parameter types: int
 		Parameter types: int
 		Parameter types: [B
 		Parameter types: int
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: getBytes
 		Parameter types: java.nio.charset.Charset
 		Return types: class [B
-		Modifier: 17
+		Modifiers: 17
 		Name: contentEquals
 		Parameter types: java.lang.StringBuffer
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: contentEquals
 		Parameter types: java.lang.CharSequence
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: regionMatches
 		Parameter types: int
 		Parameter types: java.lang.String
 		Parameter types: int
 		Parameter types: int
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: regionMatches
 		Parameter types: boolean
 		Parameter types: int
@@ -371,276 +371,294 @@ Class: java.lang.String
 		Parameter types: int
 		Parameter types: int
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: startsWith
 		Parameter types: java.lang.String
 		Parameter types: int
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: startsWith
 		Parameter types: java.lang.String
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: lastIndexOf
 		Parameter types: java.lang.String
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: lastIndexOf
 		Parameter types: int
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: lastIndexOf
 		Parameter types: int
 		Parameter types: int
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: lastIndexOf
 		Parameter types: java.lang.String
 		Parameter types: int
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: substring
 		Parameter types: int
 		Parameter types: int
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: substring
 		Parameter types: int
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: isEmpty
 		Parameter -> NONE
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: replace
 		Parameter types: char
 		Parameter types: char
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: replace
 		Parameter types: java.lang.CharSequence
 		Parameter types: java.lang.CharSequence
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: matches
 		Parameter types: java.lang.String
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: replaceFirst
 		Parameter types: java.lang.String
 		Parameter types: java.lang.String
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: replaceAll
 		Parameter types: java.lang.String
 		Parameter types: java.lang.String
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: split
 		Parameter types: java.lang.String
 		Parameter types: int
 		Return types: class [Ljava.lang.String;
-		Modifier: 17
+		Modifiers: 17
 		Name: split
 		Parameter types: java.lang.String
 		Return types: class [Ljava.lang.String;
-		Modifier: 17
+		Modifiers: 17
 		Name: toLowerCase
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: toLowerCase
 		Parameter types: java.util.Locale
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: toUpperCase
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: toUpperCase
 		Parameter types: java.util.Locale
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: trim
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: strip
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: stripLeading
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: stripTrailing
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: lines
 		Parameter -> NONE
 		Return types: interface java.util.stream.Stream
-		Modifier: 17
+		Modifiers: 17
 		Name: repeat
 		Parameter types: int
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: isBlank
 		Parameter -> NONE
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: toCharArray
 		Parameter -> NONE
 		Return types: class [C
-		Modifier: 17
+		Modifiers: 17
 		Name: format
 		Parameter types: java.util.Locale
 		Parameter types: java.lang.String
 		Parameter types: [Ljava.lang.Object;
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: format
 		Parameter types: java.lang.String
 		Parameter types: [Ljava.lang.Object;
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: resolveConstantDesc
 		Parameter types: java.lang.invoke.MethodHandles$Lookup
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: resolveConstantDesc
 		Exceptions: java.lang.ReflectiveOperationException
 		Parameter types: java.lang.invoke.MethodHandles$Lookup
 		Return types: class java.lang.Object
-		Modifier: 17
+		Modifiers: 17
 		Name: codePoints
 		Parameter -> NONE
 		Return types: interface java.util.stream.IntStream
-		Modifier: 17
+		Modifiers: 17
 		Name: equalsIgnoreCase
 		Parameter types: java.lang.String
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: compareToIgnoreCase
 		Parameter types: java.lang.String
 		Return types: int
-		Modifier: 17
+		Modifiers: 17
 		Name: endsWith
 		Parameter types: java.lang.String
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: subSequence
 		Parameter types: int
 		Parameter types: int
 		Return types: interface java.lang.CharSequence
-		Modifier: 17
+		Modifiers: 17
 		Name: concat
 		Parameter types: java.lang.String
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: contains
 		Parameter types: java.lang.CharSequence
 		Return types: boolean
-		Modifier: 17
+		Modifiers: 17
 		Name: join
 		Parameter types: java.lang.CharSequence
 		Parameter types: [Ljava.lang.CharSequence;
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: join
 		Parameter types: java.lang.CharSequence
 		Parameter types: java.lang.Iterable
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: indent
 		Parameter types: int
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: stripIndent
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: translateEscapes
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: chars
 		Parameter -> NONE
 		Return types: interface java.util.stream.IntStream
-		Modifier: 17
+		Modifiers: 17
 		Name: transform
 		Parameter types: java.util.function.Function
 		Return types: class java.lang.Object
-		Modifier: 17
+		Modifiers: 17
 		Name: formatted
 		Parameter types: [Ljava.lang.Object;
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: copyValueOf
 		Parameter types: [C
 		Parameter types: int
 		Parameter types: int
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: copyValueOf
 		Parameter types: [C
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: intern
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 17
+		Modifiers: 17
 		Name: describeConstable
 		Parameter -> NONE
 		Return types: class java.util.Optional
-		Modifier: 17
+		Modifiers: 17
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter types: long
 		Parameter types: int
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter -> NONE
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter types: long
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: getClass
 		Parameter -> NONE
 		Return types: class java.lang.Class
-		Modifier: 17
+		Modifiers: 17
 		Name: notify
 		Parameter -> NONE
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 		Name: notifyAll
 		Parameter -> NONE
 		Return types: void
-		Modifier: 17
+		Modifiers: 17
 	modifier: 17
-	FieldName: value
-	FieldType: class [B
-	FieldName: coder
-	FieldType: byte
-	FieldName: hash
-	FieldType: int
-	FieldName: hashIsZero
-	FieldType: boolean
-	FieldName: serialVersionUID
-	FieldType: long
-	FieldName: COMPACT_STRINGS
-	FieldType: boolean
-	FieldName: serialPersistentFields
-	FieldType: class [Ljava.io.ObjectStreamField;
-	FieldName: CASE_INSENSITIVE_ORDER
-	FieldType: interface java.util.Comparator
-	FieldName: LATIN1
-	FieldType: byte
-	FieldName: UTF16
-	FieldType: byte
+ERROR: Unable to access the field
+		Value: null
+		FieldName: value
+		FieldType: class [B
+ERROR: Unable to access the field
+		Value: null
+		FieldName: coder
+		FieldType: byte
+ERROR: Unable to access the field
+		Value: null
+		FieldName: hash
+		FieldType: int
+ERROR: Unable to access the field
+		Value: null
+		FieldName: hashIsZero
+		FieldType: boolean
+ERROR: Unable to access the field
+		Value: null
+		FieldName: serialVersionUID
+		FieldType: long
+ERROR: Unable to access the field
+		Value: null
+		FieldName: COMPACT_STRINGS
+		FieldType: boolean
+ERROR: Unable to access the field
+		Value: null
+		FieldName: serialPersistentFields
+		FieldType: class [Ljava.io.ObjectStreamField;
+		FieldName: CASE_INSENSITIVE_ORDER
+		FieldType: interface java.util.Comparator
+ERROR: Unable to access the field
+		Value: null
+		FieldName: LATIN1
+		FieldType: byte
+ERROR: Unable to access the field
+		Value: null
+		FieldName: UTF16
+		FieldType: byte
 ======================================================

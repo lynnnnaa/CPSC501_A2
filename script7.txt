@@ -1,6 +1,6 @@
 ======================================================
 Filename: script7.txt
-Running Test: [LClassB;@2a84aee7
+Running Test: [LClassB;@a09ee92
 Recursive: true
 CLASS
 Class: [LClassB;
@@ -11,7 +11,7 @@ Class: [LClassB;
 			CONSTRUCTORS (     ) 
 			Constructors->
 				Name: java.lang.Object
-				Modifier: 1
+				Modifiers: 1
 			METHODS (     ) 
 			Methods->
 				Name: wait
@@ -19,43 +19,43 @@ Class: [LClassB;
 				Parameter types: long
 				Parameter types: int
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: wait
 				Exceptions: java.lang.InterruptedException
 				Parameter types: long
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: equals
 				Parameter types: java.lang.Object
 				Return types: boolean
-				Modifier: 1
+				Modifiers: 1
 				Name: toString
 				Parameter -> NONE
 				Return types: class java.lang.String
-				Modifier: 1
+				Modifiers: 1
 				Name: hashCode
 				Parameter -> NONE
 				Return types: int
-				Modifier: 1
+				Modifiers: 1
 				Name: getClass
 				Parameter -> NONE
 				Return types: class java.lang.Class
-				Modifier: 1
+				Modifiers: 1
 				Name: notify
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 				Name: notifyAll
 				Parameter -> NONE
 				Return types: void
-				Modifier: 1
+				Modifiers: 1
 			modifier: 1
-			FieldName -> NONE
+				Field -> NONE
 	INTERFACE
 	Interfaces: interface java.lang.Cloneable
 		CLASS
@@ -64,7 +64,7 @@ Class: [LClassB;
 			Constructor -> NONE
 			Method -> NONE
 			modifier: 1537
-			FieldName -> NONE
+				Field -> NONE
 	INTERFACE
 	Interfaces: interface java.io.Serializable
 		CLASS
@@ -73,7 +73,7 @@ Class: [LClassB;
 			Constructor -> NONE
 			Method -> NONE
 			modifier: 1537
-			FieldName -> NONE
+				Field -> NONE
 	Constructor -> NONE
 	METHODS (     ) 
 	Methods->
@@ -82,41 +82,41 @@ Class: [LClassB;
 		Parameter types: long
 		Parameter types: int
 		Return types: void
-		Modifier: 1041
+		Modifiers: 1041
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter -> NONE
 		Return types: void
-		Modifier: 1041
+		Modifiers: 1041
 		Name: wait
 		Exceptions: java.lang.InterruptedException
 		Parameter types: long
 		Return types: void
-		Modifier: 1041
+		Modifiers: 1041
 		Name: equals
 		Parameter types: java.lang.Object
 		Return types: boolean
-		Modifier: 1041
+		Modifiers: 1041
 		Name: toString
 		Parameter -> NONE
 		Return types: class java.lang.String
-		Modifier: 1041
+		Modifiers: 1041
 		Name: hashCode
 		Parameter -> NONE
 		Return types: int
-		Modifier: 1041
+		Modifiers: 1041
 		Name: getClass
 		Parameter -> NONE
 		Return types: class java.lang.Class
-		Modifier: 1041
+		Modifiers: 1041
 		Name: notify
 		Parameter -> NONE
 		Return types: void
-		Modifier: 1041
+		Modifiers: 1041
 		Name: notifyAll
 		Parameter -> NONE
 		Return types: void
-		Modifier: 1041
+		Modifiers: 1041
 	modifier: 1041
-	FieldName -> NONE
+		Field -> NONE
 ======================================================

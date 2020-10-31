@@ -26,13 +26,13 @@ public class Inspector {
         getInterfacesNames(c, obj, recursive, depth + 1);
         getConstructors(c, depth + 1);
         getMethods(c, depth + 1);
-        getFields(c, depth + 1);
+        getFields(c, obj, recursive, depth + 1);
 
         // List<String> actualFieldNames = getFieldNames(fields); // The name of the filed
         // indent("ActualFieldNames: " + actualFieldNames);
     }
 
-    public void getFields(Class c, int depth) {
+    public void getFields(Class c, Object obj, boolean recursive, int depth) {
       int depthNum = depth + 1;
       Field[] fields = c.getDeclaredFields();
       String modifier = Integer.toString(c.getModifiers());
@@ -40,13 +40,57 @@ public class Inspector {
 
       if (fields.length > 0) {
         for (Field field : fields) {
+          Object fieldObj = null;
+
+          try {
+              fieldObj = field.get(obj);
+          } catch (IllegalAccessException e) {
+              System.out.println("ERROR: Unable to access the field");
+          }
+
+          if(fieldObj == null){
+            indent("Value: null", depthNum);
+          }else if(field.getType().isPrimitive()){
+            indent("Value: " + fieldObj, depthNum);
+          }else if(field.getType().isArray()){
+            getArray(fieldObj, recursive, depthNum);
+          }
+
           String fieldName = field.getName();
           Object fieldType = field.getType();
-          indent("FieldName: " + fieldName, depth);
-          indent("FieldType: " + fieldType.toString(), depth);
+          indent("FieldName: " + fieldName, depthNum);
+          indent("FieldType: " + fieldType.toString(), depthNum);
         }
       }else {
-        indent("FieldName -> NONE", depth);
+        indent("Field -> NONE", depthNum);
+      }
+    }
+
+    public void getArray(Object obj, boolean recursive, int depth) {
+      int depthNum = depth + 1;
+      if(recursive){
+        Class componentType  = obj.getClass().getComponentType();
+        int length = Array.getLength(obj);
+        indent("Array Type: " + componentType, depthNum);
+        indent("Array Length: " + length, depthNum);
+        for (int i = 0; i < length; i++) {
+          Object arrayInfo = Array.get(obj,i);
+            if(arrayInfo == null){
+              indent("Array Value: Null", depthNum);
+            }else if(componentType.isPrimitive()){
+              indent("Array Value: " + arrayInfo, depthNum);
+            }else if(componentType.isArray()){
+              getArray(obj, recursive, depthNum);
+            }else{
+              if(recursive){
+                inspectClass(obj.getClass(), obj, true, depthNum);
+              }else{
+                indent("Value: " + obj.getClass().getName() + "@" + obj.getClass().hashCode(), depthNum);
+              }
+           }
+        }
+      }else{
+        indent("Value: " + obj.getClass().getName() + "@" + obj.getClass().hashCode(), depthNum);
       }
     }
 
