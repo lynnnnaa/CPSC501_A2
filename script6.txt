@@ -1,6 +1,6 @@
 ======================================================
 Filename: script6.txt
-Running Test: [LClassB;@8efb846
+Running Test: [LClassB;@4f023edb
 Recursive: true
 CLASS
 Class: [LClassB;
@@ -8,11 +8,11 @@ Class: [LClassB;
 		SuperClass: java.lang.Object
 		CLASS
 		Class: java.lang.Object
-			CONSTRUCTORS (     ) 
+			CONSTRUCTORS ( java.lang.Class ) 
 			Constructors->
 				Name: java.lang.Object
 				Modifiers: 1
-			METHODS (     ) 
+			METHODS ( java.lang.Class ) 
 			Methods->
 				Name: wait
 				Exceptions: java.lang.InterruptedException
@@ -56,8 +56,9 @@ Class: [LClassB;
 				Modifiers: 1
 			modifier: 1
 				Field -> NONE
-	INTERFACE
-	Interfaces: interface java.lang.Cloneable
+	INTERFACES ( java.lang.Class ) 
+	Interfaces->
+	Name: interface java.lang.Cloneable
 		CLASS
 		Class: java.lang.Cloneable
 			SuperClass -> NONE
@@ -65,8 +66,9 @@ Class: [LClassB;
 			Method -> NONE
 			modifier: 1537
 				Field -> NONE
-	INTERFACE
-	Interfaces: interface java.io.Serializable
+	INTERFACES ( java.lang.Class ) 
+	Interfaces->
+	Name: interface java.io.Serializable
 		CLASS
 		Class: java.io.Serializable
 			SuperClass -> NONE
@@ -75,7 +77,7 @@ Class: [LClassB;
 			modifier: 1537
 				Field -> NONE
 	Constructor -> NONE
-	METHODS (     ) 
+	METHODS ( java.lang.Class ) 
 	Methods->
 		Name: wait
 		Exceptions: java.lang.InterruptedException

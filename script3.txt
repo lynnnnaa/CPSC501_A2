@@ -16,11 +16,11 @@ Class: ClassB
 						SuperClass: java.lang.Object
 						CLASS
 						Class: java.lang.Object
-							CONSTRUCTORS (     ) 
+							CONSTRUCTORS ( java.lang.Class ) 
 							Constructors->
 								Name: java.lang.Object
 								Modifiers: 1
-							METHODS (     ) 
+							METHODS ( java.lang.Class ) 
 							Methods->
 								Name: wait
 								Exceptions: java.lang.InterruptedException
@@ -64,14 +64,14 @@ Class: ClassB
 								Modifiers: 1
 							modifier: 1
 								Field -> NONE
-					CONSTRUCTORS (     ) 
+					CONSTRUCTORS ( java.lang.Class ) 
 					Constructors->
 						Name: ClassD
 						Modifiers: 1
 						Name: ClassD
 						Constructor Parameter Types: int
 						Modifiers: 1
-					METHODS (     ) 
+					METHODS ( java.lang.Class ) 
 					Methods->
 						Name: toString
 						Parameter -> NONE
@@ -134,18 +134,20 @@ ERROR: Unable to access the field
 						Value: null
 						FieldName: vallarray
 						FieldType: class [LClassA;
-			INTERFACE
-			Interfaces: interface InterfaceA
+			INTERFACES ( java.lang.Class ) 
+			Interfaces->
+			Name: interface InterfaceA
 				CLASS
 				Class: InterfaceA
 					SuperClass -> NONE
-					INTERFACE
-					Interfaces: interface InterfaceB
+					INTERFACES ( java.lang.Class ) 
+					Interfaces->
+					Name: interface InterfaceB
 						CLASS
 						Class: InterfaceB
 							SuperClass -> NONE
 							Constructor -> NONE
-							METHODS (     ) 
+							METHODS ( java.lang.Class ) 
 							Methods->
 								Name: func0
 								Exceptions: java.lang.Exception
@@ -156,7 +158,7 @@ ERROR: Unable to access the field
 							modifier: 1537
 								Field -> NONE
 					Constructor -> NONE
-					METHODS (     ) 
+					METHODS ( java.lang.Class ) 
 					Methods->
 						Name: func1
 						Exceptions: java.lang.Exception
@@ -181,7 +183,7 @@ ERROR: Unable to access the field
 						Modifiers: 1537
 					modifier: 1537
 						Field -> NONE
-			CONSTRUCTORS (     ) 
+			CONSTRUCTORS ( java.lang.Class ) 
 			Constructors->
 				Name: ClassC
 				Modifiers: 1025
@@ -189,7 +191,7 @@ ERROR: Unable to access the field
 				Constructor Parameter Types: int
 				Constructor Parameter Types: int
 				Modifiers: 1025
-			METHODS (     ) 
+			METHODS ( java.lang.Class ) 
 			Methods->
 				Name: run
 				Parameter -> NONE
@@ -277,13 +279,14 @@ ERROR: Unable to access the field
 				Value: null
 				FieldName: val4
 				FieldType: class ClassA
-	INTERFACE
-	Interfaces: interface java.lang.Runnable
+	INTERFACES ( java.lang.Class ) 
+	Interfaces->
+	Name: interface java.lang.Runnable
 		CLASS
 		Class: java.lang.Runnable
 			SuperClass -> NONE
 			Constructor -> NONE
-			METHODS (     ) 
+			METHODS ( java.lang.Class ) 
 			Methods->
 				Name: run
 				Parameter -> NONE
@@ -291,12 +294,12 @@ ERROR: Unable to access the field
 				Modifiers: 1537
 			modifier: 1537
 				Field -> NONE
-	CONSTRUCTORS (     ) 
+	CONSTRUCTORS ( java.lang.Class ) 
 	Constructors->
 		Name: ClassB
 		Exceptions: java.lang.Exception
 		Modifiers: 1
-	METHODS (     ) 
+	METHODS ( java.lang.Class ) 
 	Methods->
 		Name: run
 		Parameter -> NONE

@@ -8,11 +8,11 @@ Class: ClassD
 		SuperClass: java.lang.Object
 		CLASS
 		Class: java.lang.Object
-			CONSTRUCTORS (     ) 
+			CONSTRUCTORS ( java.lang.Class ) 
 			Constructors->
 				Name: java.lang.Object
 				Modifiers: 1
-			METHODS (     ) 
+			METHODS ( java.lang.Class ) 
 			Methods->
 				Name: wait
 				Exceptions: java.lang.InterruptedException
@@ -56,14 +56,14 @@ Class: ClassD
 				Modifiers: 1
 			modifier: 1
 				Field -> NONE
-	CONSTRUCTORS (     ) 
+	CONSTRUCTORS ( java.lang.Class ) 
 	Constructors->
 		Name: ClassD
 		Modifiers: 1
 		Name: ClassD
 		Constructor Parameter Types: int
 		Modifiers: 1
-	METHODS (     ) 
+	METHODS ( java.lang.Class ) 
 	Methods->
 		Name: toString
 		Parameter -> NONE

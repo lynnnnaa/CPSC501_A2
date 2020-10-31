@@ -98,7 +98,7 @@ public class Inspector {
       int depthNum = depth + 1;
       Constructor[] constructors = c.getConstructors();
       if (constructors.length > 0) {
-        indent("CONSTRUCTORS" + " ( " + "   " + " ) ", depth);
+        indent("CONSTRUCTORS" + " ( " + c.getClass().getName() + " ) ", depth);
         indent("Constructors->", depth);
         for (Constructor constructor : constructors) {
           indent("Name: " + constructor.getName().toString(), depthNum);
@@ -128,7 +128,7 @@ public class Inspector {
       int depthNum = depth + 1;
       Method[] methods = c.getMethods();
       if (methods.length > 0) {
-        indent("METHODS" + " ( " + "   " + " ) ", depth);
+        indent("METHODS" + " ( " + c.getClass().getName() + " ) ", depth);
         indent("Methods->", depth);
         for (Method method : methods) {
           indent("Name: " + method.getName().toString(), depthNum);
@@ -177,8 +177,9 @@ public class Inspector {
 
       if (interfaces != null) {
         for(Class interfaceName : interfaces) {
-          indent("INTERFACE", depth);
-          indent("Interfaces: " + interfaceName.toString(), depth);
+          indent("INTERFACES" + " ( " + c.getClass().getName() + " ) ", depth);
+          indent("Interfaces->", depth);
+          indent("Name: " + interfaceName.toString(), depth);
           inspectClass(interfaceName, obj, recursive, depthNum);
         }
       }else {

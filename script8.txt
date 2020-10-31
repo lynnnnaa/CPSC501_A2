@@ -8,11 +8,11 @@ Class: java.lang.String
 		SuperClass: java.lang.Object
 		CLASS
 		Class: java.lang.Object
-			CONSTRUCTORS (     ) 
+			CONSTRUCTORS ( java.lang.Class ) 
 			Constructors->
 				Name: java.lang.Object
 				Modifiers: 1
-			METHODS (     ) 
+			METHODS ( java.lang.Class ) 
 			Methods->
 				Name: wait
 				Exceptions: java.lang.InterruptedException
@@ -56,8 +56,9 @@ Class: java.lang.String
 				Modifiers: 1
 			modifier: 1
 				Field -> NONE
-	INTERFACE
-	Interfaces: interface java.io.Serializable
+	INTERFACES ( java.lang.Class ) 
+	Interfaces->
+	Name: interface java.io.Serializable
 		CLASS
 		Class: java.io.Serializable
 			SuperClass -> NONE
@@ -65,13 +66,14 @@ Class: java.lang.String
 			Method -> NONE
 			modifier: 1537
 				Field -> NONE
-	INTERFACE
-	Interfaces: interface java.lang.Comparable
+	INTERFACES ( java.lang.Class ) 
+	Interfaces->
+	Name: interface java.lang.Comparable
 		CLASS
 		Class: java.lang.Comparable
 			SuperClass -> NONE
 			Constructor -> NONE
-			METHODS (     ) 
+			METHODS ( java.lang.Class ) 
 			Methods->
 				Name: compareTo
 				Parameter types: java.lang.Object
@@ -79,13 +81,14 @@ Class: java.lang.String
 				Modifiers: 1537
 			modifier: 1537
 				Field -> NONE
-	INTERFACE
-	Interfaces: interface java.lang.CharSequence
+	INTERFACES ( java.lang.Class ) 
+	Interfaces->
+	Name: interface java.lang.CharSequence
 		CLASS
 		Class: java.lang.CharSequence
 			SuperClass -> NONE
 			Constructor -> NONE
-			METHODS (     ) 
+			METHODS ( java.lang.Class ) 
 			Methods->
 				Name: length
 				Parameter -> NONE
@@ -123,13 +126,14 @@ Class: java.lang.String
 				Modifiers: 1537
 			modifier: 1537
 				Field -> NONE
-	INTERFACE
-	Interfaces: interface java.lang.constant.Constable
+	INTERFACES ( java.lang.Class ) 
+	Interfaces->
+	Name: interface java.lang.constant.Constable
 		CLASS
 		Class: java.lang.constant.Constable
 			SuperClass -> NONE
 			Constructor -> NONE
-			METHODS (     ) 
+			METHODS ( java.lang.Class ) 
 			Methods->
 				Name: describeConstable
 				Parameter -> NONE
@@ -137,13 +141,14 @@ Class: java.lang.String
 				Modifiers: 1537
 			modifier: 1537
 				Field -> NONE
-	INTERFACE
-	Interfaces: interface java.lang.constant.ConstantDesc
+	INTERFACES ( java.lang.Class ) 
+	Interfaces->
+	Name: interface java.lang.constant.ConstantDesc
 		CLASS
 		Class: java.lang.constant.ConstantDesc
 			SuperClass -> NONE
 			Constructor -> NONE
-			METHODS (     ) 
+			METHODS ( java.lang.Class ) 
 			Methods->
 				Name: resolveConstantDesc
 				Exceptions: java.lang.ReflectiveOperationException
@@ -152,7 +157,7 @@ Class: java.lang.String
 				Modifiers: 1537
 			modifier: 1537
 				Field -> NONE
-	CONSTRUCTORS (     ) 
+	CONSTRUCTORS ( java.lang.Class ) 
 	Constructors->
 		Name: java.lang.String
 		Constructor Parameter Types: [B
@@ -218,7 +223,7 @@ Class: java.lang.String
 		Constructor Parameter Types: int
 		Constructor Parameter Types: int
 		Modifiers: 17
-	METHODS (     ) 
+	METHODS ( java.lang.Class ) 
 	Methods->
 		Name: equals
 		Parameter types: java.lang.Object
