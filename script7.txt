@@ -2,68 +2,76 @@
 Filename: script7.txt
 Running Test: [LClassB;@2a84aee7
 Recursive: true
-ClassName: [LClassB;
-super class: class java.lang.Object
-ClassName: java.lang.Object
-modifier: 1
-ConstructorsName: java.lang.Object
-modifier: 1
-MethodsName: wait
-returnType: void
-Method Parameter Types: long
-Method Parameter Types: int
-MethodsName: wait
-returnType: void
-MethodsName: wait
-returnType: void
-Method Parameter Types: long
-MethodsName: equals
-returnType: boolean
-Method Parameter Types: java.lang.Object
-MethodsName: toString
-returnType: class java.lang.String
-MethodsName: hashCode
-returnType: int
-MethodsName: getClass
-returnType: class java.lang.Class
-MethodsName: notify
-returnType: void
-MethodsName: notifyAll
-returnType: void
-modifier: 1
+CLASS
+Class: [LClassB;
+		SUPERCLASS --> Recursively Insepct
+	SuperClass: java.lang.Object
+	CLASS
+Class: java.lang.Object
+		modifier: 1
+		CONSTRUCTOR
+Constructors Name: java.lang.Object
+		modifier: 1
+		MethodsName: wait
+		ReturnType: void
+		Method Parameter Types: long
+		Method Parameter Types: int
+		MethodsName: wait
+		ReturnType: void
+		MethodsName: wait
+		ReturnType: void
+		Method Parameter Types: long
+		MethodsName: equals
+		ReturnType: boolean
+		Method Parameter Types: java.lang.Object
+		MethodsName: toString
+		ReturnType: class java.lang.String
+		MethodsName: hashCode
+		ReturnType: int
+		MethodsName: getClass
+		ReturnType: class java.lang.Class
+		MethodsName: notify
+		ReturnType: void
+		MethodsName: notifyAll
+		ReturnType: void
+		modifier: 1
+	INTERFACE
 Interfaces: interface java.lang.Cloneable
-ClassName: java.lang.Cloneable
-modifier: 1537
-modifier: 1537
-modifier: 1537
+	CLASS
+Class: java.lang.Cloneable
+		modifier: 1537
+		modifier: 1537
+		modifier: 1537
+	INTERFACE
 Interfaces: interface java.io.Serializable
-ClassName: java.io.Serializable
-modifier: 1537
-modifier: 1537
-modifier: 1537
-modifier: 1041
-modifier: 1041
-MethodsName: wait
-returnType: void
-Method Parameter Types: long
-Method Parameter Types: int
-MethodsName: wait
-returnType: void
-MethodsName: wait
-returnType: void
-Method Parameter Types: long
-MethodsName: equals
-returnType: boolean
-Method Parameter Types: java.lang.Object
-MethodsName: toString
-returnType: class java.lang.String
-MethodsName: hashCode
-returnType: int
-MethodsName: getClass
-returnType: class java.lang.Class
-MethodsName: notify
-returnType: void
-MethodsName: notifyAll
-returnType: void
-modifier: 1041
+	CLASS
+Class: java.io.Serializable
+		modifier: 1537
+		modifier: 1537
+		modifier: 1537
+	modifier: 1041
+	modifier: 1041
+	MethodsName: wait
+	ReturnType: void
+	Method Parameter Types: long
+	Method Parameter Types: int
+	MethodsName: wait
+	ReturnType: void
+	MethodsName: wait
+	ReturnType: void
+	Method Parameter Types: long
+	MethodsName: equals
+	ReturnType: boolean
+	Method Parameter Types: java.lang.Object
+	MethodsName: toString
+	ReturnType: class java.lang.String
+	MethodsName: hashCode
+	ReturnType: int
+	MethodsName: getClass
+	ReturnType: class java.lang.Class
+	MethodsName: notify
+	ReturnType: void
+	MethodsName: notifyAll
+	ReturnType: void
+	modifier: 1041
 ======================================================

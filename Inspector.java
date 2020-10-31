@@ -19,7 +19,7 @@ public class Inspector {
     private void inspectClass(Class c, Object obj, boolean recursive, int depth) {
 
         String name = c.getName(); //The name of the declaring class
-        System.out.println("ClassName: " + name);
+        print("CLASS" + "\n" + "Class: " + name, depth);
 
         getSuperClassNames(c, obj, recursive, depth); //The name of the immediate super-class
         getInterfacesNames(c, obj, recursive, depth);
@@ -28,92 +28,101 @@ public class Inspector {
         getFields(c, depth);
 
         // List<String> actualFieldNames = getFieldNames(fields); // The name of the filed
-        // System.out.println("ActualFieldNames: " + actualFieldNames);
+        // print("ActualFieldNames: " + actualFieldNames);
     }
 
     public void getFields(Class c, int depth) {
-        Field[] fields = c.getDeclaredFields();
-        String modifier = Integer.toString(c.getModifiers());
-        System.out.println("modifier: " + modifier);
+      depth += 1;
+      Field[] fields = c.getDeclaredFields();
+      String modifier = Integer.toString(c.getModifiers());
+      print("modifier: " + modifier, depth);
 
-        if (fields.length > 0) {
-            for (Field field : fields) {
-              String fieldName = field.getName();
-              Object fieldType = field.getType();
-              System.out.println("fieldName: " + fieldName);
-              System.out.println("fieldType: " + fieldType.toString());
-            }
-        }
+      if (fields.length > 0) {
+          for (Field field : fields) {
+            String fieldName = field.getName();
+            Object fieldType = field.getType();
+            print("FieldName: " + fieldName, depth);
+            print("FieldType: " + fieldType.toString(), depth);
+          }
+      }
     }
 
     public void getConstructors(Class c, int depth) {
-        Constructor[] constructors = c.getConstructors();
-        String modifier = Integer.toString(c.getModifiers());
-        System.out.println("modifier: " + modifier);
-        if (constructors.length > 0) {
-            for (Constructor constructor : constructors) {
-              System.out.println("ConstructorsName: " + constructor.getName().toString());
-              //System.out.println("parameterTypes: " + parameterTypes.toString());
+      depth += 1;
+      Constructor[] constructors = c.getConstructors();
+      String modifier = Integer.toString(c.getModifiers());
+      print("modifier: " + modifier, depth);
+      if (constructors.length > 0) {
+          for (Constructor constructor : constructors) {
+            print("CONSTRUCTOR" + "\n" + "Constructors Name: " + constructor.getName().toString(), depth);
+            //print("parameterTypes: " + parameterTypes.toString());
 
-              Class[] parameterTypes = constructor.getParameterTypes();
-              if (parameterTypes.length > 0) {
-                  for (Class parameterType : parameterTypes) {
-                      System.out.println("Constructor Parameter Types: " + parameterType.getName().toString());
-                  }
-              }
+            Class[] parameterTypes = constructor.getParameterTypes();
+            if (parameterTypes.length > 0) {
+                for (Class parameterType : parameterTypes) {
+                    print("Constructor Parameter Types: " + parameterType.getName().toString(), depth);
+                }
             }
-        }
+          }
+      }
     }
 
     public void getMethods(Class c, int depth) {
-        Method[] methods = c.getMethods();
-        String modifier = Integer.toString(c.getModifiers());
-        System.out.println("modifier: " + modifier);
-        if (methods.length > 0) {
-            for (Method method : methods) {
-              //Class[] parameterTypes = method.getParameterTypes();
-              Class returnType = method.getReturnType();
-              System.out.println("MethodsName: " + method.getName().toString());
-              //System.out.println("parameterTypes: " + parameterTypes.toString());
-              System.out.println("returnType: " + returnType.toString());
+      depth += 1;
+      Method[] methods = c.getMethods();
+      String modifier = Integer.toString(c.getModifiers());
+      print("modifier: " + modifier, depth);
+      if (methods.length > 0) {
+          for (Method method : methods) {
+            //Class[] parameterTypes = method.getParameterTypes();
+            Class returnType = method.getReturnType();
+            print("MethodsName: " + method.getName().toString(), depth);
+            //print("parameterTypes: " + parameterTypes.toString());
+            print("ReturnType: " + returnType.toString(), depth);
 
-              Class[] parameterTypes = method.getParameterTypes();
-              if (parameterTypes.length > 0) {
-                  for (Class parameterType : parameterTypes) {
-                      System.out.println("Method Parameter Types: " + parameterType.getName().toString());
-                  }
-              }
+            Class[] parameterTypes = method.getParameterTypes();
+            if (parameterTypes.length > 0) {
+                for (Class parameterType : parameterTypes) {
+                    print("Method Parameter Types: " + parameterType.getName().toString(), depth);
+                }
             }
-        }
+          }
+      }
     }
 
     private void getSuperClassNames(Class c, Object obj, boolean recursive, int depth) {
+      depth += 1;
       Class superClass = c.getSuperclass();
 
       if (superClass != null) {
-          depth =+ 1;
-          System.out.println("super class: " + superClass.toString());
+          print("\t" + "SUPERCLASS --> Recursively Insepct" +"\n" + "\t" + "SuperClass: " + superClass.getName().toString(), depth);
           inspectClass(superClass, obj, recursive, depth);
       }
     }
 
     private void getInterfacesNames(Class c, Object obj, boolean recursive, int depth) {
+      depth += 1;
       Class[] interfaces = c.getInterfaces();
 
       if (interfaces != null) {
         for(Class interfaceName : interfaces) {
-          depth =+ 1;
-          System.out.println("Interfaces: " + interfaceName.toString());
+          print("INTERFACE" + "\n" + "Interfaces: " + interfaceName.toString(), depth);
           inspectClass(interfaceName, obj, recursive, depth);
         }
       }
     }
 
     private static List<String> getFieldNames(Field[] fields) {
-    List<String> fieldNames = new ArrayList<>();
-    for (Field field : fields)
-      fieldNames.add(field.getName());
-    return fieldNames;
+      List<String> fieldNames = new ArrayList<>();
+      for (Field field : fields)
+        fieldNames.add(field.getName());
+      return fieldNames;
+    }
+
+    private void print(String string, int depth) {
+      for (int i = 0; i < depth; i++)
+          System.out.print("\t");
+      System.out.println(string);
     }
 
 }
