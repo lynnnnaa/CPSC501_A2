@@ -2,59 +2,64 @@
 Filename: script5.txt
 Running Test: ClassD
 Recursive: true
+ClassName: ClassD
 super class: class java.lang.Object
-ConstructorsName: [Ljava.lang.reflect.Constructor;@3eb07fd3
+ClassName: java.lang.Object
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@506c589e
-MethodsName: [Ljava.lang.reflect.Method;@69d0a921
+ConstructorsName: java.lang.Object
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@446cdf90
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@799f7e29
+Method Parameter Types: long
+Method Parameter Types: int
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@4b85612c
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@277050dc
+Method Parameter Types: long
+MethodsName: equals
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@5c29bfd
+Method Parameter Types: java.lang.Object
+MethodsName: toString
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@7aec35a
+MethodsName: hashCode
 returnType: int
-parameterTypes: [Ljava.lang.Class;@67424e82
+MethodsName: getClass
 returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@42110406
+MethodsName: notify
 returnType: void
-parameterTypes: [Ljava.lang.Class;@531d72ca
+MethodsName: notifyAll
 returnType: void
-fields: [Ljava.lang.reflect.Field;@22d8cfe0
 modifier: 1
-ConstructorsName: [Ljava.lang.reflect.Constructor;@579bb367
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@1de0aca6
-parameterTypes: [Ljava.lang.Class;@255316f2
-MethodsName: [Ljava.lang.reflect.Method;@41906a77
+ConstructorsName: ClassD
+ConstructorsName: ClassD
+Constructor Parameter Types: int
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@4b9af9a9
+MethodsName: toString
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@5387f9e0
+MethodsName: getVal3
 returnType: int
-parameterTypes: [Ljava.lang.Class;@6e5e91e4
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@2cdf8d8a
+Method Parameter Types: long
+Method Parameter Types: int
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@30946e09
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@5cb0d902
+Method Parameter Types: long
+MethodsName: equals
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@46fbb2c1
+Method Parameter Types: java.lang.Object
+MethodsName: hashCode
 returnType: int
-parameterTypes: [Ljava.lang.Class;@1698c449
+MethodsName: getClass
 returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@5ef04b5
+MethodsName: notify
 returnType: void
-parameterTypes: [Ljava.lang.Class;@5f4da5c3
+MethodsName: notifyAll
 returnType: void
-fields: [Ljava.lang.reflect.Field;@443b7951
 modifier: 1
 fieldName: val
 fieldType: class ClassA

@@ -2,289 +2,421 @@
 Filename: script8.txt
 Running Test: Test String
 Recursive: true
+ClassName: java.lang.String
 super class: class java.lang.Object
-ConstructorsName: [Ljava.lang.reflect.Constructor;@694f9431
+ClassName: java.lang.Object
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@f2a0b8e
-MethodsName: [Ljava.lang.reflect.Method;@593634ad
+ConstructorsName: java.lang.Object
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@20fa23c1
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@3581c5f3
+Method Parameter Types: long
+Method Parameter Types: int
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@6aa8ceb6
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@2530c12
+Method Parameter Types: long
+MethodsName: equals
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@73c6c3b2
+Method Parameter Types: java.lang.Object
+MethodsName: toString
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@48533e64
+MethodsName: hashCode
 returnType: int
-parameterTypes: [Ljava.lang.Class;@64a294a6
+MethodsName: getClass
 returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@7e0b37bc
+MethodsName: notify
 returnType: void
-parameterTypes: [Ljava.lang.Class;@3b95a09c
+MethodsName: notifyAll
 returnType: void
-fields: [Ljava.lang.reflect.Field;@6ae40994
 modifier: 1
 Interfaces: interface java.io.Serializable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@1a93a7ca
+ClassName: java.io.Serializable
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@3d82c5f3
 modifier: 1537
-fields: [Ljava.lang.reflect.Field;@2b05039f
 modifier: 1537
 Interfaces: interface java.lang.Comparable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@61e717c2
+ClassName: java.lang.Comparable
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@4dcbadb4
 modifier: 1537
-parameterTypes: [Ljava.lang.Class;@4e515669
+MethodsName: compareTo
 returnType: int
-fields: [Ljava.lang.reflect.Field;@17d10166
+Method Parameter Types: java.lang.Object
 modifier: 1537
 Interfaces: interface java.lang.CharSequence
-ConstructorsName: [Ljava.lang.reflect.Constructor;@1b9e1916
+ClassName: java.lang.CharSequence
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@45fe3ee3
 modifier: 1537
-parameterTypes: [Ljava.lang.Class;@4cdf35a9
+MethodsName: length
 returnType: int
-parameterTypes: [Ljava.lang.Class;@4c98385c
+MethodsName: toString
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@5fcfe4b2
+MethodsName: charAt
 returnType: char
-parameterTypes: [Ljava.lang.Class;@6bf2d08e
+Method Parameter Types: int
+MethodsName: compare
 returnType: int
-parameterTypes: [Ljava.lang.Class;@5eb5c224
+Method Parameter Types: java.lang.CharSequence
+Method Parameter Types: java.lang.CharSequence
+MethodsName: isEmpty
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@53e25b76
+MethodsName: codePoints
 returnType: interface java.util.stream.IntStream
-parameterTypes: [Ljava.lang.Class;@73a8dfcc
+MethodsName: subSequence
 returnType: interface java.lang.CharSequence
-parameterTypes: [Ljava.lang.Class;@ea30797
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: chars
 returnType: interface java.util.stream.IntStream
-fields: [Ljava.lang.reflect.Field;@7e774085
 modifier: 1537
 Interfaces: interface java.lang.constant.Constable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@3f8f9dd6
+ClassName: java.lang.constant.Constable
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@1c655221
 modifier: 1537
-parameterTypes: [Ljava.lang.Class;@58d25a40
+MethodsName: describeConstable
 returnType: class java.util.Optional
-fields: [Ljava.lang.reflect.Field;@1b701da1
 modifier: 1537
 Interfaces: interface java.lang.constant.ConstantDesc
-ConstructorsName: [Ljava.lang.reflect.Constructor;@726f3b58
+ClassName: java.lang.constant.ConstantDesc
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@ee7d9f1
 modifier: 1537
-parameterTypes: [Ljava.lang.Class;@15615099
+MethodsName: resolveConstantDesc
 returnType: class java.lang.Object
-fields: [Ljava.lang.reflect.Field;@1edf1c96
+Method Parameter Types: java.lang.invoke.MethodHandles$Lookup
 modifier: 1537
-ConstructorsName: [Ljava.lang.reflect.Constructor;@368102c8
 modifier: 17
-parameterTypes: [Ljava.lang.Class;@6996db8
-parameterTypes: [Ljava.lang.Class;@1963006a
-parameterTypes: [Ljava.lang.Class;@7fbe847c
-parameterTypes: [Ljava.lang.Class;@41975e01
-parameterTypes: [Ljava.lang.Class;@c2e1f26
-parameterTypes: [Ljava.lang.Class;@dcf3e99
-parameterTypes: [Ljava.lang.Class;@6d9c638
-parameterTypes: [Ljava.lang.Class;@7dc5e7b4
-parameterTypes: [Ljava.lang.Class;@1ee0005
-parameterTypes: [Ljava.lang.Class;@75a1cd57
-parameterTypes: [Ljava.lang.Class;@3d012ddd
-parameterTypes: [Ljava.lang.Class;@6f2b958e
-parameterTypes: [Ljava.lang.Class;@1eb44e46
-parameterTypes: [Ljava.lang.Class;@6504e3b2
-parameterTypes: [Ljava.lang.Class;@515f550a
-MethodsName: [Ljava.lang.reflect.Method;@5680a178
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [B
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [B
+Constructor Parameter Types: int
+Constructor Parameter Types: int
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [B
+Constructor Parameter Types: java.nio.charset.Charset
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [B
+Constructor Parameter Types: java.lang.String
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [B
+Constructor Parameter Types: int
+Constructor Parameter Types: int
+Constructor Parameter Types: java.nio.charset.Charset
+ConstructorsName: java.lang.String
+Constructor Parameter Types: java.lang.StringBuilder
+ConstructorsName: java.lang.String
+Constructor Parameter Types: java.lang.StringBuffer
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [C
+Constructor Parameter Types: int
+Constructor Parameter Types: int
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [C
+ConstructorsName: java.lang.String
+Constructor Parameter Types: java.lang.String
+ConstructorsName: java.lang.String
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [B
+Constructor Parameter Types: int
+Constructor Parameter Types: int
+Constructor Parameter Types: java.lang.String
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [B
+Constructor Parameter Types: int
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [B
+Constructor Parameter Types: int
+Constructor Parameter Types: int
+Constructor Parameter Types: int
+ConstructorsName: java.lang.String
+Constructor Parameter Types: [I
+Constructor Parameter Types: int
+Constructor Parameter Types: int
 modifier: 17
-parameterTypes: [Ljava.lang.Class;@5fdef03a
+MethodsName: equals
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@3b22cdd0
+Method Parameter Types: java.lang.Object
+MethodsName: length
 returnType: int
-parameterTypes: [Ljava.lang.Class;@1e81f4dc
+MethodsName: toString
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@4d591d15
+MethodsName: hashCode
 returnType: int
-parameterTypes: [Ljava.lang.Class;@65ae6ba4
+MethodsName: getChars
 returnType: void
-parameterTypes: [Ljava.lang.Class;@48cf768c
+Method Parameter Types: int
+Method Parameter Types: int
+Method Parameter Types: [C
+Method Parameter Types: int
+MethodsName: compareTo
 returnType: int
-parameterTypes: [Ljava.lang.Class;@59f95c5d
+Method Parameter Types: java.lang.Object
+MethodsName: compareTo
 returnType: int
-parameterTypes: [Ljava.lang.Class;@5ccd43c2
+Method Parameter Types: java.lang.String
+MethodsName: indexOf
 returnType: int
-parameterTypes: [Ljava.lang.Class;@4aa8f0b4
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: indexOf
 returnType: int
-parameterTypes: [Ljava.lang.Class;@7960847b
+Method Parameter Types: java.lang.String
+MethodsName: indexOf
 returnType: int
-parameterTypes: [Ljava.lang.Class;@6a6824be
+Method Parameter Types: java.lang.String
+Method Parameter Types: int
+MethodsName: indexOf
 returnType: int
-parameterTypes: [Ljava.lang.Class;@5c8da962
+Method Parameter Types: int
+MethodsName: valueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@512ddf17
+Method Parameter Types: [C
+MethodsName: valueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@2c13da15
+Method Parameter Types: java.lang.Object
+MethodsName: valueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@77556fd
+Method Parameter Types: long
+MethodsName: valueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@368239c8
+Method Parameter Types: [C
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: valueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@9e89d68
+Method Parameter Types: int
+MethodsName: valueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@3b192d32
+Method Parameter Types: char
+MethodsName: valueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@16f65612
+Method Parameter Types: double
+MethodsName: valueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@311d617d
+Method Parameter Types: float
+MethodsName: valueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@7c53a9eb
+Method Parameter Types: boolean
+MethodsName: charAt
 returnType: char
-parameterTypes: [Ljava.lang.Class;@ed17bee
+Method Parameter Types: int
+MethodsName: codePointAt
 returnType: int
-parameterTypes: [Ljava.lang.Class;@2a33fae0
+Method Parameter Types: int
+MethodsName: codePointBefore
 returnType: int
-parameterTypes: [Ljava.lang.Class;@707f7052
+Method Parameter Types: int
+MethodsName: codePointCount
 returnType: int
-parameterTypes: [Ljava.lang.Class;@11028347
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: offsetByCodePoints
 returnType: int
-parameterTypes: [Ljava.lang.Class;@14899482
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: getBytes
 returnType: class [B
-parameterTypes: [Ljava.lang.Class;@21588809
+Method Parameter Types: java.lang.String
+MethodsName: getBytes
 returnType: class [B
-parameterTypes: [Ljava.lang.Class;@2aae9190
+MethodsName: getBytes
 returnType: void
-parameterTypes: [Ljava.lang.Class;@2f333739
+Method Parameter Types: int
+Method Parameter Types: int
+Method Parameter Types: [B
+Method Parameter Types: int
+MethodsName: getBytes
 returnType: class [B
-parameterTypes: [Ljava.lang.Class;@77468bd9
+Method Parameter Types: java.nio.charset.Charset
+MethodsName: contentEquals
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@12bb4df8
+Method Parameter Types: java.lang.StringBuffer
+MethodsName: contentEquals
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@4cc77c2e
+Method Parameter Types: java.lang.CharSequence
+MethodsName: regionMatches
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@7a7b0070
+Method Parameter Types: int
+Method Parameter Types: java.lang.String
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: regionMatches
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@39a054a5
+Method Parameter Types: boolean
+Method Parameter Types: int
+Method Parameter Types: java.lang.String
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: startsWith
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@71bc1ae4
+Method Parameter Types: java.lang.String
+Method Parameter Types: int
+MethodsName: startsWith
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@6ed3ef1
+Method Parameter Types: java.lang.String
+MethodsName: lastIndexOf
 returnType: int
-parameterTypes: [Ljava.lang.Class;@2437c6dc
+Method Parameter Types: java.lang.String
+MethodsName: lastIndexOf
 returnType: int
-parameterTypes: [Ljava.lang.Class;@1f89ab83
+Method Parameter Types: int
+MethodsName: lastIndexOf
 returnType: int
-parameterTypes: [Ljava.lang.Class;@e73f9ac
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: lastIndexOf
 returnType: int
-parameterTypes: [Ljava.lang.Class;@61064425
+Method Parameter Types: java.lang.String
+Method Parameter Types: int
+MethodsName: substring
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@7b1d7fff
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: substring
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@299a06ac
+Method Parameter Types: int
+MethodsName: isEmpty
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@383534aa
+MethodsName: replace
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@6bc168e5
+Method Parameter Types: char
+Method Parameter Types: char
+MethodsName: replace
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@7b3300e5
+Method Parameter Types: java.lang.CharSequence
+Method Parameter Types: java.lang.CharSequence
+MethodsName: matches
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@2e5c649
+Method Parameter Types: java.lang.String
+MethodsName: replaceFirst
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@136432db
+Method Parameter Types: java.lang.String
+Method Parameter Types: java.lang.String
+MethodsName: replaceAll
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@7382f612
+Method Parameter Types: java.lang.String
+Method Parameter Types: java.lang.String
+MethodsName: split
 returnType: class [Ljava.lang.String;
-parameterTypes: [Ljava.lang.Class;@1055e4af
+Method Parameter Types: java.lang.String
+Method Parameter Types: int
+MethodsName: split
 returnType: class [Ljava.lang.String;
-parameterTypes: [Ljava.lang.Class;@3caeaf62
+Method Parameter Types: java.lang.String
+MethodsName: toLowerCase
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@e6ea0c6
+MethodsName: toLowerCase
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@6a38e57f
+Method Parameter Types: java.util.Locale
+MethodsName: toUpperCase
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@5577140b
+MethodsName: toUpperCase
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@1c6b6478
+Method Parameter Types: java.util.Locale
+MethodsName: trim
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@67f89fa3
+MethodsName: strip
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@4ac68d3e
+MethodsName: stripLeading
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@277c0f21
+MethodsName: stripTrailing
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@6073f712
+MethodsName: lines
 returnType: interface java.util.stream.Stream
-parameterTypes: [Ljava.lang.Class;@43556938
+MethodsName: repeat
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@3d04a311
+Method Parameter Types: int
+MethodsName: isBlank
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@7a46a697
+MethodsName: toCharArray
 returnType: class [C
-parameterTypes: [Ljava.lang.Class;@5f205aa
+MethodsName: format
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@6d86b085
+Method Parameter Types: java.util.Locale
+Method Parameter Types: java.lang.String
+Method Parameter Types: [Ljava.lang.Object;
+MethodsName: format
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@75828a0f
+Method Parameter Types: java.lang.String
+Method Parameter Types: [Ljava.lang.Object;
+MethodsName: resolveConstantDesc
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@3abfe836
+Method Parameter Types: java.lang.invoke.MethodHandles$Lookup
+MethodsName: resolveConstantDesc
 returnType: class java.lang.Object
-parameterTypes: [Ljava.lang.Class;@2ff5659e
+Method Parameter Types: java.lang.invoke.MethodHandles$Lookup
+MethodsName: codePoints
 returnType: interface java.util.stream.IntStream
-parameterTypes: [Ljava.lang.Class;@77afea7d
+MethodsName: equalsIgnoreCase
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@161cd475
+Method Parameter Types: java.lang.String
+MethodsName: compareToIgnoreCase
 returnType: int
-parameterTypes: [Ljava.lang.Class;@532760d8
+Method Parameter Types: java.lang.String
+MethodsName: endsWith
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@57fa26b7
+Method Parameter Types: java.lang.String
+MethodsName: subSequence
 returnType: interface java.lang.CharSequence
-parameterTypes: [Ljava.lang.Class;@5f8ed237
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: concat
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@2f410acf
+Method Parameter Types: java.lang.String
+MethodsName: contains
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@47089e5f
+Method Parameter Types: java.lang.CharSequence
+MethodsName: join
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@4141d797
+Method Parameter Types: java.lang.CharSequence
+Method Parameter Types: [Ljava.lang.CharSequence;
+MethodsName: join
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@68f7aae2
+Method Parameter Types: java.lang.CharSequence
+Method Parameter Types: java.lang.Iterable
+MethodsName: indent
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@4f47d241
+Method Parameter Types: int
+MethodsName: stripIndent
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@4c3e4790
+MethodsName: translateEscapes
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@38cccef
+MethodsName: chars
 returnType: interface java.util.stream.IntStream
-parameterTypes: [Ljava.lang.Class;@5679c6c6
+MethodsName: transform
 returnType: class java.lang.Object
-parameterTypes: [Ljava.lang.Class;@27ddd392
+Method Parameter Types: java.util.function.Function
+MethodsName: formatted
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@19e1023e
+Method Parameter Types: [Ljava.lang.Object;
+MethodsName: copyValueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@7cef4e59
+Method Parameter Types: [C
+Method Parameter Types: int
+Method Parameter Types: int
+MethodsName: copyValueOf
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@64b8f8f4
+Method Parameter Types: [C
+MethodsName: intern
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@2db0f6b2
+MethodsName: describeConstable
 returnType: class java.util.Optional
-parameterTypes: [Ljava.lang.Class;@3cd1f1c8
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@3a4afd8d
+Method Parameter Types: long
+Method Parameter Types: int
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@1996cd68
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@3339ad8e
+Method Parameter Types: long
+MethodsName: getClass
 returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@555590
+MethodsName: notify
 returnType: void
-parameterTypes: [Ljava.lang.Class;@6d1e7682
+MethodsName: notifyAll
 returnType: void
-fields: [Ljava.lang.reflect.Field;@424c0bc4
 modifier: 17
 fieldName: value
 fieldType: class [B

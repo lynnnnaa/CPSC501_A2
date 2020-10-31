@@ -19,6 +19,7 @@ public class Inspector {
     private void inspectClass(Class c, Object obj, boolean recursive, int depth) {
 
         String name = c.getName(); //The name of the declaring class
+        System.out.println("ClassName: " + name);
 
         getSuperClassNames(c, obj, recursive, depth); //The name of the immediate super-class
         getInterfacesNames(c, obj, recursive, depth);
@@ -27,14 +28,12 @@ public class Inspector {
         getFields(c, depth);
 
         // List<String> actualFieldNames = getFieldNames(fields); // The name of the filed
-        // System.out.println("Name: " + name);
         // System.out.println("ActualFieldNames: " + actualFieldNames);
     }
 
     public void getFields(Class c, int depth) {
         Field[] fields = c.getDeclaredFields();
         String modifier = Integer.toString(c.getModifiers());
-        System.out.println("fields: " + fields.toString());
         System.out.println("modifier: " + modifier);
 
         if (fields.length > 0) {
@@ -50,12 +49,18 @@ public class Inspector {
     public void getConstructors(Class c, int depth) {
         Constructor[] constructors = c.getConstructors();
         String modifier = Integer.toString(c.getModifiers());
-        System.out.println("ConstructorsName: " + constructors.toString());
         System.out.println("modifier: " + modifier);
         if (constructors.length > 0) {
             for (Constructor constructor : constructors) {
+              System.out.println("ConstructorsName: " + constructor.getName().toString());
+              //System.out.println("parameterTypes: " + parameterTypes.toString());
+
               Class[] parameterTypes = constructor.getParameterTypes();
-              System.out.println("parameterTypes: " + parameterTypes.toString());
+              if (parameterTypes.length > 0) {
+                  for (Class parameterType : parameterTypes) {
+                      System.out.println("Constructor Parameter Types: " + parameterType.getName().toString());
+                  }
+              }
             }
         }
     }
@@ -63,14 +68,21 @@ public class Inspector {
     public void getMethods(Class c, int depth) {
         Method[] methods = c.getMethods();
         String modifier = Integer.toString(c.getModifiers());
-        System.out.println("MethodsName: " + methods.toString());
         System.out.println("modifier: " + modifier);
         if (methods.length > 0) {
             for (Method method : methods) {
-              Class[] parameterTypes = method.getParameterTypes();
+              //Class[] parameterTypes = method.getParameterTypes();
               Class returnType = method.getReturnType();
-              System.out.println("parameterTypes: " + parameterTypes.toString());
+              System.out.println("MethodsName: " + method.getName().toString());
+              //System.out.println("parameterTypes: " + parameterTypes.toString());
               System.out.println("returnType: " + returnType.toString());
+
+              Class[] parameterTypes = method.getParameterTypes();
+              if (parameterTypes.length > 0) {
+                  for (Class parameterType : parameterTypes) {
+                      System.out.println("Method Parameter Types: " + parameterType.getName().toString());
+                  }
+              }
             }
         }
     }

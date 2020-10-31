@@ -1,69 +1,69 @@
 ======================================================
 Filename: script6.txt
-Running Test: [LClassB;@14514713
+Running Test: [LClassB;@27716f4
 Recursive: true
+ClassName: [LClassB;
 super class: class java.lang.Object
-ConstructorsName: [Ljava.lang.reflect.Constructor;@69663380
+ClassName: java.lang.Object
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@5b37e0d2
-MethodsName: [Ljava.lang.reflect.Method;@4459eb14
+ConstructorsName: java.lang.Object
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@5a2e4553
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@28c97a5
+Method Parameter Types: long
+Method Parameter Types: int
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@6659c656
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@6d5380c2
+Method Parameter Types: long
+MethodsName: equals
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@45ff54e6
+Method Parameter Types: java.lang.Object
+MethodsName: toString
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@2328c243
+MethodsName: hashCode
 returnType: int
-parameterTypes: [Ljava.lang.Class;@bebdb06
+MethodsName: getClass
 returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@7a4f0f29
+MethodsName: notify
 returnType: void
-parameterTypes: [Ljava.lang.Class;@45283ce2
+MethodsName: notifyAll
 returnType: void
-fields: [Ljava.lang.reflect.Field;@2077d4de
 modifier: 1
 Interfaces: interface java.lang.Cloneable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@7591083d
+ClassName: java.lang.Cloneable
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@77a567e1
 modifier: 1537
-fields: [Ljava.lang.reflect.Field;@736e9adb
 modifier: 1537
 Interfaces: interface java.io.Serializable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@6d21714c
+ClassName: java.io.Serializable
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@108c4c35
 modifier: 1537
-fields: [Ljava.lang.reflect.Field;@4ccabbaa
 modifier: 1537
-ConstructorsName: [Ljava.lang.reflect.Constructor;@4bf558aa
 modifier: 1041
-MethodsName: [Ljava.lang.reflect.Method;@2d38eb89
 modifier: 1041
-parameterTypes: [Ljava.lang.Class;@5fa7e7ff
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@4629104a
+Method Parameter Types: long
+Method Parameter Types: int
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@27f8302d
+MethodsName: wait
 returnType: void
-parameterTypes: [Ljava.lang.Class;@4d76f3f8
+Method Parameter Types: long
+MethodsName: equals
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@2d8e6db6
+Method Parameter Types: java.lang.Object
+MethodsName: toString
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@23ab930d
+MethodsName: hashCode
 returnType: int
-parameterTypes: [Ljava.lang.Class;@4534b60d
+MethodsName: getClass
 returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@3fa77460
+MethodsName: notify
 returnType: void
-parameterTypes: [Ljava.lang.Class;@619a5dff
+MethodsName: notifyAll
 returnType: void
-fields: [Ljava.lang.reflect.Field;@7e32c033
 modifier: 1041
 ======================================================
