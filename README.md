@@ -5,20 +5,20 @@ This reflective object inspector will introspect on the objects during run time 
 2. The name of the immediate super-class
 3. The name of each interface the class implements
 4. The constructors the class declares. For each, also find the following:
-	a. The name
-  b. The exceptions thrown
-  c. The parameter types
-  d. The modifiers
+	1. The name
+  2. The exceptions thrown
+  3. The parameter types
+  4. The modifiers
 5. The methods the class declares. For each, also find the following:
-	a. The name
-  b. The exceptions thrown
-  c. The parameter and types d. The return-type
-  e. The modifiers
+	1. The name
+  2. The exceptions thrown
+  3. The parameter and types d. The return-type
+  4. The modifiers
 6. The fields the class declares. For each, also find the following:
-	a. The name
-  b. The type
-  c. The modifiers
-  d. The current value
+	1. The name
+  2. The type
+  3. The modifiers
+  4. The current value
 
 ## Running Project
 
