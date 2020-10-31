@@ -1,9 +1,9 @@
 
 /**
- * CPSC 501
- * Inspector starter class
+ * CPSC 501 - Assignemt 2
+ * Reflective Object Inspector
  *
- * @author Jonathan Hudson
+ * @author Jiarong Xu
  */
 
 import java.lang.reflect.*;
@@ -28,8 +28,6 @@ public class Inspector {
         getMethods(c, depth + 1);
         getFields(c, obj, recursive, depth + 1);
 
-        // List<String> actualFieldNames = getFieldNames(fields); // The name of the filed
-        // indent("ActualFieldNames: " + actualFieldNames);
     }
 
     public void getFields(Class c, Object obj, boolean recursive, int depth) {
@@ -168,7 +166,7 @@ public class Inspector {
     public void getSuperClassNames(Class c, Object obj, boolean recursive, int depth) {
       int depthNum = depth + 1;
       Class superClass = c.getSuperclass();
-      if(c.equals(Object.class))return; ////
+      if(c.equals(Object.class))return;
       if (superClass != null) {
           indent("SUPERCLASS --> Recursively Insepct", depthNum);
           indent("SuperClass: " + superClass.getName(), depthNum);
@@ -207,22 +205,3 @@ public class Inspector {
       System.out.println(string);
     }
 }
-
-
-// 1. The name of the declaring class
-// 2. The name of the immediate super-class
-// a. Always explore super-class immediately and recursively (even if recursive=false)
-// 3. The name of each interface the class implements
-// a. Always explore interfaces immediately and recursively (even if recursive=false)
-// 4. The constructors the class declares. For each, also find the following: a. The name
-// b. The exceptions thrown c. The parameter types d. The modifiers
-// 5. The methods the class declares. For each, also find the following: a. The name
-// b. The exceptions thrown
-// c. The parameter and types d. The return-type
-// e. The modifiers
-// 6. The fields the class declares. For each, also find the following: a. The name
-// b. The type
-// c. The modifiers
-// d. The current value
-// i. If the field is an object reference, and recursive is set to false, then simply indent out the “reference value” directly (this will be the name of the object’s class plus the object’s “identity hash code” ex. java.lang.Object@7d4991ad).
-// ii. If the field is an object reference, and recursive is set to true, then immediately recurse on the object.
