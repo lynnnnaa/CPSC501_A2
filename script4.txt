@@ -3,15 +3,57 @@ Filename: script4.txt
 Running Test: ClassD
 Recursive: true
 super class: class java.lang.Object
-ConstructorsName: [Ljava.lang.reflect.Constructor;@13221655
+ConstructorsName: [Ljava.lang.reflect.Constructor;@37bba400
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@2f2c9b19
+parameterTypes: [Ljava.lang.Class;@179d3b25
+MethodsName: [Ljava.lang.reflect.Method;@254989ff
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@5d099f62
+returnType: void
+parameterTypes: [Ljava.lang.Class;@37f8bb67
+returnType: void
+parameterTypes: [Ljava.lang.Class;@49c2faae
+returnType: void
+parameterTypes: [Ljava.lang.Class;@20ad9418
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@31cefde0
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@439f5b3d
+returnType: int
+parameterTypes: [Ljava.lang.Class;@1d56ce6a
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@5197848c
+returnType: void
+parameterTypes: [Ljava.lang.Class;@17f052a3
+returnType: void
 Name: java.lang.Object
 ActualFieldNames: []
-ConstructorsName: [Ljava.lang.reflect.Constructor;@31befd9f
+ConstructorsName: [Ljava.lang.reflect.Constructor;@2e0fa5d3
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@1c20c684
-parameterTypes: [Ljava.lang.Class;@1fb3ebeb
+parameterTypes: [Ljava.lang.Class;@5010be6
+parameterTypes: [Ljava.lang.Class;@685f4c2e
+MethodsName: [Ljava.lang.reflect.Method;@7daf6ecc
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@2e5d6d97
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@238e0d81
+returnType: int
+parameterTypes: [Ljava.lang.Class;@31221be2
+returnType: void
+parameterTypes: [Ljava.lang.Class;@377dca04
+returnType: void
+parameterTypes: [Ljava.lang.Class;@728938a9
+returnType: void
+parameterTypes: [Ljava.lang.Class;@21b8d17c
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@6433a2
+returnType: int
+parameterTypes: [Ljava.lang.Class;@5910e440
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@6267c3bb
+returnType: void
+parameterTypes: [Ljava.lang.Class;@533ddba
+returnType: void
 Name: ClassD
 ActualFieldNames: [val, val2, val3, vallarray]
 ======================================================

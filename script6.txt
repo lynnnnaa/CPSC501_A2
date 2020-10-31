@@ -1,25 +1,69 @@
 ======================================================
 Filename: script6.txt
-Running Test: [LClassB;@6ce253f1
+Running Test: [LClassB;@67424e82
 Recursive: true
 super class: class java.lang.Object
-ConstructorsName: [Ljava.lang.reflect.Constructor;@e9e54c2
+ConstructorsName: [Ljava.lang.reflect.Constructor;@531d72ca
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@65ab7765
+parameterTypes: [Ljava.lang.Class;@22d8cfe0
+MethodsName: [Ljava.lang.reflect.Method;@579bb367
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@1de0aca6
+returnType: void
+parameterTypes: [Ljava.lang.Class;@255316f2
+returnType: void
+parameterTypes: [Ljava.lang.Class;@41906a77
+returnType: void
+parameterTypes: [Ljava.lang.Class;@4b9af9a9
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@5387f9e0
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@6e5e91e4
+returnType: int
+parameterTypes: [Ljava.lang.Class;@2cdf8d8a
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@30946e09
+returnType: void
+parameterTypes: [Ljava.lang.Class;@5cb0d902
+returnType: void
 Name: java.lang.Object
 ActualFieldNames: []
 Interfaces: interface java.lang.Cloneable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@1b28cdfa
+ConstructorsName: [Ljava.lang.reflect.Constructor;@46fbb2c1
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@1698c449
 modifier: 1537
 Name: java.lang.Cloneable
 ActualFieldNames: []
 Interfaces: interface java.io.Serializable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@eed1f14
+ConstructorsName: [Ljava.lang.reflect.Constructor;@5ef04b5
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@5f4da5c3
 modifier: 1537
 Name: java.io.Serializable
 ActualFieldNames: []
-ConstructorsName: [Ljava.lang.reflect.Constructor;@7229724f
+ConstructorsName: [Ljava.lang.reflect.Constructor;@443b7951
 modifier: 1041
+MethodsName: [Ljava.lang.reflect.Method;@14514713
+modifier: 1041
+parameterTypes: [Ljava.lang.Class;@69663380
+returnType: void
+parameterTypes: [Ljava.lang.Class;@5b37e0d2
+returnType: void
+parameterTypes: [Ljava.lang.Class;@4459eb14
+returnType: void
+parameterTypes: [Ljava.lang.Class;@5a2e4553
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@28c97a5
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@6659c656
+returnType: int
+parameterTypes: [Ljava.lang.Class;@6d5380c2
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@45ff54e6
+returnType: void
+parameterTypes: [Ljava.lang.Class;@2328c243
+returnType: void
 Name: [LClassB;
 ActualFieldNames: []
 ======================================================

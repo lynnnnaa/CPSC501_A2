@@ -25,11 +25,11 @@ public class Inspector {
         getSuperClassNames(c, obj, recursive, depth); //The name of the immediate super-class
         getInterfacesNames(c, obj, recursive, depth);
         getConstructors(c, depth);
+        getMethods(c, depth);
 
         List<String> actualFieldNames = getFieldNames(fields); // The name of the filed
         System.out.println("Name: " + name);
         System.out.println("ActualFieldNames: " + actualFieldNames);
-        //System.out.println("ConstructorsName: " + constructors.toString());
     }
 
     public void getConstructors(Class c, int depth) {
@@ -41,6 +41,21 @@ public class Inspector {
             for (Constructor constructor : constructors) {
               Class[] parameterTypes = constructor.getParameterTypes();
               System.out.println("parameterTypes: " + parameterTypes.toString());
+            }
+        }
+    }
+
+    public void getMethods(Class c, int depth) {
+        Method[] methods = c.getMethods();
+        String modifier = Integer.toString(c.getModifiers());
+        System.out.println("MethodsName: " + methods.toString());
+        System.out.println("modifier: " + modifier);
+        if (methods.length > 0) {
+            for (Method method : methods) {
+              Class[] parameterTypes = method.getParameterTypes();
+              Class returnType = method.getReturnType();
+              System.out.println("parameterTypes: " + parameterTypes.toString());
+              System.out.println("returnType: " + returnType.toString());
             }
         }
     }
