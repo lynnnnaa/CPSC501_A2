@@ -2,25 +2,54 @@
 Filename: script8.txt
 Running Test: Test String
 Recursive: true
-super class: 
-class java.lang.Object
+super class: class java.lang.Object
+ConstructorsName: [Ljava.lang.reflect.Constructor;@3d494fbf
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@1ddc4ec2
 Name: java.lang.Object
 ActualFieldNames: []
 Interfaces: interface java.io.Serializable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@133314b
+modifier: 1537
 Name: java.io.Serializable
 ActualFieldNames: []
 Interfaces: interface java.lang.Comparable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@b1bc7ed
+modifier: 1537
 Name: java.lang.Comparable
 ActualFieldNames: []
 Interfaces: interface java.lang.CharSequence
+ConstructorsName: [Ljava.lang.reflect.Constructor;@7cd84586
+modifier: 1537
 Name: java.lang.CharSequence
 ActualFieldNames: []
 Interfaces: interface java.lang.constant.Constable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@30dae81
+modifier: 1537
 Name: java.lang.constant.Constable
 ActualFieldNames: []
 Interfaces: interface java.lang.constant.ConstantDesc
+ConstructorsName: [Ljava.lang.reflect.Constructor;@1b2c6ec2
+modifier: 1537
 Name: java.lang.constant.ConstantDesc
 ActualFieldNames: []
+ConstructorsName: [Ljava.lang.reflect.Constructor;@4edde6e5
+modifier: 17
+parameterTypes: [Ljava.lang.Class;@70177ecd
+parameterTypes: [Ljava.lang.Class;@1e80bfe8
+parameterTypes: [Ljava.lang.Class;@66a29884
+parameterTypes: [Ljava.lang.Class;@4769b07b
+parameterTypes: [Ljava.lang.Class;@cc34f4d
+parameterTypes: [Ljava.lang.Class;@17a7cec2
+parameterTypes: [Ljava.lang.Class;@65b3120a
+parameterTypes: [Ljava.lang.Class;@6f539caf
+parameterTypes: [Ljava.lang.Class;@79fc0f2f
+parameterTypes: [Ljava.lang.Class;@50040f0c
+parameterTypes: [Ljava.lang.Class;@2dda6444
+parameterTypes: [Ljava.lang.Class;@5e9f23b4
+parameterTypes: [Ljava.lang.Class;@4783da3f
+parameterTypes: [Ljava.lang.Class;@378fd1ac
+parameterTypes: [Ljava.lang.Class;@49097b5d
 Name: java.lang.String
 ActualFieldNames: [value, coder, hash, hashIsZero, serialVersionUID, COMPACT_STRINGS, serialPersistentFields, CASE_INSENSITIVE_ORDER, LATIN1, UTF16]
 ======================================================

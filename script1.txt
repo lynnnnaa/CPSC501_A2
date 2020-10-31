@@ -2,16 +2,26 @@
 Filename: script1.txt
 Running Test: ClassA
 Recursive: true
-super class: 
-class java.lang.Object
+super class: class java.lang.Object
+ConstructorsName: [Ljava.lang.reflect.Constructor;@24d46ca6
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@4517d9a3
 Name: java.lang.Object
 ActualFieldNames: []
 Interfaces: interface java.io.Serializable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@372f7a8d
+modifier: 1537
 Name: java.io.Serializable
 ActualFieldNames: []
 Interfaces: interface java.lang.Runnable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@2f92e0f4
+modifier: 1537
 Name: java.lang.Runnable
 ActualFieldNames: []
+ConstructorsName: [Ljava.lang.reflect.Constructor;@28a418fc
+modifier: 17
+parameterTypes: [Ljava.lang.Class;@5305068a
+parameterTypes: [Ljava.lang.Class;@1f32e575
 Name: ClassA
 ActualFieldNames: [val, val2, val3]
 ======================================================

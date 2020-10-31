@@ -2,27 +2,44 @@
 Filename: script3.txt
 Running Test: ClassB
 Recursive: true
-super class: 
-class ClassC
-super class: 
-class ClassD
-super class: 
-class java.lang.Object
+super class: class ClassC
+super class: class ClassD
+super class: class java.lang.Object
+ConstructorsName: [Ljava.lang.reflect.Constructor;@5674cd4d
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@63961c42
 Name: java.lang.Object
 ActualFieldNames: []
+ConstructorsName: [Ljava.lang.reflect.Constructor;@65b54208
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@1be6f5c3
+parameterTypes: [Ljava.lang.Class;@6b884d57
 Name: ClassD
 ActualFieldNames: [val, val2, val3, vallarray]
 Interfaces: interface InterfaceA
 Interfaces: interface InterfaceB
+ConstructorsName: [Ljava.lang.reflect.Constructor;@38af3868
+modifier: 1537
 Name: InterfaceB
 ActualFieldNames: []
+ConstructorsName: [Ljava.lang.reflect.Constructor;@77459877
+modifier: 1537
 Name: InterfaceA
 ActualFieldNames: []
+ConstructorsName: [Ljava.lang.reflect.Constructor;@5b2133b1
+modifier: 1025
+parameterTypes: [Ljava.lang.Class;@72ea2f77
+parameterTypes: [Ljava.lang.Class;@33c7353a
 Name: ClassC
 ActualFieldNames: [val2, val3, val4]
 Interfaces: interface java.lang.Runnable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@681a9515
+modifier: 1537
 Name: java.lang.Runnable
 ActualFieldNames: []
+ConstructorsName: [Ljava.lang.reflect.Constructor;@3af49f1c
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@19469ea2
 Name: ClassB
 ActualFieldNames: [val, val2, val3]
 ======================================================

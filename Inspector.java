@@ -21,15 +21,28 @@ public class Inspector {
         Field[] fields = c.getDeclaredFields();
         Method[] methods = c.getMethods();
         String name = c.getName(); //The name of the declaring class
-        //Class[] interfaces = c.getInterfaces(); //The name of the interface
 
         getSuperClassNames(c, obj, recursive, depth); //The name of the immediate super-class
         getInterfacesNames(c, obj, recursive, depth);
+        getConstructors(c, depth);
 
         List<String> actualFieldNames = getFieldNames(fields); // The name of the filed
         System.out.println("Name: " + name);
         System.out.println("ActualFieldNames: " + actualFieldNames);
-        //System.out.println("Interfaces: " + interfaces.toString());
+        //System.out.println("ConstructorsName: " + constructors.toString());
+    }
+
+    public void getConstructors(Class c, int depth) {
+        Constructor[] constructors = c.getConstructors();
+        String modifier = Integer.toString(c.getModifiers());
+        System.out.println("ConstructorsName: " + constructors.toString());
+        System.out.println("modifier: " + modifier);
+        if (constructors.length > 0) {
+            for (Constructor constructor : constructors) {
+              Class[] parameterTypes = constructor.getParameterTypes();
+              System.out.println("parameterTypes: " + parameterTypes.toString());
+            }
+        }
     }
 
     private void getSuperClassNames(Class c, Object obj, boolean recursive, int depth) {
@@ -41,6 +54,10 @@ public class Inspector {
           inspectClass(superClass, obj, recursive, depth);
       }
     }
+
+    // private void getParameterTypes(Class c, Object obj, boolean recursive, int depth) {
+    //   Class[] parameterTypes = c.getParameterTypes();
+    // }
 
     private void getInterfacesNames(Class c, Object obj, boolean recursive, int depth) {
       Class[] interfaces = c.getInterfaces();

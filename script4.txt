@@ -2,10 +2,16 @@
 Filename: script4.txt
 Running Test: ClassD
 Recursive: true
-super class: 
-class java.lang.Object
+super class: class java.lang.Object
+ConstructorsName: [Ljava.lang.reflect.Constructor;@13221655
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@2f2c9b19
 Name: java.lang.Object
 ActualFieldNames: []
+ConstructorsName: [Ljava.lang.reflect.Constructor;@31befd9f
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@1c20c684
+parameterTypes: [Ljava.lang.Class;@1fb3ebeb
 Name: ClassD
 ActualFieldNames: [val, val2, val3, vallarray]
 ======================================================
