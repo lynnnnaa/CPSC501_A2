@@ -18,18 +18,33 @@ public class Inspector {
 
     private void inspectClass(Class c, Object obj, boolean recursive, int depth) {
 
-        Field[] fields = c.getDeclaredFields();
-        Method[] methods = c.getMethods();
         String name = c.getName(); //The name of the declaring class
 
         getSuperClassNames(c, obj, recursive, depth); //The name of the immediate super-class
         getInterfacesNames(c, obj, recursive, depth);
         getConstructors(c, depth);
         getMethods(c, depth);
+        getFields(c, depth);
 
-        List<String> actualFieldNames = getFieldNames(fields); // The name of the filed
-        System.out.println("Name: " + name);
-        System.out.println("ActualFieldNames: " + actualFieldNames);
+        // List<String> actualFieldNames = getFieldNames(fields); // The name of the filed
+        // System.out.println("Name: " + name);
+        // System.out.println("ActualFieldNames: " + actualFieldNames);
+    }
+
+    public void getFields(Class c, int depth) {
+        Field[] fields = c.getDeclaredFields();
+        String modifier = Integer.toString(c.getModifiers());
+        System.out.println("fields: " + fields.toString());
+        System.out.println("modifier: " + modifier);
+
+        if (fields.length > 0) {
+            for (Field field : fields) {
+              String fieldName = field.getName();
+              Object fieldType = field.getType();
+              System.out.println("fieldName: " + fieldName);
+              System.out.println("fieldType: " + fieldType.toString());
+            }
+        }
     }
 
     public void getConstructors(Class c, int depth) {
@@ -69,10 +84,6 @@ public class Inspector {
           inspectClass(superClass, obj, recursive, depth);
       }
     }
-
-    // private void getParameterTypes(Class c, Object obj, boolean recursive, int depth) {
-    //   Class[] parameterTypes = c.getParameterTypes();
-    // }
 
     private void getInterfacesNames(Class c, Object obj, boolean recursive, int depth) {
       Class[] interfaces = c.getInterfaces();

@@ -3,77 +3,83 @@ Filename: script2.txt
 Running Test: ClassA
 Recursive: true
 super class: class java.lang.Object
-ConstructorsName: [Ljava.lang.reflect.Constructor;@33c7353a
+ConstructorsName: [Ljava.lang.reflect.Constructor;@13221655
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@681a9515
-MethodsName: [Ljava.lang.reflect.Method;@3af49f1c
-modifier: 1
-parameterTypes: [Ljava.lang.Class;@19469ea2
-returnType: void
-parameterTypes: [Ljava.lang.Class;@13221655
-returnType: void
 parameterTypes: [Ljava.lang.Class;@2f2c9b19
-returnType: void
-parameterTypes: [Ljava.lang.Class;@31befd9f
-returnType: boolean
+MethodsName: [Ljava.lang.reflect.Method;@31befd9f
+modifier: 1
 parameterTypes: [Ljava.lang.Class;@1c20c684
-returnType: class java.lang.String
+returnType: void
 parameterTypes: [Ljava.lang.Class;@1fb3ebeb
-returnType: int
+returnType: void
 parameterTypes: [Ljava.lang.Class;@548c4f57
-returnType: class java.lang.Class
+returnType: void
 parameterTypes: [Ljava.lang.Class;@1218025c
-returnType: void
-parameterTypes: [Ljava.lang.Class;@816f27d
-returnType: void
-Name: java.lang.Object
-ActualFieldNames: []
-Interfaces: interface java.io.Serializable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@87aac27
-modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@3e3abc88
-modifier: 1537
-Name: java.io.Serializable
-ActualFieldNames: []
-Interfaces: interface java.lang.Runnable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@6ce253f1
-modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@53d8d10a
-modifier: 1537
-parameterTypes: [Ljava.lang.Class;@e9e54c2
-returnType: void
-Name: java.lang.Runnable
-ActualFieldNames: []
-ConstructorsName: [Ljava.lang.reflect.Constructor;@65ab7765
-modifier: 17
-parameterTypes: [Ljava.lang.Class;@1b28cdfa
-parameterTypes: [Ljava.lang.Class;@eed1f14
-MethodsName: [Ljava.lang.reflect.Method;@7229724f
-modifier: 17
-parameterTypes: [Ljava.lang.Class;@4c873330
-returnType: void
-parameterTypes: [Ljava.lang.Class;@119d7047
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@776ec8df
-returnType: void
-parameterTypes: [Ljava.lang.Class;@4eec7777
-returnType: int
-parameterTypes: [Ljava.lang.Class;@3b07d329
-returnType: void
-parameterTypes: [Ljava.lang.Class;@41629346
-returnType: void
-parameterTypes: [Ljava.lang.Class;@404b9385
-returnType: void
-parameterTypes: [Ljava.lang.Class;@6d311334
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@682a0b20
+parameterTypes: [Ljava.lang.Class;@816f27d
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@87aac27
 returnType: int
-parameterTypes: [Ljava.lang.Class;@3d075dc0
+parameterTypes: [Ljava.lang.Class;@3e3abc88
 returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@214c265e
+parameterTypes: [Ljava.lang.Class;@6ce253f1
 returnType: void
+parameterTypes: [Ljava.lang.Class;@53d8d10a
+returnType: void
+fields: [Ljava.lang.reflect.Field;@e9e54c2
+modifier: 1
+Interfaces: interface java.io.Serializable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@65ab7765
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@1b28cdfa
+modifier: 1537
+fields: [Ljava.lang.reflect.Field;@eed1f14
+modifier: 1537
+Interfaces: interface java.lang.Runnable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@7229724f
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@4c873330
+modifier: 1537
+parameterTypes: [Ljava.lang.Class;@119d7047
+returnType: void
+fields: [Ljava.lang.reflect.Field;@776ec8df
+modifier: 1537
+ConstructorsName: [Ljava.lang.reflect.Constructor;@4eec7777
+modifier: 17
+parameterTypes: [Ljava.lang.Class;@3b07d329
+parameterTypes: [Ljava.lang.Class;@41629346
+MethodsName: [Ljava.lang.reflect.Method;@404b9385
+modifier: 17
+parameterTypes: [Ljava.lang.Class;@6d311334
+returnType: void
+parameterTypes: [Ljava.lang.Class;@682a0b20
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@3d075dc0
+returnType: void
+parameterTypes: [Ljava.lang.Class;@214c265e
+returnType: int
 parameterTypes: [Ljava.lang.Class;@448139f0
 returnType: void
-Name: ClassA
-ActualFieldNames: [val, val2, val3]
+parameterTypes: [Ljava.lang.Class;@7cca494b
+returnType: void
+parameterTypes: [Ljava.lang.Class;@7ba4f24f
+returnType: void
+parameterTypes: [Ljava.lang.Class;@3b9a45b3
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@7699a589
+returnType: int
+parameterTypes: [Ljava.lang.Class;@58372a00
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@4dd8dc3
+returnType: void
+parameterTypes: [Ljava.lang.Class;@6d03e736
+returnType: void
+fields: [Ljava.lang.reflect.Field;@568db2f2
+modifier: 17
+fieldName: val
+fieldType: int
+fieldName: val2
+fieldType: double
+fieldName: val3
+fieldType: boolean
 ======================================================

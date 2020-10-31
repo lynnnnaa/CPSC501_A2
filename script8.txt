@@ -3,90 +3,98 @@ Filename: script8.txt
 Running Test: Test String
 Recursive: true
 super class: class java.lang.Object
-ConstructorsName: [Ljava.lang.reflect.Constructor;@4f8e5cde
+ConstructorsName: [Ljava.lang.reflect.Constructor;@694f9431
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@504bae78
-MethodsName: [Ljava.lang.reflect.Method;@3b764bce
+parameterTypes: [Ljava.lang.Class;@f2a0b8e
+MethodsName: [Ljava.lang.reflect.Method;@593634ad
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@759ebb3d
+parameterTypes: [Ljava.lang.Class;@20fa23c1
 returnType: void
-parameterTypes: [Ljava.lang.Class;@484b61fc
+parameterTypes: [Ljava.lang.Class;@3581c5f3
 returnType: void
-parameterTypes: [Ljava.lang.Class;@45fe3ee3
+parameterTypes: [Ljava.lang.Class;@6aa8ceb6
 returnType: void
-parameterTypes: [Ljava.lang.Class;@4cdf35a9
+parameterTypes: [Ljava.lang.Class;@2530c12
 returnType: boolean
+parameterTypes: [Ljava.lang.Class;@73c6c3b2
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@48533e64
+returnType: int
+parameterTypes: [Ljava.lang.Class;@64a294a6
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@7e0b37bc
+returnType: void
+parameterTypes: [Ljava.lang.Class;@3b95a09c
+returnType: void
+fields: [Ljava.lang.reflect.Field;@6ae40994
+modifier: 1
+Interfaces: interface java.io.Serializable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@1a93a7ca
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@3d82c5f3
+modifier: 1537
+fields: [Ljava.lang.reflect.Field;@2b05039f
+modifier: 1537
+Interfaces: interface java.lang.Comparable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@61e717c2
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@4dcbadb4
+modifier: 1537
+parameterTypes: [Ljava.lang.Class;@4e515669
+returnType: int
+fields: [Ljava.lang.reflect.Field;@17d10166
+modifier: 1537
+Interfaces: interface java.lang.CharSequence
+ConstructorsName: [Ljava.lang.reflect.Constructor;@1b9e1916
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@45fe3ee3
+modifier: 1537
+parameterTypes: [Ljava.lang.Class;@4cdf35a9
+returnType: int
 parameterTypes: [Ljava.lang.Class;@4c98385c
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@5fcfe4b2
-returnType: int
-parameterTypes: [Ljava.lang.Class;@6bf2d08e
-returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@5eb5c224
-returnType: void
-parameterTypes: [Ljava.lang.Class;@53e25b76
-returnType: void
-Name: java.lang.Object
-ActualFieldNames: []
-Interfaces: interface java.io.Serializable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@73a8dfcc
-modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@ea30797
-modifier: 1537
-Name: java.io.Serializable
-ActualFieldNames: []
-Interfaces: interface java.lang.Comparable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@7e774085
-modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@3f8f9dd6
-modifier: 1537
-parameterTypes: [Ljava.lang.Class;@aec6354
-returnType: int
-Name: java.lang.Comparable
-ActualFieldNames: []
-Interfaces: interface java.lang.CharSequence
-ConstructorsName: [Ljava.lang.reflect.Constructor;@1c655221
-modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@58d25a40
-modifier: 1537
-parameterTypes: [Ljava.lang.Class;@1b701da1
-returnType: int
-parameterTypes: [Ljava.lang.Class;@726f3b58
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@442d9b6e
 returnType: char
-parameterTypes: [Ljava.lang.Class;@ee7d9f1
+parameterTypes: [Ljava.lang.Class;@6bf2d08e
 returnType: int
-parameterTypes: [Ljava.lang.Class;@15615099
+parameterTypes: [Ljava.lang.Class;@5eb5c224
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@1edf1c96
+parameterTypes: [Ljava.lang.Class;@53e25b76
 returnType: interface java.util.stream.IntStream
-parameterTypes: [Ljava.lang.Class;@368102c8
+parameterTypes: [Ljava.lang.Class;@73a8dfcc
 returnType: interface java.lang.CharSequence
-parameterTypes: [Ljava.lang.Class;@6996db8
+parameterTypes: [Ljava.lang.Class;@ea30797
 returnType: interface java.util.stream.IntStream
-Name: java.lang.CharSequence
-ActualFieldNames: []
+fields: [Ljava.lang.reflect.Field;@7e774085
+modifier: 1537
 Interfaces: interface java.lang.constant.Constable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@1963006a
+ConstructorsName: [Ljava.lang.reflect.Constructor;@3f8f9dd6
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@7fbe847c
+MethodsName: [Ljava.lang.reflect.Method;@1c655221
 modifier: 1537
-parameterTypes: [Ljava.lang.Class;@41975e01
+parameterTypes: [Ljava.lang.Class;@58d25a40
 returnType: class java.util.Optional
-Name: java.lang.constant.Constable
-ActualFieldNames: []
+fields: [Ljava.lang.reflect.Field;@1b701da1
+modifier: 1537
 Interfaces: interface java.lang.constant.ConstantDesc
-ConstructorsName: [Ljava.lang.reflect.Constructor;@c2e1f26
+ConstructorsName: [Ljava.lang.reflect.Constructor;@726f3b58
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@dcf3e99
+MethodsName: [Ljava.lang.reflect.Method;@ee7d9f1
 modifier: 1537
-parameterTypes: [Ljava.lang.Class;@6d9c638
+parameterTypes: [Ljava.lang.Class;@15615099
 returnType: class java.lang.Object
-Name: java.lang.constant.ConstantDesc
-ActualFieldNames: []
-ConstructorsName: [Ljava.lang.reflect.Constructor;@7dc5e7b4
+fields: [Ljava.lang.reflect.Field;@1edf1c96
+modifier: 1537
+ConstructorsName: [Ljava.lang.reflect.Constructor;@368102c8
 modifier: 17
+parameterTypes: [Ljava.lang.Class;@6996db8
+parameterTypes: [Ljava.lang.Class;@1963006a
+parameterTypes: [Ljava.lang.Class;@7fbe847c
+parameterTypes: [Ljava.lang.Class;@41975e01
+parameterTypes: [Ljava.lang.Class;@c2e1f26
+parameterTypes: [Ljava.lang.Class;@dcf3e99
+parameterTypes: [Ljava.lang.Class;@6d9c638
+parameterTypes: [Ljava.lang.Class;@7dc5e7b4
 parameterTypes: [Ljava.lang.Class;@1ee0005
 parameterTypes: [Ljava.lang.Class;@75a1cd57
 parameterTypes: [Ljava.lang.Class;@3d012ddd
@@ -94,114 +102,40 @@ parameterTypes: [Ljava.lang.Class;@6f2b958e
 parameterTypes: [Ljava.lang.Class;@1eb44e46
 parameterTypes: [Ljava.lang.Class;@6504e3b2
 parameterTypes: [Ljava.lang.Class;@515f550a
-parameterTypes: [Ljava.lang.Class;@626b2d4a
-parameterTypes: [Ljava.lang.Class;@5e91993f
-parameterTypes: [Ljava.lang.Class;@1c4af82c
-parameterTypes: [Ljava.lang.Class;@379619aa
-parameterTypes: [Ljava.lang.Class;@cac736f
-parameterTypes: [Ljava.lang.Class;@5e265ba4
-parameterTypes: [Ljava.lang.Class;@156643d4
-parameterTypes: [Ljava.lang.Class;@123a439b
-MethodsName: [Ljava.lang.reflect.Method;@7de26db8
+MethodsName: [Ljava.lang.reflect.Method;@5680a178
 modifier: 17
-parameterTypes: [Ljava.lang.Class;@1175e2db
-returnType: boolean
-parameterTypes: [Ljava.lang.Class;@36aa7bc2
-returnType: int
-parameterTypes: [Ljava.lang.Class;@76ccd017
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@182decdb
-returnType: int
-parameterTypes: [Ljava.lang.Class;@26f0a63f
-returnType: void
-parameterTypes: [Ljava.lang.Class;@4361bd48
-returnType: int
-parameterTypes: [Ljava.lang.Class;@53bd815b
-returnType: int
-parameterTypes: [Ljava.lang.Class;@2401f4c3
-returnType: int
-parameterTypes: [Ljava.lang.Class;@7637f22
-returnType: int
-parameterTypes: [Ljava.lang.Class;@4926097b
-returnType: int
-parameterTypes: [Ljava.lang.Class;@762efe5d
-returnType: int
-parameterTypes: [Ljava.lang.Class;@5d22bbb7
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@41a4555e
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@3830f1c0
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@39ed3c8d
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@71dac704
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@123772c4
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@2d363fb3
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@7d6f77cc
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@5aaa6d82
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@73a28541
-returnType: char
-parameterTypes: [Ljava.lang.Class;@6f75e721
-returnType: int
-parameterTypes: [Ljava.lang.Class;@69222c14
-returnType: int
-parameterTypes: [Ljava.lang.Class;@606d8acf
-returnType: int
-parameterTypes: [Ljava.lang.Class;@782830e
-returnType: int
-parameterTypes: [Ljava.lang.Class;@470e2030
-returnType: class [B
-parameterTypes: [Ljava.lang.Class;@3fb4f649
-returnType: class [B
-parameterTypes: [Ljava.lang.Class;@33833882
-returnType: void
-parameterTypes: [Ljava.lang.Class;@200a570f
-returnType: class [B
-parameterTypes: [Ljava.lang.Class;@16b3fc9e
-returnType: boolean
-parameterTypes: [Ljava.lang.Class;@e2d56bf
-returnType: boolean
-parameterTypes: [Ljava.lang.Class;@244038d0
-returnType: boolean
-parameterTypes: [Ljava.lang.Class;@5680a178
-returnType: boolean
 parameterTypes: [Ljava.lang.Class;@5fdef03a
 returnType: boolean
 parameterTypes: [Ljava.lang.Class;@3b22cdd0
-returnType: boolean
-parameterTypes: [Ljava.lang.Class;@1e81f4dc
 returnType: int
+parameterTypes: [Ljava.lang.Class;@1e81f4dc
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@4d591d15
 returnType: int
 parameterTypes: [Ljava.lang.Class;@65ae6ba4
-returnType: int
+returnType: void
 parameterTypes: [Ljava.lang.Class;@48cf768c
 returnType: int
 parameterTypes: [Ljava.lang.Class;@59f95c5d
-returnType: class java.lang.String
+returnType: int
 parameterTypes: [Ljava.lang.Class;@5ccd43c2
-returnType: class java.lang.String
+returnType: int
 parameterTypes: [Ljava.lang.Class;@4aa8f0b4
-returnType: boolean
+returnType: int
 parameterTypes: [Ljava.lang.Class;@7960847b
-returnType: class java.lang.String
+returnType: int
 parameterTypes: [Ljava.lang.Class;@6a6824be
-returnType: class java.lang.String
+returnType: int
 parameterTypes: [Ljava.lang.Class;@5c8da962
-returnType: boolean
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@512ddf17
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@2c13da15
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@77556fd
-returnType: class [Ljava.lang.String;
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@368239c8
-returnType: class [Ljava.lang.String;
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@9e89d68
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@3b192d32
@@ -211,79 +145,165 @@ returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@311d617d
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@7c53a9eb
-returnType: class java.lang.String
+returnType: char
 parameterTypes: [Ljava.lang.Class;@ed17bee
-returnType: class java.lang.String
+returnType: int
 parameterTypes: [Ljava.lang.Class;@2a33fae0
-returnType: class java.lang.String
+returnType: int
 parameterTypes: [Ljava.lang.Class;@707f7052
-returnType: class java.lang.String
+returnType: int
 parameterTypes: [Ljava.lang.Class;@11028347
-returnType: interface java.util.stream.Stream
+returnType: int
 parameterTypes: [Ljava.lang.Class;@14899482
-returnType: class java.lang.String
+returnType: class [B
 parameterTypes: [Ljava.lang.Class;@21588809
-returnType: boolean
+returnType: class [B
 parameterTypes: [Ljava.lang.Class;@2aae9190
-returnType: class [C
+returnType: void
 parameterTypes: [Ljava.lang.Class;@2f333739
-returnType: class java.lang.String
+returnType: class [B
 parameterTypes: [Ljava.lang.Class;@77468bd9
-returnType: class java.lang.String
+returnType: boolean
 parameterTypes: [Ljava.lang.Class;@12bb4df8
-returnType: class java.lang.String
+returnType: boolean
 parameterTypes: [Ljava.lang.Class;@4cc77c2e
-returnType: class java.lang.Object
+returnType: boolean
 parameterTypes: [Ljava.lang.Class;@7a7b0070
-returnType: interface java.util.stream.IntStream
+returnType: boolean
 parameterTypes: [Ljava.lang.Class;@39a054a5
 returnType: boolean
 parameterTypes: [Ljava.lang.Class;@71bc1ae4
-returnType: int
+returnType: boolean
 parameterTypes: [Ljava.lang.Class;@6ed3ef1
-returnType: boolean
+returnType: int
 parameterTypes: [Ljava.lang.Class;@2437c6dc
-returnType: interface java.lang.CharSequence
+returnType: int
 parameterTypes: [Ljava.lang.Class;@1f89ab83
-returnType: class java.lang.String
+returnType: int
 parameterTypes: [Ljava.lang.Class;@e73f9ac
-returnType: boolean
+returnType: int
 parameterTypes: [Ljava.lang.Class;@61064425
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@7b1d7fff
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@299a06ac
-returnType: class java.lang.String
+returnType: boolean
 parameterTypes: [Ljava.lang.Class;@383534aa
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@6bc168e5
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@7b3300e5
-returnType: interface java.util.stream.IntStream
+returnType: boolean
 parameterTypes: [Ljava.lang.Class;@2e5c649
-returnType: class java.lang.Object
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@136432db
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@7382f612
-returnType: class java.lang.String
+returnType: class [Ljava.lang.String;
 parameterTypes: [Ljava.lang.Class;@1055e4af
-returnType: class java.lang.String
+returnType: class [Ljava.lang.String;
 parameterTypes: [Ljava.lang.Class;@3caeaf62
 returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@e6ea0c6
-returnType: class java.util.Optional
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@6a38e57f
-returnType: void
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@5577140b
-returnType: void
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@1c6b6478
-returnType: void
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@67f89fa3
-returnType: class java.lang.Class
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@4ac68d3e
-returnType: void
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@277c0f21
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@6073f712
+returnType: interface java.util.stream.Stream
+parameterTypes: [Ljava.lang.Class;@43556938
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@3d04a311
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@7a46a697
+returnType: class [C
+parameterTypes: [Ljava.lang.Class;@5f205aa
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@6d86b085
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@75828a0f
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@3abfe836
+returnType: class java.lang.Object
+parameterTypes: [Ljava.lang.Class;@2ff5659e
+returnType: interface java.util.stream.IntStream
+parameterTypes: [Ljava.lang.Class;@77afea7d
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@161cd475
+returnType: int
+parameterTypes: [Ljava.lang.Class;@532760d8
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@57fa26b7
+returnType: interface java.lang.CharSequence
+parameterTypes: [Ljava.lang.Class;@5f8ed237
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@2f410acf
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@47089e5f
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@4141d797
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@68f7aae2
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@4f47d241
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@4c3e4790
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@38cccef
+returnType: interface java.util.stream.IntStream
+parameterTypes: [Ljava.lang.Class;@5679c6c6
+returnType: class java.lang.Object
+parameterTypes: [Ljava.lang.Class;@27ddd392
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@19e1023e
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@7cef4e59
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@64b8f8f4
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@2db0f6b2
+returnType: class java.util.Optional
+parameterTypes: [Ljava.lang.Class;@3cd1f1c8
 returnType: void
-Name: java.lang.String
-ActualFieldNames: [value, coder, hash, hashIsZero, serialVersionUID, COMPACT_STRINGS, serialPersistentFields, CASE_INSENSITIVE_ORDER, LATIN1, UTF16]
+parameterTypes: [Ljava.lang.Class;@3a4afd8d
+returnType: void
+parameterTypes: [Ljava.lang.Class;@1996cd68
+returnType: void
+parameterTypes: [Ljava.lang.Class;@3339ad8e
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@555590
+returnType: void
+parameterTypes: [Ljava.lang.Class;@6d1e7682
+returnType: void
+fields: [Ljava.lang.reflect.Field;@424c0bc4
+modifier: 17
+fieldName: value
+fieldType: class [B
+fieldName: coder
+fieldType: byte
+fieldName: hash
+fieldType: int
+fieldName: hashIsZero
+fieldType: boolean
+fieldName: serialVersionUID
+fieldType: long
+fieldName: COMPACT_STRINGS
+fieldType: boolean
+fieldName: serialPersistentFields
+fieldType: class [Ljava.io.ObjectStreamField;
+fieldName: CASE_INSENSITIVE_ORDER
+fieldType: interface java.util.Comparator
+fieldName: LATIN1
+fieldType: byte
+fieldName: UTF16
+fieldType: byte
 ======================================================

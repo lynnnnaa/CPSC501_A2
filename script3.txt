@@ -5,163 +5,183 @@ Recursive: true
 super class: class ClassC
 super class: class ClassD
 super class: class java.lang.Object
-ConstructorsName: [Ljava.lang.reflect.Constructor;@2d98a335
+ConstructorsName: [Ljava.lang.reflect.Constructor;@27d6c5e0
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@16b98e56
-MethodsName: [Ljava.lang.reflect.Method;@7ef20235
-modifier: 1
-parameterTypes: [Ljava.lang.Class;@27d6c5e0
-returnType: void
 parameterTypes: [Ljava.lang.Class;@4f3f5b24
-returnType: void
-parameterTypes: [Ljava.lang.Class;@15aeb7ab
-returnType: void
+MethodsName: [Ljava.lang.reflect.Method;@15aeb7ab
+modifier: 1
 parameterTypes: [Ljava.lang.Class;@7b23ec81
-returnType: boolean
+returnType: void
 parameterTypes: [Ljava.lang.Class;@6acbcfc0
-returnType: class java.lang.String
+returnType: void
 parameterTypes: [Ljava.lang.Class;@5f184fc6
-returnType: int
+returnType: void
 parameterTypes: [Ljava.lang.Class;@3feba861
-returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@5b480cf9
-returnType: void
-parameterTypes: [Ljava.lang.Class;@6f496d9f
-returnType: void
-Name: java.lang.Object
-ActualFieldNames: []
-ConstructorsName: [Ljava.lang.reflect.Constructor;@723279cf
-modifier: 1
-parameterTypes: [Ljava.lang.Class;@10f87f48
-parameterTypes: [Ljava.lang.Class;@b4c966a
-MethodsName: [Ljava.lang.reflect.Method;@2f4d3709
-modifier: 1
-parameterTypes: [Ljava.lang.Class;@4e50df2e
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@1d81eb93
-returnType: int
-parameterTypes: [Ljava.lang.Class;@7291c18f
-returnType: void
-parameterTypes: [Ljava.lang.Class;@34a245ab
-returnType: void
-parameterTypes: [Ljava.lang.Class;@7cc355be
-returnType: void
-parameterTypes: [Ljava.lang.Class;@6e8cf4c6
 returnType: boolean
+parameterTypes: [Ljava.lang.Class;@5b480cf9
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@6f496d9f
+returnType: int
+parameterTypes: [Ljava.lang.Class;@723279cf
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@10f87f48
+returnType: void
+parameterTypes: [Ljava.lang.Class;@b4c966a
+returnType: void
+fields: [Ljava.lang.reflect.Field;@2f4d3709
+modifier: 1
+ConstructorsName: [Ljava.lang.reflect.Constructor;@4e50df2e
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@1d81eb93
+parameterTypes: [Ljava.lang.Class;@7291c18f
+MethodsName: [Ljava.lang.reflect.Method;@7cc355be
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@6e8cf4c6
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@12edcd21
 returnType: int
 parameterTypes: [Ljava.lang.Class;@34c45dca
-returnType: class java.lang.Class
+returnType: void
 parameterTypes: [Ljava.lang.Class;@52cc8049
 returnType: void
 parameterTypes: [Ljava.lang.Class;@5b6f7412
 returnType: void
-Name: ClassD
-ActualFieldNames: [val, val2, val3, vallarray]
+parameterTypes: [Ljava.lang.Class;@27973e9b
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@312b1dae
+returnType: int
+parameterTypes: [Ljava.lang.Class;@7530d0a
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@27bc2616
+returnType: void
+parameterTypes: [Ljava.lang.Class;@3941a79c
+returnType: void
+fields: [Ljava.lang.reflect.Field;@506e1b77
+modifier: 1
+fieldName: val
+fieldType: class ClassA
+fieldName: val2
+fieldType: class ClassA
+fieldName: val3
+fieldType: int
+fieldName: vallarray
+fieldType: class [LClassA;
 Interfaces: interface InterfaceA
 Interfaces: interface InterfaceB
-ConstructorsName: [Ljava.lang.reflect.Constructor;@27973e9b
+ConstructorsName: [Ljava.lang.reflect.Constructor;@4fca772d
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@312b1dae
+MethodsName: [Ljava.lang.reflect.Method;@3d494fbf
 modifier: 1537
-parameterTypes: [Ljava.lang.Class;@7530d0a
-returnType: void
-Name: InterfaceB
-ActualFieldNames: []
-ConstructorsName: [Ljava.lang.reflect.Constructor;@27bc2616
-modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@3941a79c
-modifier: 1537
-parameterTypes: [Ljava.lang.Class;@506e1b77
-returnType: void
-parameterTypes: [Ljava.lang.Class;@4fca772d
-returnType: int
-parameterTypes: [Ljava.lang.Class;@9807454
-returnType: void
-Name: InterfaceA
-ActualFieldNames: []
-ConstructorsName: [Ljava.lang.reflect.Constructor;@3d494fbf
-modifier: 1025
 parameterTypes: [Ljava.lang.Class;@1ddc4ec2
-parameterTypes: [Ljava.lang.Class;@133314b
-MethodsName: [Ljava.lang.reflect.Method;@b1bc7ed
-modifier: 1025
-parameterTypes: [Ljava.lang.Class;@7cd84586
 returnType: void
-parameterTypes: [Ljava.lang.Class;@30dae81
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@1b2c6ec2
-returnType: void
+fields: [Ljava.lang.reflect.Field;@133314b
+modifier: 1537
+ConstructorsName: [Ljava.lang.reflect.Constructor;@b1bc7ed
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@1b2c6ec2
+modifier: 1537
 parameterTypes: [Ljava.lang.Class;@4edde6e5
 returnType: void
 parameterTypes: [Ljava.lang.Class;@70177ecd
-returnType: void
+returnType: int
 parameterTypes: [Ljava.lang.Class;@1e80bfe8
-returnType: int
-parameterTypes: [Ljava.lang.Class;@66a29884
-returnType: int
-parameterTypes: [Ljava.lang.Class;@4769b07b
 returnType: void
+fields: [Ljava.lang.reflect.Field;@66a29884
+modifier: 1537
+ConstructorsName: [Ljava.lang.reflect.Constructor;@4769b07b
+modifier: 1025
 parameterTypes: [Ljava.lang.Class;@cc34f4d
-returnType: void
 parameterTypes: [Ljava.lang.Class;@17a7cec2
-returnType: void
-parameterTypes: [Ljava.lang.Class;@65b3120a
-returnType: boolean
-parameterTypes: [Ljava.lang.Class;@6f539caf
-returnType: int
+MethodsName: [Ljava.lang.reflect.Method;@6f539caf
+modifier: 1025
 parameterTypes: [Ljava.lang.Class;@79fc0f2f
-returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@50040f0c
 returnType: void
+parameterTypes: [Ljava.lang.Class;@50040f0c
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@2dda6444
 returnType: void
-Name: ClassC
-ActualFieldNames: [val2, val3, val4]
-Interfaces: interface java.lang.Runnable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@5e9f23b4
-modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@4783da3f
-modifier: 1537
-parameterTypes: [Ljava.lang.Class;@378fd1ac
+parameterTypes: [Ljava.lang.Class;@5e9f23b4
 returnType: void
-Name: java.lang.Runnable
-ActualFieldNames: []
-ConstructorsName: [Ljava.lang.reflect.Constructor;@49097b5d
-modifier: 1
+parameterTypes: [Ljava.lang.Class;@4783da3f
+returnType: void
+parameterTypes: [Ljava.lang.Class;@378fd1ac
+returnType: int
+parameterTypes: [Ljava.lang.Class;@49097b5d
+returnType: int
 parameterTypes: [Ljava.lang.Class;@6e2c634b
-MethodsName: [Ljava.lang.reflect.Method;@37a71e93
-modifier: 1
+returnType: void
+parameterTypes: [Ljava.lang.Class;@37a71e93
+returnType: void
 parameterTypes: [Ljava.lang.Class;@7e6cbb7a
 returnType: void
 parameterTypes: [Ljava.lang.Class;@7c3df479
-returnType: class java.lang.String
+returnType: boolean
 parameterTypes: [Ljava.lang.Class;@7106e68e
-returnType: void
+returnType: int
 parameterTypes: [Ljava.lang.Class;@7eda2dbb
-returnType: void
+returnType: class java.lang.Class
 parameterTypes: [Ljava.lang.Class;@6576fe71
 returnType: void
 parameterTypes: [Ljava.lang.Class;@76fb509a
-returnType: int
-parameterTypes: [Ljava.lang.Class;@300ffa5d
-returnType: int
-parameterTypes: [Ljava.lang.Class;@1f17ae12
 returnType: void
-parameterTypes: [Ljava.lang.Class;@4d405ef7
-returnType: void
+fields: [Ljava.lang.reflect.Field;@300ffa5d
+modifier: 1025
+fieldName: val2
+fieldType: class ClassA
+fieldName: val3
+fieldType: class ClassA
+fieldName: val4
+fieldType: class ClassA
+Interfaces: interface java.lang.Runnable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@1f17ae12
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@4d405ef7
+modifier: 1537
 parameterTypes: [Ljava.lang.Class;@6193b845
 returnType: void
-parameterTypes: [Ljava.lang.Class;@2e817b38
-returnType: boolean
-parameterTypes: [Ljava.lang.Class;@c4437c4
-returnType: int
+fields: [Ljava.lang.reflect.Field;@2e817b38
+modifier: 1537
+ConstructorsName: [Ljava.lang.reflect.Constructor;@c4437c4
+modifier: 1
 parameterTypes: [Ljava.lang.Class;@433c675d
-returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@3f91beef
-returnType: void
+MethodsName: [Ljava.lang.reflect.Method;@3f91beef
+modifier: 1
 parameterTypes: [Ljava.lang.Class;@1a6c5a9e
 returnType: void
-Name: ClassB
-ActualFieldNames: [val, val2, val3]
+parameterTypes: [Ljava.lang.Class;@37bba400
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@179d3b25
+returnType: void
+parameterTypes: [Ljava.lang.Class;@254989ff
+returnType: void
+parameterTypes: [Ljava.lang.Class;@5d099f62
+returnType: void
+parameterTypes: [Ljava.lang.Class;@37f8bb67
+returnType: int
+parameterTypes: [Ljava.lang.Class;@49c2faae
+returnType: int
+parameterTypes: [Ljava.lang.Class;@20ad9418
+returnType: void
+parameterTypes: [Ljava.lang.Class;@31cefde0
+returnType: void
+parameterTypes: [Ljava.lang.Class;@439f5b3d
+returnType: void
+parameterTypes: [Ljava.lang.Class;@1d56ce6a
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@5197848c
+returnType: int
+parameterTypes: [Ljava.lang.Class;@17f052a3
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@2e0fa5d3
+returnType: void
+parameterTypes: [Ljava.lang.Class;@5010be6
+returnType: void
+fields: [Ljava.lang.reflect.Field;@685f4c2e
+modifier: 1
+fieldName: val
+fieldType: class ClassA
+fieldName: val2
+fieldType: class ClassA
+fieldName: val3
+fieldType: class ClassA
 ======================================================

@@ -1,69 +1,69 @@
 ======================================================
 Filename: script6.txt
-Running Test: [LClassB;@67424e82
+Running Test: [LClassB;@14514713
 Recursive: true
 super class: class java.lang.Object
-ConstructorsName: [Ljava.lang.reflect.Constructor;@531d72ca
+ConstructorsName: [Ljava.lang.reflect.Constructor;@69663380
 modifier: 1
-parameterTypes: [Ljava.lang.Class;@22d8cfe0
-MethodsName: [Ljava.lang.reflect.Method;@579bb367
-modifier: 1
-parameterTypes: [Ljava.lang.Class;@1de0aca6
-returnType: void
-parameterTypes: [Ljava.lang.Class;@255316f2
-returnType: void
-parameterTypes: [Ljava.lang.Class;@41906a77
-returnType: void
-parameterTypes: [Ljava.lang.Class;@4b9af9a9
-returnType: boolean
-parameterTypes: [Ljava.lang.Class;@5387f9e0
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@6e5e91e4
-returnType: int
-parameterTypes: [Ljava.lang.Class;@2cdf8d8a
-returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@30946e09
-returnType: void
-parameterTypes: [Ljava.lang.Class;@5cb0d902
-returnType: void
-Name: java.lang.Object
-ActualFieldNames: []
-Interfaces: interface java.lang.Cloneable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@46fbb2c1
-modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@1698c449
-modifier: 1537
-Name: java.lang.Cloneable
-ActualFieldNames: []
-Interfaces: interface java.io.Serializable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@5ef04b5
-modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@5f4da5c3
-modifier: 1537
-Name: java.io.Serializable
-ActualFieldNames: []
-ConstructorsName: [Ljava.lang.reflect.Constructor;@443b7951
-modifier: 1041
-MethodsName: [Ljava.lang.reflect.Method;@14514713
-modifier: 1041
-parameterTypes: [Ljava.lang.Class;@69663380
-returnType: void
 parameterTypes: [Ljava.lang.Class;@5b37e0d2
-returnType: void
-parameterTypes: [Ljava.lang.Class;@4459eb14
-returnType: void
+MethodsName: [Ljava.lang.reflect.Method;@4459eb14
+modifier: 1
 parameterTypes: [Ljava.lang.Class;@5a2e4553
-returnType: boolean
+returnType: void
 parameterTypes: [Ljava.lang.Class;@28c97a5
-returnType: class java.lang.String
+returnType: void
 parameterTypes: [Ljava.lang.Class;@6659c656
-returnType: int
+returnType: void
 parameterTypes: [Ljava.lang.Class;@6d5380c2
-returnType: class java.lang.Class
+returnType: boolean
 parameterTypes: [Ljava.lang.Class;@45ff54e6
-returnType: void
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@2328c243
+returnType: int
+parameterTypes: [Ljava.lang.Class;@bebdb06
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@7a4f0f29
 returnType: void
-Name: [LClassB;
-ActualFieldNames: []
+parameterTypes: [Ljava.lang.Class;@45283ce2
+returnType: void
+fields: [Ljava.lang.reflect.Field;@2077d4de
+modifier: 1
+Interfaces: interface java.lang.Cloneable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@7591083d
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@77a567e1
+modifier: 1537
+fields: [Ljava.lang.reflect.Field;@736e9adb
+modifier: 1537
+Interfaces: interface java.io.Serializable
+ConstructorsName: [Ljava.lang.reflect.Constructor;@6d21714c
+modifier: 1537
+MethodsName: [Ljava.lang.reflect.Method;@108c4c35
+modifier: 1537
+fields: [Ljava.lang.reflect.Field;@4ccabbaa
+modifier: 1537
+ConstructorsName: [Ljava.lang.reflect.Constructor;@4bf558aa
+modifier: 1041
+MethodsName: [Ljava.lang.reflect.Method;@2d38eb89
+modifier: 1041
+parameterTypes: [Ljava.lang.Class;@5fa7e7ff
+returnType: void
+parameterTypes: [Ljava.lang.Class;@4629104a
+returnType: void
+parameterTypes: [Ljava.lang.Class;@27f8302d
+returnType: void
+parameterTypes: [Ljava.lang.Class;@4d76f3f8
+returnType: boolean
+parameterTypes: [Ljava.lang.Class;@2d8e6db6
+returnType: class java.lang.String
+parameterTypes: [Ljava.lang.Class;@23ab930d
+returnType: int
+parameterTypes: [Ljava.lang.Class;@4534b60d
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@3fa77460
+returnType: void
+parameterTypes: [Ljava.lang.Class;@619a5dff
+returnType: void
+fields: [Ljava.lang.reflect.Field;@7e32c033
+modifier: 1041
 ======================================================

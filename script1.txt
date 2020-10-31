@@ -3,77 +3,83 @@ Filename: script1.txt
 Running Test: ClassA
 Recursive: true
 super class: class java.lang.Object
-ConstructorsName: [Ljava.lang.reflect.Constructor;@24d46ca6
+ConstructorsName: [Ljava.lang.reflect.Constructor;@2626b418
 modifier: 1
+parameterTypes: [Ljava.lang.Class;@5a07e868
+MethodsName: [Ljava.lang.reflect.Method;@5ca881b5
+modifier: 1
+parameterTypes: [Ljava.lang.Class;@24d46ca6
+returnType: void
 parameterTypes: [Ljava.lang.Class;@4517d9a3
-MethodsName: [Ljava.lang.reflect.Method;@372f7a8d
-modifier: 1
+returnType: void
+parameterTypes: [Ljava.lang.Class;@372f7a8d
+returnType: void
 parameterTypes: [Ljava.lang.Class;@2f92e0f4
-returnType: void
-parameterTypes: [Ljava.lang.Class;@28a418fc
-returnType: void
-parameterTypes: [Ljava.lang.Class;@5305068a
-returnType: void
-parameterTypes: [Ljava.lang.Class;@1f32e575
 returnType: boolean
-parameterTypes: [Ljava.lang.Class;@279f2327
+parameterTypes: [Ljava.lang.Class;@28a418fc
 returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@2ff4acd0
+parameterTypes: [Ljava.lang.Class;@5305068a
 returnType: int
-parameterTypes: [Ljava.lang.Class;@54bedef2
+parameterTypes: [Ljava.lang.Class;@1f32e575
 returnType: class java.lang.Class
-parameterTypes: [Ljava.lang.Class;@5caf905d
+parameterTypes: [Ljava.lang.Class;@279f2327
 returnType: void
-parameterTypes: [Ljava.lang.Class;@27716f4
+parameterTypes: [Ljava.lang.Class;@2ff4acd0
 returnType: void
-Name: java.lang.Object
-ActualFieldNames: []
+fields: [Ljava.lang.reflect.Field;@54bedef2
+modifier: 1
 Interfaces: interface java.io.Serializable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@8efb846
+ConstructorsName: [Ljava.lang.reflect.Constructor;@5caf905d
 modifier: 1537
-MethodsName: [Ljava.lang.reflect.Method;@2a84aee7
+MethodsName: [Ljava.lang.reflect.Method;@27716f4
 modifier: 1537
-Name: java.io.Serializable
-ActualFieldNames: []
+fields: [Ljava.lang.reflect.Field;@8efb846
+modifier: 1537
 Interfaces: interface java.lang.Runnable
-ConstructorsName: [Ljava.lang.reflect.Constructor;@a09ee92
+ConstructorsName: [Ljava.lang.reflect.Constructor;@2a84aee7
 modifier: 1537
 MethodsName: [Ljava.lang.reflect.Method;@30f39991
 modifier: 1537
 parameterTypes: [Ljava.lang.Class;@452b3a41
 returnType: void
-Name: java.lang.Runnable
-ActualFieldNames: []
-ConstructorsName: [Ljava.lang.reflect.Constructor;@4a574795
+fields: [Ljava.lang.reflect.Field;@4a574795
+modifier: 1537
+ConstructorsName: [Ljava.lang.reflect.Constructor;@f6f4d33
 modifier: 17
-parameterTypes: [Ljava.lang.Class;@f6f4d33
 parameterTypes: [Ljava.lang.Class;@23fc625e
-MethodsName: [Ljava.lang.reflect.Method;@3f99bd52
+parameterTypes: [Ljava.lang.Class;@3f99bd52
+MethodsName: [Ljava.lang.reflect.Method;@7adf9f5f
 modifier: 17
-parameterTypes: [Ljava.lang.Class;@4f023edb
-returnType: void
-parameterTypes: [Ljava.lang.Class;@3a71f4dd
-returnType: class java.lang.String
-parameterTypes: [Ljava.lang.Class;@7adf9f5f
-returnType: void
 parameterTypes: [Ljava.lang.Class;@85ede7b
-returnType: int
-parameterTypes: [Ljava.lang.Class;@5674cd4d
 returnType: void
+parameterTypes: [Ljava.lang.Class;@5674cd4d
+returnType: class java.lang.String
 parameterTypes: [Ljava.lang.Class;@63961c42
 returnType: void
 parameterTypes: [Ljava.lang.Class;@65b54208
-returnType: void
-parameterTypes: [Ljava.lang.Class;@1be6f5c3
-returnType: boolean
-parameterTypes: [Ljava.lang.Class;@6b884d57
 returnType: int
+parameterTypes: [Ljava.lang.Class;@1be6f5c3
+returnType: void
+parameterTypes: [Ljava.lang.Class;@6b884d57
+returnType: void
 parameterTypes: [Ljava.lang.Class;@38af3868
-returnType: class java.lang.Class
+returnType: void
 parameterTypes: [Ljava.lang.Class;@77459877
-returnType: void
+returnType: boolean
 parameterTypes: [Ljava.lang.Class;@5b2133b1
+returnType: int
+parameterTypes: [Ljava.lang.Class;@72ea2f77
+returnType: class java.lang.Class
+parameterTypes: [Ljava.lang.Class;@33c7353a
 returnType: void
-Name: ClassA
-ActualFieldNames: [val, val2, val3]
+parameterTypes: [Ljava.lang.Class;@681a9515
+returnType: void
+fields: [Ljava.lang.reflect.Field;@3af49f1c
+modifier: 17
+fieldName: val
+fieldType: int
+fieldName: val2
+fieldType: double
+fieldName: val3
+fieldType: boolean
 ======================================================
