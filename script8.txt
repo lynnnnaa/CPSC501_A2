@@ -5,447 +5,483 @@ Recursive: true
 CLASS
 Class: java.lang.String
 		SUPERCLASS --> Recursively Insepct
-	SuperClass: java.lang.Object
-	CLASS
-Class: java.lang.Object
-		modifier: 1
-		CONSTRUCTOR
-Constructors Name: java.lang.Object
-		modifier: 1
-		MethodsName: wait
-		ReturnType: void
-		Method Parameter Types: long
-		Method Parameter Types: int
-		MethodsName: wait
-		ReturnType: void
-		MethodsName: wait
-		ReturnType: void
-		Method Parameter Types: long
-		MethodsName: equals
+		SuperClass: java.lang.Object
+		CLASS
+		Class: java.lang.Object
+			SuperClass -> NONE
+			CONSTRUCTORS (     ) 
+			Constructors->
+			Constructors Name: java.lang.Object
+				modifier: 1
+			modifier: 1
+			METHODS (     ) 
+			Methods->
+				Exceptions: java.lang.InterruptedException
+				Method Parameter Types: long
+				Method Parameter Types: int
+			MethodsName: wait
+				ReturnType: void
+				Exceptions: java.lang.InterruptedException
+			MethodsName: wait
+				ReturnType: void
+				Exceptions: java.lang.InterruptedException
+				Method Parameter Types: long
+			MethodsName: wait
+				ReturnType: void
+				Method Parameter Types: java.lang.Object
+			MethodsName: equals
+				ReturnType: boolean
+			MethodsName: toString
+				ReturnType: class java.lang.String
+			MethodsName: hashCode
+				ReturnType: int
+			MethodsName: getClass
+				ReturnType: class java.lang.Class
+			MethodsName: notify
+				ReturnType: void
+			MethodsName: notifyAll
+				ReturnType: void
+			modifier: 1
+			FieldName -> NONE
+	INTERFACE
+	Interfaces: interface java.io.Serializable
+		CLASS
+		Class: java.io.Serializable
+			SuperClass -> NONE
+			Constructor -> NONE
+			modifier: 1537
+			Method -> NONE
+			modifier: 1537
+			FieldName -> NONE
+	INTERFACE
+	Interfaces: interface java.lang.Comparable
+		CLASS
+		Class: java.lang.Comparable
+			SuperClass -> NONE
+			Constructor -> NONE
+			modifier: 1537
+			METHODS (     ) 
+			Methods->
+				Method Parameter Types: java.lang.Object
+			MethodsName: compareTo
+				ReturnType: int
+			modifier: 1537
+			FieldName -> NONE
+	INTERFACE
+	Interfaces: interface java.lang.CharSequence
+		CLASS
+		Class: java.lang.CharSequence
+			SuperClass -> NONE
+			Constructor -> NONE
+			modifier: 1537
+			METHODS (     ) 
+			Methods->
+			MethodsName: length
+				ReturnType: int
+			MethodsName: toString
+				ReturnType: class java.lang.String
+				Method Parameter Types: int
+			MethodsName: charAt
+				ReturnType: char
+				Method Parameter Types: java.lang.CharSequence
+				Method Parameter Types: java.lang.CharSequence
+			MethodsName: compare
+				ReturnType: int
+			MethodsName: isEmpty
+				ReturnType: boolean
+			MethodsName: codePoints
+				ReturnType: interface java.util.stream.IntStream
+				Method Parameter Types: int
+				Method Parameter Types: int
+			MethodsName: subSequence
+				ReturnType: interface java.lang.CharSequence
+			MethodsName: chars
+				ReturnType: interface java.util.stream.IntStream
+			modifier: 1537
+			FieldName -> NONE
+	INTERFACE
+	Interfaces: interface java.lang.constant.Constable
+		CLASS
+		Class: java.lang.constant.Constable
+			SuperClass -> NONE
+			Constructor -> NONE
+			modifier: 1537
+			METHODS (     ) 
+			Methods->
+			MethodsName: describeConstable
+				ReturnType: class java.util.Optional
+			modifier: 1537
+			FieldName -> NONE
+	INTERFACE
+	Interfaces: interface java.lang.constant.ConstantDesc
+		CLASS
+		Class: java.lang.constant.ConstantDesc
+			SuperClass -> NONE
+			Constructor -> NONE
+			modifier: 1537
+			METHODS (     ) 
+			Methods->
+				Exceptions: java.lang.ReflectiveOperationException
+				Method Parameter Types: java.lang.invoke.MethodHandles$Lookup
+			MethodsName: resolveConstantDesc
+				ReturnType: class java.lang.Object
+			modifier: 1537
+			FieldName -> NONE
+	CONSTRUCTORS (     ) 
+	Constructors->
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [B
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [B
+		Constructor Parameter Types: int
+		Constructor Parameter Types: int
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [B
+		Constructor Parameter Types: java.nio.charset.Charset
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [B
+		Constructor Parameter Types: java.lang.String
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [B
+		Constructor Parameter Types: int
+		Constructor Parameter Types: int
+		Constructor Parameter Types: java.nio.charset.Charset
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: java.lang.StringBuilder
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: java.lang.StringBuffer
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [C
+		Constructor Parameter Types: int
+		Constructor Parameter Types: int
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [C
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: java.lang.String
+	Constructors Name: java.lang.String
+		modifier: 17
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [B
+		Constructor Parameter Types: int
+		Constructor Parameter Types: int
+		Constructor Parameter Types: java.lang.String
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [B
+		Constructor Parameter Types: int
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [B
+		Constructor Parameter Types: int
+		Constructor Parameter Types: int
+		Constructor Parameter Types: int
+	Constructors Name: java.lang.String
+		modifier: 17
+		Constructor Parameter Types: [I
+		Constructor Parameter Types: int
+		Constructor Parameter Types: int
+	modifier: 17
+	METHODS (     ) 
+	Methods->
+		Method Parameter Types: java.lang.Object
+	MethodsName: equals
 		ReturnType: boolean
-		Method Parameter Types: java.lang.Object
-		MethodsName: toString
+	MethodsName: length
+		ReturnType: int
+	MethodsName: toString
 		ReturnType: class java.lang.String
-		MethodsName: hashCode
+	MethodsName: hashCode
 		ReturnType: int
-		MethodsName: getClass
-		ReturnType: class java.lang.Class
-		MethodsName: notify
+		Method Parameter Types: int
+		Method Parameter Types: int
+		Method Parameter Types: [C
+		Method Parameter Types: int
+	MethodsName: getChars
 		ReturnType: void
-		MethodsName: notifyAll
-		ReturnType: void
-		modifier: 1
-	INTERFACE
-Interfaces: interface java.io.Serializable
-	CLASS
-Class: java.io.Serializable
-		modifier: 1537
-		modifier: 1537
-		modifier: 1537
-	INTERFACE
-Interfaces: interface java.lang.Comparable
-	CLASS
-Class: java.lang.Comparable
-		modifier: 1537
-		modifier: 1537
-		MethodsName: compareTo
-		ReturnType: int
 		Method Parameter Types: java.lang.Object
-		modifier: 1537
-	INTERFACE
-Interfaces: interface java.lang.CharSequence
-	CLASS
-Class: java.lang.CharSequence
-		modifier: 1537
-		modifier: 1537
-		MethodsName: length
+	MethodsName: compareTo
 		ReturnType: int
-		MethodsName: toString
+		Method Parameter Types: java.lang.String
+	MethodsName: compareTo
+		ReturnType: int
+		Method Parameter Types: int
+		Method Parameter Types: int
+	MethodsName: indexOf
+		ReturnType: int
+		Method Parameter Types: java.lang.String
+	MethodsName: indexOf
+		ReturnType: int
+		Method Parameter Types: java.lang.String
+		Method Parameter Types: int
+	MethodsName: indexOf
+		ReturnType: int
+		Method Parameter Types: int
+	MethodsName: indexOf
+		ReturnType: int
+		Method Parameter Types: [C
+	MethodsName: valueOf
 		ReturnType: class java.lang.String
-		MethodsName: charAt
+		Method Parameter Types: java.lang.Object
+	MethodsName: valueOf
+		ReturnType: class java.lang.String
+		Method Parameter Types: long
+	MethodsName: valueOf
+		ReturnType: class java.lang.String
+		Method Parameter Types: [C
+		Method Parameter Types: int
+		Method Parameter Types: int
+	MethodsName: valueOf
+		ReturnType: class java.lang.String
+		Method Parameter Types: int
+	MethodsName: valueOf
+		ReturnType: class java.lang.String
+		Method Parameter Types: char
+	MethodsName: valueOf
+		ReturnType: class java.lang.String
+		Method Parameter Types: double
+	MethodsName: valueOf
+		ReturnType: class java.lang.String
+		Method Parameter Types: float
+	MethodsName: valueOf
+		ReturnType: class java.lang.String
+		Method Parameter Types: boolean
+	MethodsName: valueOf
+		ReturnType: class java.lang.String
+		Method Parameter Types: int
+	MethodsName: charAt
 		ReturnType: char
 		Method Parameter Types: int
-		MethodsName: compare
-		ReturnType: int
-		Method Parameter Types: java.lang.CharSequence
-		Method Parameter Types: java.lang.CharSequence
-		MethodsName: isEmpty
-		ReturnType: boolean
-		MethodsName: codePoints
-		ReturnType: interface java.util.stream.IntStream
-		MethodsName: subSequence
-		ReturnType: interface java.lang.CharSequence
-		Method Parameter Types: int
-		Method Parameter Types: int
-		MethodsName: chars
-		ReturnType: interface java.util.stream.IntStream
-		modifier: 1537
-	INTERFACE
-Interfaces: interface java.lang.constant.Constable
-	CLASS
-Class: java.lang.constant.Constable
-		modifier: 1537
-		modifier: 1537
-		MethodsName: describeConstable
-		ReturnType: class java.util.Optional
-		modifier: 1537
-	INTERFACE
-Interfaces: interface java.lang.constant.ConstantDesc
-	CLASS
-Class: java.lang.constant.ConstantDesc
-		modifier: 1537
-		modifier: 1537
-		MethodsName: resolveConstantDesc
-		ReturnType: class java.lang.Object
-		Method Parameter Types: java.lang.invoke.MethodHandles$Lookup
-		modifier: 1537
-	modifier: 17
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [B
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [B
-	Constructor Parameter Types: int
-	Constructor Parameter Types: int
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [B
-	Constructor Parameter Types: java.nio.charset.Charset
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [B
-	Constructor Parameter Types: java.lang.String
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [B
-	Constructor Parameter Types: int
-	Constructor Parameter Types: int
-	Constructor Parameter Types: java.nio.charset.Charset
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: java.lang.StringBuilder
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: java.lang.StringBuffer
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [C
-	Constructor Parameter Types: int
-	Constructor Parameter Types: int
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [C
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: java.lang.String
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [B
-	Constructor Parameter Types: int
-	Constructor Parameter Types: int
-	Constructor Parameter Types: java.lang.String
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [B
-	Constructor Parameter Types: int
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [B
-	Constructor Parameter Types: int
-	Constructor Parameter Types: int
-	Constructor Parameter Types: int
-	CONSTRUCTOR
-Constructors Name: java.lang.String
-	Constructor Parameter Types: [I
-	Constructor Parameter Types: int
-	Constructor Parameter Types: int
-	modifier: 17
-	MethodsName: equals
-	ReturnType: boolean
-	Method Parameter Types: java.lang.Object
-	MethodsName: length
-	ReturnType: int
-	MethodsName: toString
-	ReturnType: class java.lang.String
-	MethodsName: hashCode
-	ReturnType: int
-	MethodsName: getChars
-	ReturnType: void
-	Method Parameter Types: int
-	Method Parameter Types: int
-	Method Parameter Types: [C
-	Method Parameter Types: int
-	MethodsName: compareTo
-	ReturnType: int
-	Method Parameter Types: java.lang.Object
-	MethodsName: compareTo
-	ReturnType: int
-	Method Parameter Types: java.lang.String
-	MethodsName: indexOf
-	ReturnType: int
-	Method Parameter Types: int
-	Method Parameter Types: int
-	MethodsName: indexOf
-	ReturnType: int
-	Method Parameter Types: java.lang.String
-	MethodsName: indexOf
-	ReturnType: int
-	Method Parameter Types: java.lang.String
-	Method Parameter Types: int
-	MethodsName: indexOf
-	ReturnType: int
-	Method Parameter Types: int
-	MethodsName: valueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: [C
-	MethodsName: valueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.lang.Object
-	MethodsName: valueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: long
-	MethodsName: valueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: [C
-	Method Parameter Types: int
-	Method Parameter Types: int
-	MethodsName: valueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: int
-	MethodsName: valueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: char
-	MethodsName: valueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: double
-	MethodsName: valueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: float
-	MethodsName: valueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: boolean
-	MethodsName: charAt
-	ReturnType: char
-	Method Parameter Types: int
 	MethodsName: codePointAt
-	ReturnType: int
-	Method Parameter Types: int
+		ReturnType: int
+		Method Parameter Types: int
 	MethodsName: codePointBefore
-	ReturnType: int
-	Method Parameter Types: int
+		ReturnType: int
+		Method Parameter Types: int
+		Method Parameter Types: int
 	MethodsName: codePointCount
-	ReturnType: int
-	Method Parameter Types: int
-	Method Parameter Types: int
+		ReturnType: int
+		Method Parameter Types: int
+		Method Parameter Types: int
 	MethodsName: offsetByCodePoints
-	ReturnType: int
-	Method Parameter Types: int
-	Method Parameter Types: int
+		ReturnType: int
+		Exceptions: java.io.UnsupportedEncodingException
+		Method Parameter Types: java.lang.String
 	MethodsName: getBytes
-	ReturnType: class [B
-	Method Parameter Types: java.lang.String
+		ReturnType: class [B
 	MethodsName: getBytes
-	ReturnType: class [B
+		ReturnType: class [B
+		Method Parameter Types: int
+		Method Parameter Types: int
+		Method Parameter Types: [B
+		Method Parameter Types: int
 	MethodsName: getBytes
-	ReturnType: void
-	Method Parameter Types: int
-	Method Parameter Types: int
-	Method Parameter Types: [B
-	Method Parameter Types: int
+		ReturnType: void
+		Method Parameter Types: java.nio.charset.Charset
 	MethodsName: getBytes
-	ReturnType: class [B
-	Method Parameter Types: java.nio.charset.Charset
+		ReturnType: class [B
+		Method Parameter Types: java.lang.StringBuffer
 	MethodsName: contentEquals
-	ReturnType: boolean
-	Method Parameter Types: java.lang.StringBuffer
+		ReturnType: boolean
+		Method Parameter Types: java.lang.CharSequence
 	MethodsName: contentEquals
-	ReturnType: boolean
-	Method Parameter Types: java.lang.CharSequence
+		ReturnType: boolean
+		Method Parameter Types: int
+		Method Parameter Types: java.lang.String
+		Method Parameter Types: int
+		Method Parameter Types: int
 	MethodsName: regionMatches
-	ReturnType: boolean
-	Method Parameter Types: int
-	Method Parameter Types: java.lang.String
-	Method Parameter Types: int
-	Method Parameter Types: int
+		ReturnType: boolean
+		Method Parameter Types: boolean
+		Method Parameter Types: int
+		Method Parameter Types: java.lang.String
+		Method Parameter Types: int
+		Method Parameter Types: int
 	MethodsName: regionMatches
-	ReturnType: boolean
-	Method Parameter Types: boolean
-	Method Parameter Types: int
-	Method Parameter Types: java.lang.String
-	Method Parameter Types: int
-	Method Parameter Types: int
+		ReturnType: boolean
+		Method Parameter Types: java.lang.String
+		Method Parameter Types: int
 	MethodsName: startsWith
-	ReturnType: boolean
-	Method Parameter Types: java.lang.String
-	Method Parameter Types: int
+		ReturnType: boolean
+		Method Parameter Types: java.lang.String
 	MethodsName: startsWith
-	ReturnType: boolean
-	Method Parameter Types: java.lang.String
+		ReturnType: boolean
+		Method Parameter Types: java.lang.String
 	MethodsName: lastIndexOf
-	ReturnType: int
-	Method Parameter Types: java.lang.String
+		ReturnType: int
+		Method Parameter Types: int
 	MethodsName: lastIndexOf
-	ReturnType: int
-	Method Parameter Types: int
+		ReturnType: int
+		Method Parameter Types: int
+		Method Parameter Types: int
 	MethodsName: lastIndexOf
-	ReturnType: int
-	Method Parameter Types: int
-	Method Parameter Types: int
+		ReturnType: int
+		Method Parameter Types: java.lang.String
+		Method Parameter Types: int
 	MethodsName: lastIndexOf
-	ReturnType: int
-	Method Parameter Types: java.lang.String
-	Method Parameter Types: int
+		ReturnType: int
+		Method Parameter Types: int
+		Method Parameter Types: int
 	MethodsName: substring
-	ReturnType: class java.lang.String
-	Method Parameter Types: int
-	Method Parameter Types: int
+		ReturnType: class java.lang.String
+		Method Parameter Types: int
 	MethodsName: substring
-	ReturnType: class java.lang.String
-	Method Parameter Types: int
+		ReturnType: class java.lang.String
 	MethodsName: isEmpty
-	ReturnType: boolean
+		ReturnType: boolean
+		Method Parameter Types: char
+		Method Parameter Types: char
 	MethodsName: replace
-	ReturnType: class java.lang.String
-	Method Parameter Types: char
-	Method Parameter Types: char
+		ReturnType: class java.lang.String
+		Method Parameter Types: java.lang.CharSequence
+		Method Parameter Types: java.lang.CharSequence
 	MethodsName: replace
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.lang.CharSequence
-	Method Parameter Types: java.lang.CharSequence
+		ReturnType: class java.lang.String
+		Method Parameter Types: java.lang.String
 	MethodsName: matches
-	ReturnType: boolean
-	Method Parameter Types: java.lang.String
+		ReturnType: boolean
+		Method Parameter Types: java.lang.String
+		Method Parameter Types: java.lang.String
 	MethodsName: replaceFirst
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.lang.String
-	Method Parameter Types: java.lang.String
+		ReturnType: class java.lang.String
+		Method Parameter Types: java.lang.String
+		Method Parameter Types: java.lang.String
 	MethodsName: replaceAll
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.lang.String
-	Method Parameter Types: java.lang.String
+		ReturnType: class java.lang.String
+		Method Parameter Types: java.lang.String
+		Method Parameter Types: int
 	MethodsName: split
-	ReturnType: class [Ljava.lang.String;
-	Method Parameter Types: java.lang.String
-	Method Parameter Types: int
+		ReturnType: class [Ljava.lang.String;
+		Method Parameter Types: java.lang.String
 	MethodsName: split
-	ReturnType: class [Ljava.lang.String;
-	Method Parameter Types: java.lang.String
+		ReturnType: class [Ljava.lang.String;
 	MethodsName: toLowerCase
-	ReturnType: class java.lang.String
+		ReturnType: class java.lang.String
+		Method Parameter Types: java.util.Locale
 	MethodsName: toLowerCase
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.util.Locale
+		ReturnType: class java.lang.String
 	MethodsName: toUpperCase
-	ReturnType: class java.lang.String
+		ReturnType: class java.lang.String
+		Method Parameter Types: java.util.Locale
 	MethodsName: toUpperCase
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.util.Locale
+		ReturnType: class java.lang.String
 	MethodsName: trim
-	ReturnType: class java.lang.String
+		ReturnType: class java.lang.String
 	MethodsName: strip
-	ReturnType: class java.lang.String
+		ReturnType: class java.lang.String
 	MethodsName: stripLeading
-	ReturnType: class java.lang.String
+		ReturnType: class java.lang.String
 	MethodsName: stripTrailing
-	ReturnType: class java.lang.String
+		ReturnType: class java.lang.String
 	MethodsName: lines
-	ReturnType: interface java.util.stream.Stream
+		ReturnType: interface java.util.stream.Stream
+		Method Parameter Types: int
 	MethodsName: repeat
-	ReturnType: class java.lang.String
-	Method Parameter Types: int
+		ReturnType: class java.lang.String
 	MethodsName: isBlank
-	ReturnType: boolean
+		ReturnType: boolean
 	MethodsName: toCharArray
-	ReturnType: class [C
+		ReturnType: class [C
+		Method Parameter Types: java.util.Locale
+		Method Parameter Types: java.lang.String
+		Method Parameter Types: [Ljava.lang.Object;
 	MethodsName: format
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.util.Locale
-	Method Parameter Types: java.lang.String
-	Method Parameter Types: [Ljava.lang.Object;
+		ReturnType: class java.lang.String
+		Method Parameter Types: java.lang.String
+		Method Parameter Types: [Ljava.lang.Object;
 	MethodsName: format
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.lang.String
-	Method Parameter Types: [Ljava.lang.Object;
+		ReturnType: class java.lang.String
+		Method Parameter Types: java.lang.invoke.MethodHandles$Lookup
 	MethodsName: resolveConstantDesc
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.lang.invoke.MethodHandles$Lookup
+		ReturnType: class java.lang.String
+		Exceptions: java.lang.ReflectiveOperationException
+		Method Parameter Types: java.lang.invoke.MethodHandles$Lookup
 	MethodsName: resolveConstantDesc
-	ReturnType: class java.lang.Object
-	Method Parameter Types: java.lang.invoke.MethodHandles$Lookup
+		ReturnType: class java.lang.Object
 	MethodsName: codePoints
-	ReturnType: interface java.util.stream.IntStream
+		ReturnType: interface java.util.stream.IntStream
+		Method Parameter Types: java.lang.String
 	MethodsName: equalsIgnoreCase
-	ReturnType: boolean
-	Method Parameter Types: java.lang.String
+		ReturnType: boolean
+		Method Parameter Types: java.lang.String
 	MethodsName: compareToIgnoreCase
-	ReturnType: int
-	Method Parameter Types: java.lang.String
+		ReturnType: int
+		Method Parameter Types: java.lang.String
 	MethodsName: endsWith
-	ReturnType: boolean
-	Method Parameter Types: java.lang.String
+		ReturnType: boolean
+		Method Parameter Types: int
+		Method Parameter Types: int
 	MethodsName: subSequence
-	ReturnType: interface java.lang.CharSequence
-	Method Parameter Types: int
-	Method Parameter Types: int
+		ReturnType: interface java.lang.CharSequence
+		Method Parameter Types: java.lang.String
 	MethodsName: concat
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.lang.String
+		ReturnType: class java.lang.String
+		Method Parameter Types: java.lang.CharSequence
 	MethodsName: contains
-	ReturnType: boolean
-	Method Parameter Types: java.lang.CharSequence
+		ReturnType: boolean
+		Method Parameter Types: java.lang.CharSequence
+		Method Parameter Types: [Ljava.lang.CharSequence;
 	MethodsName: join
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.lang.CharSequence
-	Method Parameter Types: [Ljava.lang.CharSequence;
+		ReturnType: class java.lang.String
+		Method Parameter Types: java.lang.CharSequence
+		Method Parameter Types: java.lang.Iterable
 	MethodsName: join
-	ReturnType: class java.lang.String
-	Method Parameter Types: java.lang.CharSequence
-	Method Parameter Types: java.lang.Iterable
+		ReturnType: class java.lang.String
+		Method Parameter Types: int
 	MethodsName: indent
-	ReturnType: class java.lang.String
-	Method Parameter Types: int
+		ReturnType: class java.lang.String
 	MethodsName: stripIndent
-	ReturnType: class java.lang.String
+		ReturnType: class java.lang.String
 	MethodsName: translateEscapes
-	ReturnType: class java.lang.String
+		ReturnType: class java.lang.String
 	MethodsName: chars
-	ReturnType: interface java.util.stream.IntStream
+		ReturnType: interface java.util.stream.IntStream
+		Method Parameter Types: java.util.function.Function
 	MethodsName: transform
-	ReturnType: class java.lang.Object
-	Method Parameter Types: java.util.function.Function
+		ReturnType: class java.lang.Object
+		Method Parameter Types: [Ljava.lang.Object;
 	MethodsName: formatted
-	ReturnType: class java.lang.String
-	Method Parameter Types: [Ljava.lang.Object;
+		ReturnType: class java.lang.String
+		Method Parameter Types: [C
+		Method Parameter Types: int
+		Method Parameter Types: int
 	MethodsName: copyValueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: [C
-	Method Parameter Types: int
-	Method Parameter Types: int
+		ReturnType: class java.lang.String
+		Method Parameter Types: [C
 	MethodsName: copyValueOf
-	ReturnType: class java.lang.String
-	Method Parameter Types: [C
+		ReturnType: class java.lang.String
 	MethodsName: intern
-	ReturnType: class java.lang.String
+		ReturnType: class java.lang.String
 	MethodsName: describeConstable
-	ReturnType: class java.util.Optional
+		ReturnType: class java.util.Optional
+		Exceptions: java.lang.InterruptedException
+		Method Parameter Types: long
+		Method Parameter Types: int
 	MethodsName: wait
-	ReturnType: void
-	Method Parameter Types: long
-	Method Parameter Types: int
+		ReturnType: void
+		Exceptions: java.lang.InterruptedException
 	MethodsName: wait
-	ReturnType: void
+		ReturnType: void
+		Exceptions: java.lang.InterruptedException
+		Method Parameter Types: long
 	MethodsName: wait
-	ReturnType: void
-	Method Parameter Types: long
+		ReturnType: void
 	MethodsName: getClass
-	ReturnType: class java.lang.Class
+		ReturnType: class java.lang.Class
 	MethodsName: notify
-	ReturnType: void
+		ReturnType: void
 	MethodsName: notifyAll
-	ReturnType: void
+		ReturnType: void
 	modifier: 17
 	FieldName: value
 	FieldType: class [B
