@@ -58,7 +58,7 @@ Class: ClassA
 				Field -> NONE
 	INTERFACES ( java.lang.Class ) 
 	Interfaces->
-	Name: interface java.io.Serializable
+	Name: java.io.Serializable
 		CLASS
 		Class: java.io.Serializable
 			SuperClass -> NONE
@@ -68,7 +68,7 @@ Class: ClassA
 				Field -> NONE
 	INTERFACES ( java.lang.Class ) 
 	Interfaces->
-	Name: interface java.lang.Runnable
+	Name: java.lang.Runnable
 		CLASS
 		Class: java.lang.Runnable
 			SuperClass -> NONE
@@ -144,16 +144,13 @@ Class: ClassA
 		Return types: void
 		Modifiers: 17
 	modifier: 17
-ERROR: Unable to access the field
-		Value: null
+		Value: 12
 		FieldName: val
 		FieldType: int
-ERROR: Unable to access the field
-		Value: null
+		Value: 0.2
 		FieldName: val2
 		FieldType: double
-ERROR: Unable to access the field
-		Value: null
+		Value: true
 		FieldName: val3
 		FieldType: boolean
 ======================================================

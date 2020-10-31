@@ -1,6 +1,6 @@
 ======================================================
 Filename: script7.txt
-Running Test: [LClassB;@7adf9f5f
+Running Test: [LClassB;@1be6f5c3
 Recursive: true
 CLASS
 Class: [LClassB;
@@ -58,7 +58,7 @@ Class: [LClassB;
 				Field -> NONE
 	INTERFACES ( java.lang.Class ) 
 	Interfaces->
-	Name: interface java.lang.Cloneable
+	Name: java.lang.Cloneable
 		CLASS
 		Class: java.lang.Cloneable
 			SuperClass -> NONE
@@ -68,7 +68,7 @@ Class: [LClassB;
 				Field -> NONE
 	INTERFACES ( java.lang.Class ) 
 	Interfaces->
-	Name: interface java.io.Serializable
+	Name: java.io.Serializable
 		CLASS
 		Class: java.io.Serializable
 			SuperClass -> NONE

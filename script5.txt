@@ -110,20 +110,177 @@ Class: ClassD
 		Return types: void
 		Modifiers: 1
 	modifier: 1
-ERROR: Unable to access the field
-		Value: null
+		CLASS
+		Class: ClassA
+				SUPERCLASS --> Recursively Insepct
+				SuperClass: java.lang.Object
+				CLASS
+				Class: java.lang.Object
+					CONSTRUCTORS ( java.lang.Class ) 
+					Constructors->
+						Name: java.lang.Object
+						Modifiers: 1
+					METHODS ( java.lang.Class ) 
+					Methods->
+						Name: wait
+						Exceptions: java.lang.InterruptedException
+						Parameter types: long
+						Parameter types: int
+						Return types: void
+						Modifiers: 1
+						Name: wait
+						Exceptions: java.lang.InterruptedException
+						Parameter -> NONE
+						Return types: void
+						Modifiers: 1
+						Name: wait
+						Exceptions: java.lang.InterruptedException
+						Parameter types: long
+						Return types: void
+						Modifiers: 1
+						Name: equals
+						Parameter types: java.lang.Object
+						Return types: boolean
+						Modifiers: 1
+						Name: toString
+						Parameter -> NONE
+						Return types: class java.lang.String
+						Modifiers: 1
+						Name: hashCode
+						Parameter -> NONE
+						Return types: int
+						Modifiers: 1
+						Name: getClass
+						Parameter -> NONE
+						Return types: class java.lang.Class
+						Modifiers: 1
+						Name: notify
+						Parameter -> NONE
+						Return types: void
+						Modifiers: 1
+						Name: notifyAll
+						Parameter -> NONE
+						Return types: void
+						Modifiers: 1
+					modifier: 1
+						Field -> NONE
+			INTERFACES ( java.lang.Class ) 
+			Interfaces->
+			Name: java.io.Serializable
+				CLASS
+				Class: java.io.Serializable
+					SuperClass -> NONE
+					Constructor -> NONE
+					Method -> NONE
+					modifier: 1537
+						Field -> NONE
+			INTERFACES ( java.lang.Class ) 
+			Interfaces->
+			Name: java.lang.Runnable
+				CLASS
+				Class: java.lang.Runnable
+					SuperClass -> NONE
+					Constructor -> NONE
+					METHODS ( java.lang.Class ) 
+					Methods->
+						Name: run
+						Parameter -> NONE
+						Return types: void
+						Modifiers: 1537
+					modifier: 1537
+						Field -> NONE
+			CONSTRUCTORS ( java.lang.Class ) 
+			Constructors->
+				Name: ClassA
+				Modifiers: 17
+				Name: ClassA
+				Constructor Parameter Types: int
+				Modifiers: 17
+			METHODS ( java.lang.Class ) 
+			Methods->
+				Name: run
+				Parameter -> NONE
+				Return types: void
+				Modifiers: 17
+				Name: toString
+				Parameter -> NONE
+				Return types: class java.lang.String
+				Modifiers: 17
+				Name: setVal
+				Exceptions: java.lang.Exception
+				Parameter types: int
+				Return types: void
+				Modifiers: 17
+				Name: getVal
+				Parameter -> NONE
+				Return types: int
+				Modifiers: 17
+				Name: wait
+				Exceptions: java.lang.InterruptedException
+				Parameter types: long
+				Parameter types: int
+				Return types: void
+				Modifiers: 17
+				Name: wait
+				Exceptions: java.lang.InterruptedException
+				Parameter -> NONE
+				Return types: void
+				Modifiers: 17
+				Name: wait
+				Exceptions: java.lang.InterruptedException
+				Parameter types: long
+				Return types: void
+				Modifiers: 17
+				Name: equals
+				Parameter types: java.lang.Object
+				Return types: boolean
+				Modifiers: 17
+				Name: hashCode
+				Parameter -> NONE
+				Return types: int
+				Modifiers: 17
+				Name: getClass
+				Parameter -> NONE
+				Return types: class java.lang.Class
+				Modifiers: 17
+				Name: notify
+				Parameter -> NONE
+				Return types: void
+				Modifiers: 17
+				Name: notifyAll
+				Parameter -> NONE
+				Return types: void
+				Modifiers: 17
+			modifier: 17
+				Value: 17
+				FieldName: val
+				FieldType: int
+				Value: 0.2
+				FieldName: val2
+				FieldType: double
+				Value: true
+				FieldName: val3
+				FieldType: boolean
 		FieldName: val
 		FieldType: class ClassA
-ERROR: Unable to access the field
 		Value: null
 		FieldName: val2
 		FieldType: class ClassA
-ERROR: Unable to access the field
-		Value: null
+		Value: 34
 		FieldName: val3
 		FieldType: int
-ERROR: Unable to access the field
-		Value: null
+			Array Type: ClassA
+			Array Length: 10
+			Array Value: Null
+			Array Value: Null
+			Array Value: Null
+			Array Value: Null
+			Array Value: Null
+			Array Value: Null
+			Array Value: Null
+			Array Value: Null
+			Array Value: Null
+			Array Value: Null
 		FieldName: vallarray
 		FieldType: class [LClassA;
 ======================================================

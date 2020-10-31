@@ -41,6 +41,7 @@ public class Inspector {
       if (fields.length > 0) {
         for (Field field : fields) {
           Object fieldObj = null;
+          field.setAccessible(true);
 
           try {
               fieldObj = field.get(obj);
@@ -54,7 +55,13 @@ public class Inspector {
             indent("Value: " + fieldObj, depthNum);
           }else if(field.getType().isArray()){
             getArray(fieldObj, recursive, depthNum);
-          }
+          }else{
+            if(recursive){
+              inspectClass(fieldObj.getClass(), fieldObj, true, depthNum);
+            }else{
+              indent("Value: " + obj.getClass().getName() + "@" + obj.getClass().hashCode(), depthNum);
+            }
+         }
 
           String fieldName = field.getName();
           Object fieldType = field.getType();
@@ -71,7 +78,7 @@ public class Inspector {
       if(recursive){
         Class componentType  = obj.getClass().getComponentType();
         int length = Array.getLength(obj);
-        indent("Array Type: " + componentType, depthNum);
+        indent("Array Type: " + componentType.getName(), depthNum);
         indent("Array Length: " + length, depthNum);
         for (int i = 0; i < length; i++) {
           Object arrayInfo = Array.get(obj,i);
@@ -164,7 +171,7 @@ public class Inspector {
       if(c.equals(Object.class))return; ////
       if (superClass != null) {
           indent("SUPERCLASS --> Recursively Insepct", depthNum);
-          indent("SuperClass: " + superClass.getName().toString(), depthNum);
+          indent("SuperClass: " + superClass.getName(), depthNum);
           inspectClass(superClass, obj, recursive, depthNum);
       }else {
         indent("SuperClass -> NONE", depth);
@@ -179,7 +186,7 @@ public class Inspector {
         for(Class interfaceName : interfaces) {
           indent("INTERFACES" + " ( " + c.getClass().getName() + " ) ", depth);
           indent("Interfaces->", depth);
-          indent("Name: " + interfaceName.toString(), depth);
+          indent("Name: " + interfaceName.getName(), depth);
           inspectClass(interfaceName, obj, recursive, depthNum);
         }
       }else {

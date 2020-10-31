@@ -58,7 +58,7 @@ Class: java.lang.String
 				Field -> NONE
 	INTERFACES ( java.lang.Class ) 
 	Interfaces->
-	Name: interface java.io.Serializable
+	Name: java.io.Serializable
 		CLASS
 		Class: java.io.Serializable
 			SuperClass -> NONE
@@ -68,7 +68,7 @@ Class: java.lang.String
 				Field -> NONE
 	INTERFACES ( java.lang.Class ) 
 	Interfaces->
-	Name: interface java.lang.Comparable
+	Name: java.lang.Comparable
 		CLASS
 		Class: java.lang.Comparable
 			SuperClass -> NONE
@@ -83,7 +83,7 @@ Class: java.lang.String
 				Field -> NONE
 	INTERFACES ( java.lang.Class ) 
 	Interfaces->
-	Name: interface java.lang.CharSequence
+	Name: java.lang.CharSequence
 		CLASS
 		Class: java.lang.CharSequence
 			SuperClass -> NONE
@@ -128,7 +128,7 @@ Class: java.lang.String
 				Field -> NONE
 	INTERFACES ( java.lang.Class ) 
 	Interfaces->
-	Name: interface java.lang.constant.Constable
+	Name: java.lang.constant.Constable
 		CLASS
 		Class: java.lang.constant.Constable
 			SuperClass -> NONE
@@ -143,7 +143,7 @@ Class: java.lang.String
 				Field -> NONE
 	INTERFACES ( java.lang.Class ) 
 	Interfaces->
-	Name: interface java.lang.constant.ConstantDesc
+	Name: java.lang.constant.ConstantDesc
 		CLASS
 		Class: java.lang.constant.ConstantDesc
 			SuperClass -> NONE
@@ -628,42 +628,282 @@ Class: java.lang.String
 		Return types: void
 		Modifiers: 17
 	modifier: 17
-ERROR: Unable to access the field
-		Value: null
+			Array Type: byte
+			Array Length: 11
+			Array Value: 84
+			Array Value: 101
+			Array Value: 115
+			Array Value: 116
+			Array Value: 32
+			Array Value: 83
+			Array Value: 116
+			Array Value: 114
+			Array Value: 105
+			Array Value: 110
+			Array Value: 103
 		FieldName: value
 		FieldType: class [B
-ERROR: Unable to access the field
-		Value: null
+		Value: 0
 		FieldName: coder
 		FieldType: byte
-ERROR: Unable to access the field
-		Value: null
+		Value: 0
 		FieldName: hash
 		FieldType: int
-ERROR: Unable to access the field
-		Value: null
+		Value: false
 		FieldName: hashIsZero
 		FieldType: boolean
-ERROR: Unable to access the field
-		Value: null
+		Value: -6849794470754667710
 		FieldName: serialVersionUID
 		FieldType: long
-ERROR: Unable to access the field
-		Value: null
+		Value: true
 		FieldName: COMPACT_STRINGS
 		FieldType: boolean
-ERROR: Unable to access the field
-		Value: null
+			Array Type: java.io.ObjectStreamField
+			Array Length: 0
 		FieldName: serialPersistentFields
 		FieldType: class [Ljava.io.ObjectStreamField;
+		CLASS
+		Class: java.lang.String$CaseInsensitiveComparator
+				SUPERCLASS --> Recursively Insepct
+				SuperClass: java.lang.Object
+				CLASS
+				Class: java.lang.Object
+					CONSTRUCTORS ( java.lang.Class ) 
+					Constructors->
+						Name: java.lang.Object
+						Modifiers: 1
+					METHODS ( java.lang.Class ) 
+					Methods->
+						Name: wait
+						Exceptions: java.lang.InterruptedException
+						Parameter types: long
+						Parameter types: int
+						Return types: void
+						Modifiers: 1
+						Name: wait
+						Exceptions: java.lang.InterruptedException
+						Parameter -> NONE
+						Return types: void
+						Modifiers: 1
+						Name: wait
+						Exceptions: java.lang.InterruptedException
+						Parameter types: long
+						Return types: void
+						Modifiers: 1
+						Name: equals
+						Parameter types: java.lang.Object
+						Return types: boolean
+						Modifiers: 1
+						Name: toString
+						Parameter -> NONE
+						Return types: class java.lang.String
+						Modifiers: 1
+						Name: hashCode
+						Parameter -> NONE
+						Return types: int
+						Modifiers: 1
+						Name: getClass
+						Parameter -> NONE
+						Return types: class java.lang.Class
+						Modifiers: 1
+						Name: notify
+						Parameter -> NONE
+						Return types: void
+						Modifiers: 1
+						Name: notifyAll
+						Parameter -> NONE
+						Return types: void
+						Modifiers: 1
+					modifier: 1
+						Field -> NONE
+			INTERFACES ( java.lang.Class ) 
+			Interfaces->
+			Name: java.util.Comparator
+				CLASS
+				Class: java.util.Comparator
+					SuperClass -> NONE
+					Constructor -> NONE
+					METHODS ( java.lang.Class ) 
+					Methods->
+						Name: equals
+						Parameter types: java.lang.Object
+						Return types: boolean
+						Modifiers: 1537
+						Name: compare
+						Parameter types: java.lang.Object
+						Parameter types: java.lang.Object
+						Return types: int
+						Modifiers: 1537
+						Name: reverseOrder
+						Parameter -> NONE
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: comparing
+						Parameter types: java.util.function.Function
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: comparing
+						Parameter types: java.util.function.Function
+						Parameter types: java.util.Comparator
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: thenComparing
+						Parameter types: java.util.Comparator
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: thenComparing
+						Parameter types: java.util.function.Function
+						Parameter types: java.util.Comparator
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: thenComparing
+						Parameter types: java.util.function.Function
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: comparingInt
+						Parameter types: java.util.function.ToIntFunction
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: comparingLong
+						Parameter types: java.util.function.ToLongFunction
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: comparingDouble
+						Parameter types: java.util.function.ToDoubleFunction
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: reversed
+						Parameter -> NONE
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: thenComparingInt
+						Parameter types: java.util.function.ToIntFunction
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: thenComparingLong
+						Parameter types: java.util.function.ToLongFunction
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: thenComparingDouble
+						Parameter types: java.util.function.ToDoubleFunction
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: naturalOrder
+						Parameter -> NONE
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: nullsFirst
+						Parameter types: java.util.Comparator
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+						Name: nullsLast
+						Parameter types: java.util.Comparator
+						Return types: interface java.util.Comparator
+						Modifiers: 1537
+					modifier: 1537
+						Field -> NONE
+			INTERFACES ( java.lang.Class ) 
+			Interfaces->
+			Name: java.io.Serializable
+				CLASS
+				Class: java.io.Serializable
+					SuperClass -> NONE
+					Constructor -> NONE
+					Method -> NONE
+					modifier: 1537
+						Field -> NONE
+			Constructor -> NONE
+			METHODS ( java.lang.Class ) 
+			Methods->
+				Name: compare
+				Parameter types: java.lang.Object
+				Parameter types: java.lang.Object
+				Return types: int
+				Modifiers: 10
+				Name: compare
+				Parameter types: java.lang.String
+				Parameter types: java.lang.String
+				Return types: int
+				Modifiers: 10
+				Name: wait
+				Exceptions: java.lang.InterruptedException
+				Parameter types: long
+				Parameter types: int
+				Return types: void
+				Modifiers: 10
+				Name: wait
+				Exceptions: java.lang.InterruptedException
+				Parameter -> NONE
+				Return types: void
+				Modifiers: 10
+				Name: wait
+				Exceptions: java.lang.InterruptedException
+				Parameter types: long
+				Return types: void
+				Modifiers: 10
+				Name: equals
+				Parameter types: java.lang.Object
+				Return types: boolean
+				Modifiers: 10
+				Name: toString
+				Parameter -> NONE
+				Return types: class java.lang.String
+				Modifiers: 10
+				Name: hashCode
+				Parameter -> NONE
+				Return types: int
+				Modifiers: 10
+				Name: getClass
+				Parameter -> NONE
+				Return types: class java.lang.Class
+				Modifiers: 10
+				Name: notify
+				Parameter -> NONE
+				Return types: void
+				Modifiers: 10
+				Name: notifyAll
+				Parameter -> NONE
+				Return types: void
+				Modifiers: 10
+				Name: thenComparing
+				Parameter types: java.util.Comparator
+				Return types: interface java.util.Comparator
+				Modifiers: 10
+				Name: thenComparing
+				Parameter types: java.util.function.Function
+				Parameter types: java.util.Comparator
+				Return types: interface java.util.Comparator
+				Modifiers: 10
+				Name: thenComparing
+				Parameter types: java.util.function.Function
+				Return types: interface java.util.Comparator
+				Modifiers: 10
+				Name: reversed
+				Parameter -> NONE
+				Return types: interface java.util.Comparator
+				Modifiers: 10
+				Name: thenComparingInt
+				Parameter types: java.util.function.ToIntFunction
+				Return types: interface java.util.Comparator
+				Modifiers: 10
+				Name: thenComparingLong
+				Parameter types: java.util.function.ToLongFunction
+				Return types: interface java.util.Comparator
+				Modifiers: 10
+				Name: thenComparingDouble
+				Parameter types: java.util.function.ToDoubleFunction
+				Return types: interface java.util.Comparator
+				Modifiers: 10
+			modifier: 10
+				Value: 8575799808933029326
+				FieldName: serialVersionUID
+				FieldType: long
 		FieldName: CASE_INSENSITIVE_ORDER
 		FieldType: interface java.util.Comparator
-ERROR: Unable to access the field
-		Value: null
+		Value: 0
 		FieldName: LATIN1
 		FieldType: byte
-ERROR: Unable to access the field
-		Value: null
+		Value: 1
 		FieldName: UTF16
 		FieldType: byte
 ======================================================
