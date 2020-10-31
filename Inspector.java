@@ -33,8 +33,7 @@ public class Inspector {
     public void getFields(Class c, Object obj, boolean recursive, int depth) {
       int depthNum = depth + 1;
       Field[] fields = c.getDeclaredFields();
-      String modifier = Integer.toString(c.getModifiers());
-      indent("modifier: " + modifier, depth);
+      indent("modifier: " + Integer.toString(c.getModifiers()), depth);
 
       if (fields.length > 0) {
         for (Field field : fields) {
@@ -61,10 +60,10 @@ public class Inspector {
             }
          }
 
-          String fieldName = field.getName();
-          Object fieldType = field.getType();
-          indent("FieldName: " + fieldName, depthNum);
-          indent("FieldType: " + fieldType.toString(), depthNum);
+          //String fieldName = field.getName();
+          //Object fieldType = field.getType();
+          indent("FieldName: " + field.getName(), depthNum);
+          indent("FieldType: " + field.getType().toString(), depthNum);
         }
       }else {
         indent("Field -> NONE", depthNum);
