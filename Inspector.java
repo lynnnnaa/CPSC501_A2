@@ -60,8 +60,6 @@ public class Inspector {
             }
          }
 
-          //String fieldName = field.getName();
-          //Object fieldType = field.getType();
           indent("FieldName: " + field.getName(), depthNum);
           indent("FieldType: " + field.getType().toString(), depthNum);
         }
