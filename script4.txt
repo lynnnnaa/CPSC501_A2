@@ -8,78 +8,107 @@ Class: ClassD
 		SuperClass: java.lang.Object
 		CLASS
 		Class: java.lang.Object
-			SuperClass -> NONE
 			CONSTRUCTORS (     ) 
 			Constructors->
-			Constructors Name: java.lang.Object
-				modifier: 1
-			modifier: 1
+				Name: java.lang.Object
+				Modifier: 1
 			METHODS (     ) 
 			Methods->
+				Name: wait
 				Exceptions: java.lang.InterruptedException
-				Method Parameter Types: long
-				Method Parameter Types: int
-			MethodsName: wait
-				ReturnType: void
+				Parameter types: long
+				Parameter types: int
+				Return types: void
+				Modifier: 1
+				Name: wait
 				Exceptions: java.lang.InterruptedException
-			MethodsName: wait
-				ReturnType: void
+				Parameter -> NONE
+				Return types: void
+				Modifier: 1
+				Name: wait
 				Exceptions: java.lang.InterruptedException
-				Method Parameter Types: long
-			MethodsName: wait
-				ReturnType: void
-				Method Parameter Types: java.lang.Object
-			MethodsName: equals
-				ReturnType: boolean
-			MethodsName: toString
-				ReturnType: class java.lang.String
-			MethodsName: hashCode
-				ReturnType: int
-			MethodsName: getClass
-				ReturnType: class java.lang.Class
-			MethodsName: notify
-				ReturnType: void
-			MethodsName: notifyAll
-				ReturnType: void
+				Parameter types: long
+				Return types: void
+				Modifier: 1
+				Name: equals
+				Parameter types: java.lang.Object
+				Return types: boolean
+				Modifier: 1
+				Name: toString
+				Parameter -> NONE
+				Return types: class java.lang.String
+				Modifier: 1
+				Name: hashCode
+				Parameter -> NONE
+				Return types: int
+				Modifier: 1
+				Name: getClass
+				Parameter -> NONE
+				Return types: class java.lang.Class
+				Modifier: 1
+				Name: notify
+				Parameter -> NONE
+				Return types: void
+				Modifier: 1
+				Name: notifyAll
+				Parameter -> NONE
+				Return types: void
+				Modifier: 1
 			modifier: 1
 			FieldName -> NONE
 	CONSTRUCTORS (     ) 
 	Constructors->
-	Constructors Name: ClassD
-		modifier: 1
-	Constructors Name: ClassD
-		modifier: 1
+		Name: ClassD
+		Modifier: 1
+		Name: ClassD
 		Constructor Parameter Types: int
-	modifier: 1
+		Modifier: 1
 	METHODS (     ) 
 	Methods->
-	MethodsName: toString
-		ReturnType: class java.lang.String
-	MethodsName: getVal3
-		ReturnType: int
+		Name: toString
+		Parameter -> NONE
+		Return types: class java.lang.String
+		Modifier: 1
+		Name: getVal3
+		Parameter -> NONE
+		Return types: int
+		Modifier: 1
+		Name: wait
 		Exceptions: java.lang.InterruptedException
-		Method Parameter Types: long
-		Method Parameter Types: int
-	MethodsName: wait
-		ReturnType: void
+		Parameter types: long
+		Parameter types: int
+		Return types: void
+		Modifier: 1
+		Name: wait
 		Exceptions: java.lang.InterruptedException
-	MethodsName: wait
-		ReturnType: void
+		Parameter -> NONE
+		Return types: void
+		Modifier: 1
+		Name: wait
 		Exceptions: java.lang.InterruptedException
-		Method Parameter Types: long
-	MethodsName: wait
-		ReturnType: void
-		Method Parameter Types: java.lang.Object
-	MethodsName: equals
-		ReturnType: boolean
-	MethodsName: hashCode
-		ReturnType: int
-	MethodsName: getClass
-		ReturnType: class java.lang.Class
-	MethodsName: notify
-		ReturnType: void
-	MethodsName: notifyAll
-		ReturnType: void
+		Parameter types: long
+		Return types: void
+		Modifier: 1
+		Name: equals
+		Parameter types: java.lang.Object
+		Return types: boolean
+		Modifier: 1
+		Name: hashCode
+		Parameter -> NONE
+		Return types: int
+		Modifier: 1
+		Name: getClass
+		Parameter -> NONE
+		Return types: class java.lang.Class
+		Modifier: 1
+		Name: notify
+		Parameter -> NONE
+		Return types: void
+		Modifier: 1
+		Name: notifyAll
+		Parameter -> NONE
+		Return types: void
+		Modifier: 1
 	modifier: 1
 	FieldName: val
 	FieldType: class ClassA

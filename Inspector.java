@@ -53,13 +53,18 @@ public class Inspector {
     public void getConstructors(Class c, int depth) {
       int depthNum = depth + 1;
       Constructor[] constructors = c.getConstructors();
-      String modifier = Integer.toString(c.getModifiers());
       if (constructors.length > 0) {
         indent("CONSTRUCTORS" + " ( " + "   " + " ) ", depth);
         indent("Constructors->", depth);
         for (Constructor constructor : constructors) {
-          indent("Constructors Name: " + constructor.getName().toString(), depth);
-          indent("modifier: " + modifier, depthNum);
+          indent("Name: " + constructor.getName().toString(), depthNum);
+
+          Class[] exceptions = constructor.getExceptionTypes();
+          if (exceptions.length > 0) {
+              for (Class exception: exceptions) {
+                  indent("Exceptions: " + exception.getName().toString(), depthNum);
+              }
+          }
 
           Class[] parameterTypes = constructor.getParameterTypes();
           if (parameterTypes.length > 0) {
@@ -67,6 +72,8 @@ public class Inspector {
                   indent("Constructor Parameter Types: " + parameterType.getName().toString(), depthNum);
               }
           }
+          String modifier = Integer.toString(c.getModifiers());
+          indent("Modifiers: " + modifier, depthNum);
         }
       }else {
         indent("Constructor -> NONE", depth);
@@ -76,28 +83,31 @@ public class Inspector {
     public void getMethods(Class c, int depth) {
       int depthNum = depth + 1;
       Method[] methods = c.getMethods();
-      String modifier = Integer.toString(c.getModifiers());
-      indent("Modifier: " + modifier, depth);
       if (methods.length > 0) {
-          indent("METHODS" + " ( " + "   " + " ) ", depth);
-          indent("Methods->", depth);
-          for (Method method : methods) {
-            Class[] exceptions = method.getExceptionTypes();
-            if (exceptions.length > 0) {
-                for (Class exception: exceptions) {
-                    indent("Exceptions: " + exception.getName().toString(), depthNum);
-                }
-            }
-            Class[] parameterTypes = method.getParameterTypes();
-            if (parameterTypes.length > 0) {
-                for (Class parameterType : parameterTypes) {
-                    indent("Method Parameter Types: " + parameterType.getName().toString(), depthNum);
-                }
-            }
-            Class returnType = method.getReturnType();
-            indent("MethodsName: " + method.getName().toString(), depth);
-            indent("ReturnType: " + returnType.toString(), depthNum);
+        indent("METHODS" + " ( " + "   " + " ) ", depth);
+        indent("Methods->", depth);
+        for (Method method : methods) {
+          indent("Name: " + method.getName().toString(), depthNum);
+          Class[] exceptions = method.getExceptionTypes();
+          if (exceptions.length > 0) {
+              for (Class exception: exceptions) {
+                  indent("Exceptions: " + exception.getName().toString(), depthNum);
+              }
           }
+          Class[] parameterTypes = method.getParameterTypes();
+          if (parameterTypes.length > 0) {
+              for (Class parameterType : parameterTypes) {
+                  indent("Parameter types: " + parameterType.getName().toString(), depthNum);
+              }
+          }else {
+            indent("Parameter -> NONE", depthNum);
+          }
+          Class returnType = method.getReturnType();
+          indent("Return types: " + returnType.toString(), depthNum);
+          String modifier = Integer.toString(c.getModifiers());
+          indent("Modifiers: " + modifier, depthNum);
+        }
+
       }else {
         indent("Method -> NONE", depth);
       }
@@ -107,7 +117,7 @@ public class Inspector {
     public void getSuperClassNames(Class c, Object obj, boolean recursive, int depth) {
       int depthNum = depth + 1;
       Class superClass = c.getSuperclass();
-
+      if(c.equals(Object.class))return; ////
       if (superClass != null) {
           indent("SUPERCLASS --> Recursively Insepct", depthNum);
           indent("SuperClass: " + superClass.getName().toString(), depthNum);

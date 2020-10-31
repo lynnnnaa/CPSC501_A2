@@ -8,39 +8,52 @@ Class: ClassA
 		SuperClass: java.lang.Object
 		CLASS
 		Class: java.lang.Object
-			SuperClass -> NONE
 			CONSTRUCTORS (     ) 
 			Constructors->
-			Constructors Name: java.lang.Object
-				modifier: 1
-			modifier: 1
+				Name: java.lang.Object
+				Modifier: 1
 			METHODS (     ) 
 			Methods->
+				Name: wait
 				Exceptions: java.lang.InterruptedException
-				Method Parameter Types: long
-				Method Parameter Types: int
-			MethodsName: wait
-				ReturnType: void
+				Parameter types: long
+				Parameter types: int
+				Return types: void
+				Modifier: 1
+				Name: wait
 				Exceptions: java.lang.InterruptedException
-			MethodsName: wait
-				ReturnType: void
+				Parameter -> NONE
+				Return types: void
+				Modifier: 1
+				Name: wait
 				Exceptions: java.lang.InterruptedException
-				Method Parameter Types: long
-			MethodsName: wait
-				ReturnType: void
-				Method Parameter Types: java.lang.Object
-			MethodsName: equals
-				ReturnType: boolean
-			MethodsName: toString
-				ReturnType: class java.lang.String
-			MethodsName: hashCode
-				ReturnType: int
-			MethodsName: getClass
-				ReturnType: class java.lang.Class
-			MethodsName: notify
-				ReturnType: void
-			MethodsName: notifyAll
-				ReturnType: void
+				Parameter types: long
+				Return types: void
+				Modifier: 1
+				Name: equals
+				Parameter types: java.lang.Object
+				Return types: boolean
+				Modifier: 1
+				Name: toString
+				Parameter -> NONE
+				Return types: class java.lang.String
+				Modifier: 1
+				Name: hashCode
+				Parameter -> NONE
+				Return types: int
+				Modifier: 1
+				Name: getClass
+				Parameter -> NONE
+				Return types: class java.lang.Class
+				Modifier: 1
+				Name: notify
+				Parameter -> NONE
+				Return types: void
+				Modifier: 1
+				Name: notifyAll
+				Parameter -> NONE
+				Return types: void
+				Modifier: 1
 			modifier: 1
 			FieldName -> NONE
 	INTERFACE
@@ -49,7 +62,6 @@ Class: ClassA
 		Class: java.io.Serializable
 			SuperClass -> NONE
 			Constructor -> NONE
-			modifier: 1537
 			Method -> NONE
 			modifier: 1537
 			FieldName -> NONE
@@ -59,56 +71,76 @@ Class: ClassA
 		Class: java.lang.Runnable
 			SuperClass -> NONE
 			Constructor -> NONE
-			modifier: 1537
 			METHODS (     ) 
 			Methods->
-			MethodsName: run
-				ReturnType: void
+				Name: run
+				Parameter -> NONE
+				Return types: void
+				Modifier: 1537
 			modifier: 1537
 			FieldName -> NONE
 	CONSTRUCTORS (     ) 
 	Constructors->
-	Constructors Name: ClassA
-		modifier: 17
-	Constructors Name: ClassA
-		modifier: 17
+		Name: ClassA
+		Modifier: 17
+		Name: ClassA
 		Constructor Parameter Types: int
-	modifier: 17
+		Modifier: 17
 	METHODS (     ) 
 	Methods->
-	MethodsName: run
-		ReturnType: void
-	MethodsName: toString
-		ReturnType: class java.lang.String
+		Name: run
+		Parameter -> NONE
+		Return types: void
+		Modifier: 17
+		Name: toString
+		Parameter -> NONE
+		Return types: class java.lang.String
+		Modifier: 17
+		Name: setVal
 		Exceptions: java.lang.Exception
-		Method Parameter Types: int
-	MethodsName: setVal
-		ReturnType: void
-	MethodsName: getVal
-		ReturnType: int
+		Parameter types: int
+		Return types: void
+		Modifier: 17
+		Name: getVal
+		Parameter -> NONE
+		Return types: int
+		Modifier: 17
+		Name: wait
 		Exceptions: java.lang.InterruptedException
-		Method Parameter Types: long
-		Method Parameter Types: int
-	MethodsName: wait
-		ReturnType: void
+		Parameter types: long
+		Parameter types: int
+		Return types: void
+		Modifier: 17
+		Name: wait
 		Exceptions: java.lang.InterruptedException
-	MethodsName: wait
-		ReturnType: void
+		Parameter -> NONE
+		Return types: void
+		Modifier: 17
+		Name: wait
 		Exceptions: java.lang.InterruptedException
-		Method Parameter Types: long
-	MethodsName: wait
-		ReturnType: void
-		Method Parameter Types: java.lang.Object
-	MethodsName: equals
-		ReturnType: boolean
-	MethodsName: hashCode
-		ReturnType: int
-	MethodsName: getClass
-		ReturnType: class java.lang.Class
-	MethodsName: notify
-		ReturnType: void
-	MethodsName: notifyAll
-		ReturnType: void
+		Parameter types: long
+		Return types: void
+		Modifier: 17
+		Name: equals
+		Parameter types: java.lang.Object
+		Return types: boolean
+		Modifier: 17
+		Name: hashCode
+		Parameter -> NONE
+		Return types: int
+		Modifier: 17
+		Name: getClass
+		Parameter -> NONE
+		Return types: class java.lang.Class
+		Modifier: 17
+		Name: notify
+		Parameter -> NONE
+		Return types: void
+		Modifier: 17
+		Name: notifyAll
+		Parameter -> NONE
+		Return types: void
+		Modifier: 17
 	modifier: 17
 	FieldName: val
 	FieldType: int

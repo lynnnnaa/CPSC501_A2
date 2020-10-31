@@ -8,39 +8,52 @@ Class: [LClassB;
 		SuperClass: java.lang.Object
 		CLASS
 		Class: java.lang.Object
-			SuperClass -> NONE
 			CONSTRUCTORS (     ) 
 			Constructors->
-			Constructors Name: java.lang.Object
-				modifier: 1
-			modifier: 1
+				Name: java.lang.Object
+				Modifier: 1
 			METHODS (     ) 
 			Methods->
+				Name: wait
 				Exceptions: java.lang.InterruptedException
-				Method Parameter Types: long
-				Method Parameter Types: int
-			MethodsName: wait
-				ReturnType: void
+				Parameter types: long
+				Parameter types: int
+				Return types: void
+				Modifier: 1
+				Name: wait
 				Exceptions: java.lang.InterruptedException
-			MethodsName: wait
-				ReturnType: void
+				Parameter -> NONE
+				Return types: void
+				Modifier: 1
+				Name: wait
 				Exceptions: java.lang.InterruptedException
-				Method Parameter Types: long
-			MethodsName: wait
-				ReturnType: void
-				Method Parameter Types: java.lang.Object
-			MethodsName: equals
-				ReturnType: boolean
-			MethodsName: toString
-				ReturnType: class java.lang.String
-			MethodsName: hashCode
-				ReturnType: int
-			MethodsName: getClass
-				ReturnType: class java.lang.Class
-			MethodsName: notify
-				ReturnType: void
-			MethodsName: notifyAll
-				ReturnType: void
+				Parameter types: long
+				Return types: void
+				Modifier: 1
+				Name: equals
+				Parameter types: java.lang.Object
+				Return types: boolean
+				Modifier: 1
+				Name: toString
+				Parameter -> NONE
+				Return types: class java.lang.String
+				Modifier: 1
+				Name: hashCode
+				Parameter -> NONE
+				Return types: int
+				Modifier: 1
+				Name: getClass
+				Parameter -> NONE
+				Return types: class java.lang.Class
+				Modifier: 1
+				Name: notify
+				Parameter -> NONE
+				Return types: void
+				Modifier: 1
+				Name: notifyAll
+				Parameter -> NONE
+				Return types: void
+				Modifier: 1
 			modifier: 1
 			FieldName -> NONE
 	INTERFACE
@@ -49,7 +62,6 @@ Class: [LClassB;
 		Class: java.lang.Cloneable
 			SuperClass -> NONE
 			Constructor -> NONE
-			modifier: 1537
 			Method -> NONE
 			modifier: 1537
 			FieldName -> NONE
@@ -59,39 +71,52 @@ Class: [LClassB;
 		Class: java.io.Serializable
 			SuperClass -> NONE
 			Constructor -> NONE
-			modifier: 1537
 			Method -> NONE
 			modifier: 1537
 			FieldName -> NONE
 	Constructor -> NONE
-	modifier: 1041
 	METHODS (     ) 
 	Methods->
+		Name: wait
 		Exceptions: java.lang.InterruptedException
-		Method Parameter Types: long
-		Method Parameter Types: int
-	MethodsName: wait
-		ReturnType: void
+		Parameter types: long
+		Parameter types: int
+		Return types: void
+		Modifier: 1041
+		Name: wait
 		Exceptions: java.lang.InterruptedException
-	MethodsName: wait
-		ReturnType: void
+		Parameter -> NONE
+		Return types: void
+		Modifier: 1041
+		Name: wait
 		Exceptions: java.lang.InterruptedException
-		Method Parameter Types: long
-	MethodsName: wait
-		ReturnType: void
-		Method Parameter Types: java.lang.Object
-	MethodsName: equals
-		ReturnType: boolean
-	MethodsName: toString
-		ReturnType: class java.lang.String
-	MethodsName: hashCode
-		ReturnType: int
-	MethodsName: getClass
-		ReturnType: class java.lang.Class
-	MethodsName: notify
-		ReturnType: void
-	MethodsName: notifyAll
-		ReturnType: void
+		Parameter types: long
+		Return types: void
+		Modifier: 1041
+		Name: equals
+		Parameter types: java.lang.Object
+		Return types: boolean
+		Modifier: 1041
+		Name: toString
+		Parameter -> NONE
+		Return types: class java.lang.String
+		Modifier: 1041
+		Name: hashCode
+		Parameter -> NONE
+		Return types: int
+		Modifier: 1041
+		Name: getClass
+		Parameter -> NONE
+		Return types: class java.lang.Class
+		Modifier: 1041
+		Name: notify
+		Parameter -> NONE
+		Return types: void
+		Modifier: 1041
+		Name: notifyAll
+		Parameter -> NONE
+		Return types: void
+		Modifier: 1041
 	modifier: 1041
 	FieldName -> NONE
 ======================================================
